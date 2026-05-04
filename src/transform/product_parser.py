@@ -4,8 +4,7 @@ import pandas as pd
 
 def extract_product_info(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Extract product name, price, currency, and availability
-    from semi-structured scraped text.
+    Parser V3: Handles multiple currencies and formats
     """
 
     results = []
@@ -14,30 +13,38 @@ def extract_product_info(df: pd.DataFrame) -> pd.DataFrame:
         text = str(row)
 
         # -----------------------------
-        # 💰 PRICE + CURRENCY
+        # 💰 PRICE + CURRENCY (IMPROVED)
         # -----------------------------
-        price_match = re.search(r"(£|\$|KSh)?\s?(\d+[.,]?\d*)", text)
+        price_match = re.search(
+            r"(£|\$|KSh|KES)?\s?([\d,]+(?:\.\d+)?)",
+            text,
+            re.IGNORECASE
+        )
 
         price = None
         currency = None
 
         if price_match:
             currency = price_match.group(1)
+
+            raw_price = price_match.group(2).replace(",", "")
+
             try:
-                price = float(price_match.group(2).replace(",", ""))
+                price = float(raw_price)
             except:
                 price = None
 
         # -----------------------------
         # 📦 AVAILABILITY
         # -----------------------------
-        availability = ""
-
         lower_text = text.lower()
+
         if "in stock" in lower_text:
             availability = "In stock"
         elif "out of stock" in lower_text:
             availability = "Out of stock"
+        else:
+            availability = ""
 
         # -----------------------------
         # 🏷️ PRODUCT NAME
@@ -47,14 +54,18 @@ def extract_product_info(df: pd.DataFrame) -> pd.DataFrame:
         if price_match:
             name = text[:price_match.start()].strip()
 
-        # Clean junk phrases
-        name = (
-            name.replace("Add to basket", "")
-                .replace("add to basket", "")
-                .strip()
-        )
+        # Clean junk words
+        junk_words = [
+            "add to basket",
+            "buy now",
+            "shop now",
+            "view product"
+        ]
 
-        # Skip weak rows
+        for word in junk_words:
+            name = name.replace(word, "").strip()
+
+        # Skip bad rows
         if len(name) < 3:
             continue
 

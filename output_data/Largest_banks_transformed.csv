@@ -1,21 +1,21 @@
-product_name,price,currency,availability
-A Light in the ...,51.77,£,In stock
-Tipping the Velvet,53.74,£,In stock
-Soumission,50.1,£,In stock
-Sharp Objects,47.82,£,In stock
-Sapiens: A Brief History ...,54.23,£,In stock
-The Requiem Red,22.65,£,In stock
-The Dirty Little Secrets ...,33.34,£,In stock
-The Coming Woman: A ...,17.93,£,In stock
-The Boys in the ...,22.6,£,In stock
-The Black Maria,52.15,£,In stock
-Starving Hearts (Triangular Trade ...,13.99,£,In stock
-Shakespeare's Sonnets,20.66,£,In stock
-Set Me Free,17.46,£,In stock
-Scott Pilgrim's Precious Little ...,52.29,£,In stock
-Rip it Up and ...,35.02,£,In stock
-Our Band Could Be ...,57.25,£,In stock
-Olio,23.88,£,In stock
-Mesaerion: The Best Science ...,37.59,£,In stock
-Libertarianism for Beginners,51.33,£,In stock
-It's Only the Himalayas,45.17,£,In stock
+Team,Played,Won,Drawn,Lost,Goals For,Goals Against,Goal Difference,Points,"Form, Last 6 games, Oldest first"
+1Arsenal,35,23,7,5,67,26,41,76,WResult WinWResult WinLResult LossLResult LossWResult WinWResult Win
+2Manchester City,33,21,7,5,66,29,37,70,WResult WinDResult DrawDResult DrawWResult WinWResult WinWResult Win
+3Manchester United,35,18,10,7,63,48,15,64,WResult WinDResult DrawLResult LossWResult WinWResult WinWResult Win
+4Liverpool,35,17,7,11,59,47,12,58,DResult DrawLResult LossWResult WinWResult WinWResult WinLResult Loss
+5Aston Villa,35,17,7,11,48,44,4,58,LResult LossWResult WinDResult DrawWResult WinLResult LossLResult Loss
+6AFC Bournemouth,35,12,16,7,55,52,3,52,DResult DrawDResult DrawWResult WinWResult WinDResult DrawWResult Win
+7Brentford,35,14,9,12,52,46,6,51,DResult DrawDResult DrawDResult DrawDResult DrawLResult LossWResult Win
+8Brighton & Hove Albion,35,13,11,11,49,42,7,50,WResult WinWResult WinWResult WinDResult DrawWResult WinLResult Loss
+9Chelsea,34,13,9,12,53,45,8,48,WResult WinLResult LossLResult LossLResult LossLResult LossLResult Loss
+10Fulham,35,14,6,15,44,49,-5,48,DResult DrawWResult WinLResult LossDResult DrawWResult WinLResult Loss
+11Everton,34,13,8,13,41,41,0,47,WResult WinLResult LossWResult WinDResult DrawLResult LossLResult Loss
+12Sunderland,35,12,11,12,37,46,-9,47,LResult LossWResult WinWResult WinLResult LossLResult LossDResult Draw
+13Newcastle United,35,13,6,16,49,51,-2,45,WResult WinLResult LossLResult LossLResult LossLResult LossWResult Win
+14Leeds United,35,10,13,12,47,52,-5,43,DResult DrawDResult DrawWResult WinWResult WinDResult DrawWResult Win
+15Crystal Palace,34,11,10,13,36,42,-6,43,WResult WinDResult DrawWResult WinDResult DrawLResult LossLResult Loss
+16Nottingham Forest,34,10,9,15,41,45,-4,39,DResult DrawDResult DrawWResult WinDResult DrawWResult WinWResult Win
+17Tottenham Hotspur,35,9,10,16,45,54,-9,37,DResult DrawLResult LossLResult LossDResult DrawWResult WinWResult Win
+18West Ham United,35,9,9,17,42,61,-19,36,DResult DrawLResult LossWResult WinDResult DrawWResult WinLResult Loss
+19Burnley,35,4,8,23,35,71,-36,20,DResult DrawLResult LossLResult LossLResult LossLResult LossLResult Loss
+20Wolverhampton Wanderers,35,3,9,23,25,63,-38,18,WResult WinDResult DrawLResult LossLResult LossLResult LossDResult Draw
