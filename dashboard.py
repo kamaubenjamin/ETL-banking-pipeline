@@ -1,3 +1,5 @@
+import os
+
 import streamlit as st
 import pandas as pd
 import sqlite3
@@ -8,10 +10,19 @@ from src.load import load_to_csv, load_to_db
 from src.extract.extract import run_extraction
 from src.transform.engine import TransformEngine
 import time
+from src.storage.history_store import save_snapshot, detect_price_changes
+from src.alerts.alert_engine import generate_alerts
+
+# import your multi-source pipeline function
+from test_parser import run_multi_source_pipeline
+
 
 st.set_page_config(page_title="ETL Pipeline Dashboard", layout="wide")
 
 st.write("RUNNING FILE:", __file__)
+st.title("💰 Competitor Price Monitor")
+st.caption("Track competitor pricing across platforms in real-time")
+
 
 def normalize_source_type(source_type):
     mapping = {
@@ -24,6 +35,7 @@ def normalize_source_type(source_type):
     }
 
     return mapping.get(source_type, source_type.strip().lower())
+
 
 # -----------------------------
 # SESSION STATE INIT
@@ -81,12 +93,11 @@ source_type = st.selectbox(
 keyword = None
 selector = None
 custom_url = None
-scrape_selector = None   # FIX: ensure always defined
+scrape_selector = None
 
 
 # -----------------------------
-# 
-# PLAYWRIGHT INPUTS (FIXED)
+# PLAYWRIGHT INPUTS
 # -----------------------------
 if source_type == "Playwright (Dynamic Web)":
     custom_url = st.text_input("Enter Target URL")
@@ -133,7 +144,7 @@ if source_type == "Default (Web)":
 if custom_url_input:
     selected_config.url = custom_url_input
 
-elif source_type == "Playwright (Dynamic Web)":# if playwright option is selected, we prioritize that URL input over the default one    
+elif source_type == "Playwright (Dynamic Web)":
     if custom_url:
         selected_config.url = custom_url
 
@@ -170,8 +181,80 @@ old_col = st.text_input("Old Column Name")
 new_col = st.text_input("New Column Name")
 
 
+# =============================
+# PRICE MONITOR (FIXED PROPERLY)
+# =============================
+if st.button("🚀 Run Price Monitoring"):
+    try:
+        st.info("Running multi-source pipeline...")
+
+        with st.spinner("Fetching competitor data..."):
+
+            sources = {
+                "jumia": {
+                 "type": "playwright",
+                 "url": "https://www.jumia.co.ke/electronics/",
+                 "selector": "article.prd"
+                 },
+                "kilimall": {
+                    "type": "playwright",
+                    "url": "https://www.kilimall.co.ke/search?q=electronics",
+                    "selector": ".product-item"
+                }
+            }
+
+            # ✅ MUST be inside spinner
+            comparison = run_multi_source_pipeline(sources, selected_config)
+
+        # ✅ Save + store AFTER success
+        save_snapshot(comparison)
+
+        st.session_state["latest_data"] = comparison
+
+        st.success("Monitoring complete ✅")
+
+    except Exception as e:
+        st.error(f"Error: {e}")
+
+
+# =============================
+# ALERTS (SAFE)
+# =============================
+if "latest_data" in st.session_state and st.session_state["latest_data"] is not None:
+
+    history_file = "price_history.csv"
+
+    if os.path.exists(history_file):
+
+        df_history = pd.read_csv(history_file)
+
+        if not df_history.empty:
+
+            changes = detect_price_changes(df_history)
+            alerts = generate_alerts(changes)
+
+            st.markdown("## 🚨 Alerts")
+
+            if alerts:
+                for alert in alerts:
+                    st.warning(alert)
+            else:
+                st.info("No price changes detected")
+
+
+# =============================
+# TABLE DISPLAY (UNCHANGED)
+# =============================
+st.markdown("## 📊 Latest Price Comparison")
+
+if "latest_data" in st.session_state and st.session_state["latest_data"] is not None:
+    st.dataframe(st.session_state["latest_data"])
+else:
+    st.info("Run monitoring to see data")
+
+
 # -----------------------------
-# PIPELINE BUTTONS
+# PIPELINE BUTTONS (UNCHANGED)
 # -----------------------------
 col1, col2, col3, col4 = st.columns(4)
 
@@ -191,7 +274,6 @@ with col1:
             clean_source_type = normalize_source_type(source_type)
             uploaded_df = st.session_state.get("uploaded_df")
 
-            # 🔥 SMART SELECTOR RESOLUTION (AUTO MODE ENABLED)
             final_selector = None
 
             if scrape_mode == "Custom Selector":
@@ -221,6 +303,7 @@ with col1:
                 rules=rules,
                 load_option=load_option
             )
+
             st.write("DEBUG EXTRACT RESULT:", result["extract"])
 
             progress.progress(30)
@@ -241,7 +324,6 @@ with col1:
             st.session_state.pipeline_status = "Failed"
             st.error(f"Pipeline failed ❌: {e}")
 
-
 # =============================
 # EXTRACT ONLY
 # =============================
@@ -250,7 +332,6 @@ with col2:
         try:
             clean_source_type = normalize_source_type(source_type)
 
-            # 🔥 SMART SELECTOR RESOLUTION (CONSISTENT WITH FULL PIPELINE)
             final_selector = None
 
             if scrape_mode == "Custom Selector":
@@ -258,7 +339,8 @@ with col2:
                     final_selector = scrape_selector
 
             elif selector and selector.strip():
-                  final_selector = selector
+                final_selector = selector
+
             df = run_extraction(
                 source_type=clean_source_type,
                 config=selected_config,
@@ -269,6 +351,8 @@ with col2:
 
             st.session_state.data = df
             st.session_state.extract_status = "Success"
+
+            st.success("Extract complete")
 
         except Exception as e:
             st.session_state.extract_status = "Failed"
@@ -296,6 +380,8 @@ with col3:
 
             st.session_state.data = df
             st.session_state.transform_status = "Success"
+
+            st.success("Transform complete")
 
         except Exception as e:
             st.session_state.transform_status = "Failed"
@@ -326,14 +412,14 @@ with col4:
 
             st.session_state.load_status = "Success"
 
+            st.success("Load complete")
+
         except Exception as e:
             st.session_state.load_status = "Failed"
             st.error(str(e))
-
-
-# -----------------------------
-# STATUS UI
-# -----------------------------
+# =============================
+# STATUS UI (UNCHANGED)
+# =============================
 st.markdown("## 🚦 Pipeline Status")
 
 

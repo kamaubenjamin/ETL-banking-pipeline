@@ -1,83 +1,836 @@
 product_name,jumia,kilimall,cheapest,timestamp
-"Vision Plus VP8850QV 50"" QLED 4K Smart TV – Netflix/YouTube/Prime Video, Inbuilt Decoder, Dolby Audio, Quantum Dot Display + Free Wall Mount (2YRS WRTY)",35666,,jumia,25:56.1
-"Amtec 43L12, 43"" FHD Smart Android Frameless TV, Netfix, Youtube, Bluetooth - Black (1YR WRTY)",16743,17999,jumia,25:56.1
-"Vitron HTC3288QS, 32 inch QLED Smart Android TV, QLED Smart TV, Android TV, Q LED - Black (1YR WRTY)",11320,12830,jumia,25:56.1
-"Lyons LST5504W 55 inch Dolby Vision 4K Frameless Android 14 Smart TV - WiFi, Netflix, YouTube, Miracast, HDMI, Bluetooth - Black",33579,,jumia,25:56.1
-"Hisense 43A4, 43"" INCH FRAMELESS SMART TELEVISION, FULL HD RESOLUTION, A4K SERIES ,NETFLIX ,YOUTUBE TV,DTS, INBUILT DECODER, BUILT-IN WIFI,VIDAA OS+FREE TV GUARD+BRACKET",24695,,jumia,25:56.1
-"Hisense 43'' Inch Smart FHD Frameless,SMART & DIGITAL LED TELEVISION+BRACKET+GUARD",24890,,jumia,25:56.1
-Vision Plus VP2111SB Immersive Sound 2.1 CH Sound Bar 240W - Black (2 YRs WRTY),8499,,jumia,25:56.1
-Amtec AM-308 3.1CH X-BASS Multimedia Home Theater System – 12000W PMPO - Black (1YR WRTY),3929,,jumia,25:56.1
-"AILYONS SB502K 2.1 CH Subwoofer / Sound Bar Multimedia Speaker System, BT/USB/SD/FM - (1YR WRTY)",4899,,jumia,25:56.1
-AILIPU KL-6305AD 3.1CH SPEAKER Woofer Subwoofer Bluetooth Cinema Home theater System Bluetooth Hi-Fi Speaker Speaker System AC/DC Subwoofer Bluetooth USB/SD/FM Woofer (1YR WRTY),3589,,jumia,25:56.1
-"Globalstar GLOBALSTAR 32UK64 , 32INCH Smart Android TV, Netflix, Youtube - Black",11112,,jumia,25:56.1
-"Euroken HS-22LS19T2 19"" Inch Digital LED TV - HD Clear Color, Inbuilt Decoder, HDMI & USB",3999,,jumia,25:56.1
-"Gld 32"" Smart Frameless HD LED Television - Black",13795,,jumia,25:56.1
-"Skyworth 65Q6500H, 65"" 4K QLED Smart Google TV, Black (1YR WRTY)",74999,,jumia,25:56.1
-"K-Elec 55"" 4K Google Smart LED TV | Dolby Atmos Soundbar | Netflix & YouTube | 36-Month Warranty | FREE TV Guard + FREE Wall Mount",41999,,jumia,25:56.1
-Lenovo Thinkplus K30 Portable Bluetooth Wireless Speaker Waterproof USB Outdoor Loudspeaker Music Surround Bass Box Speakers,797,,jumia,25:56.1
-"Bluetooth Speaker 4D Subwoofer Wired Speaker For Laptop,TV",1059,,jumia,25:56.1
-GUIXIA XG88Pro Smart Bluetooth 5.3 Sunglasses Earphones,900,,jumia,25:56.1
-"Indoor Amplified HD Digital TV Antenna, VHF Or UHF Amplifier",896,,jumia,25:56.1
-"LASA LASA 3.5mm Microphone for Smartphones, PC, DSLR Cameras & Camcorders – Plug & Play, Clear Audio, Universal Compatibility",1219,,jumia,25:56.1
-"addigoes Extension Socket With USB, Power Extension Box with Surge Protection, 4 AC Sockets & 4 USB Ports (3 USB + 1 Type-C), USB Extension Socket with Overload Protection, LED Indicator, 2M Extension Cord for Home Office",799,,jumia,25:56.1
-Women Watch Men Smart Watches Sports Fintess Watches,1190,,jumia,25:56.1
-Mini Karaoke Machine With Wireless Microphones,3200,,jumia,25:56.1
-Rashnik TV Wall Mount TV Stand For 14” - 42” - Black,161,,jumia,25:56.1
-LUMINOUS ISTANBUL 2 TV CONSOLE 4FT WITH CABINET,4539,,jumia,25:56.1
-"Skilltech 15"" To 43"" inches Tilting Wall Mount Bracket",445,,jumia,25:56.1
-MK Tv GUARD And 4 Way Extension Cable,850,1120,jumia,25:56.1
-Dstv Full kit (1YR WRTY),2250,,jumia,25:56.1
-"Mexico Modern Wooden TV Stand For Up To 55"" TV",3490,,jumia,25:56.1
-Power King Best 4 Way Power Extension With Long Cable - White,299,,jumia,25:56.1
-"ROTATING 14""-55"" TILT ROTATING WALL MOUNT BRACKET",660,,jumia,25:56.1
-Extension Cables 6 Way With 3 USB Ports Multiplug Power Extension Socket Power Cables.,649,,jumia,25:56.1
-"14-43 inches, 17'', 19'', 24'', 32'', 43'' Fixed TV Wall Mount Bracket",249,,jumia,25:56.1
-"TCL 55"" Inch,FRAMELESS,BLUETOOTH,Smart UHD 4K With HDR Google TV+360 BRACKET+TV GUARD",43999,,jumia,25:56.1
-"Hisense 55"" Inch 4K UHD SMART BLUETOOTH TV-2024 MODEL+FREE 360 WALL BRACKET",43999,,jumia,25:56.1
-Nobel 5.1 CH Top Bass-Home Theatre System/USB/Radio -22000W,12790,,jumia,25:56.1
-Istanbul 2 Modern TV Stand With LED Light - White & Black,4539,,jumia,25:56.1
-Nobel 5.1CH Home Theatre Speaker System 80W R.M.S Sub Woofer P.M.P.O 22000W Bluetooth Radio F.M/Aux Ready Super Bass Surround Sound Remote Control & LED Light,13290,,jumia,25:56.1
+"Vision Plus VP8850QV 50"" QLED 4K Smart TV – Netflix/YouTube/Prime Video, Inbuilt Decoder, Dolby Audio, Quantum Dot Display + Free Wall Mount (2YRS WRTY)",35666.0,,jumia,25:56.1
+"Amtec 43L12, 43"" FHD Smart Android Frameless TV, Netfix, Youtube, Bluetooth - Black (1YR WRTY)",16743.0,17999.0,jumia,25:56.1
+"Vitron HTC3288QS, 32 inch QLED Smart Android TV, QLED Smart TV, Android TV, Q LED - Black (1YR WRTY)",11320.0,12830.0,jumia,25:56.1
+"Lyons LST5504W 55 inch Dolby Vision 4K Frameless Android 14 Smart TV - WiFi, Netflix, YouTube, Miracast, HDMI, Bluetooth - Black",33579.0,,jumia,25:56.1
+"Hisense 43A4, 43"" INCH FRAMELESS SMART TELEVISION, FULL HD RESOLUTION, A4K SERIES ,NETFLIX ,YOUTUBE TV,DTS, INBUILT DECODER, BUILT-IN WIFI,VIDAA OS+FREE TV GUARD+BRACKET",24695.0,,jumia,25:56.1
+"Hisense 43'' Inch Smart FHD Frameless,SMART & DIGITAL LED TELEVISION+BRACKET+GUARD",24890.0,,jumia,25:56.1
+Vision Plus VP2111SB Immersive Sound 2.1 CH Sound Bar 240W - Black (2 YRs WRTY),8499.0,,jumia,25:56.1
+Amtec AM-308 3.1CH X-BASS Multimedia Home Theater System – 12000W PMPO - Black (1YR WRTY),3929.0,,jumia,25:56.1
+"AILYONS SB502K 2.1 CH Subwoofer / Sound Bar Multimedia Speaker System, BT/USB/SD/FM - (1YR WRTY)",4899.0,,jumia,25:56.1
+AILIPU KL-6305AD 3.1CH SPEAKER Woofer Subwoofer Bluetooth Cinema Home theater System Bluetooth Hi-Fi Speaker Speaker System AC/DC Subwoofer Bluetooth USB/SD/FM Woofer (1YR WRTY),3589.0,,jumia,25:56.1
+"Globalstar GLOBALSTAR 32UK64 , 32INCH Smart Android TV, Netflix, Youtube - Black",11112.0,,jumia,25:56.1
+"Euroken HS-22LS19T2 19"" Inch Digital LED TV - HD Clear Color, Inbuilt Decoder, HDMI & USB",3999.0,,jumia,25:56.1
+"Gld 32"" Smart Frameless HD LED Television - Black",13795.0,,jumia,25:56.1
+"Skyworth 65Q6500H, 65"" 4K QLED Smart Google TV, Black (1YR WRTY)",74999.0,,jumia,25:56.1
+"K-Elec 55"" 4K Google Smart LED TV | Dolby Atmos Soundbar | Netflix & YouTube | 36-Month Warranty | FREE TV Guard + FREE Wall Mount",41999.0,,jumia,25:56.1
+Lenovo Thinkplus K30 Portable Bluetooth Wireless Speaker Waterproof USB Outdoor Loudspeaker Music Surround Bass Box Speakers,797.0,,jumia,25:56.1
+"Bluetooth Speaker 4D Subwoofer Wired Speaker For Laptop,TV",1059.0,,jumia,25:56.1
+GUIXIA XG88Pro Smart Bluetooth 5.3 Sunglasses Earphones,900.0,,jumia,25:56.1
+"Indoor Amplified HD Digital TV Antenna, VHF Or UHF Amplifier",896.0,,jumia,25:56.1
+"LASA LASA 3.5mm Microphone for Smartphones, PC, DSLR Cameras & Camcorders – Plug & Play, Clear Audio, Universal Compatibility",1219.0,,jumia,25:56.1
+"addigoes Extension Socket With USB, Power Extension Box with Surge Protection, 4 AC Sockets & 4 USB Ports (3 USB + 1 Type-C), USB Extension Socket with Overload Protection, LED Indicator, 2M Extension Cord for Home Office",799.0,,jumia,25:56.1
+Women Watch Men Smart Watches Sports Fintess Watches,1190.0,,jumia,25:56.1
+Mini Karaoke Machine With Wireless Microphones,3200.0,,jumia,25:56.1
+Rashnik TV Wall Mount TV Stand For 14” - 42” - Black,161.0,,jumia,25:56.1
+LUMINOUS ISTANBUL 2 TV CONSOLE 4FT WITH CABINET,4539.0,,jumia,25:56.1
+"Skilltech 15"" To 43"" inches Tilting Wall Mount Bracket",445.0,,jumia,25:56.1
+MK Tv GUARD And 4 Way Extension Cable,850.0,1120.0,jumia,25:56.1
+Dstv Full kit (1YR WRTY),2250.0,,jumia,25:56.1
+"Mexico Modern Wooden TV Stand For Up To 55"" TV",3490.0,,jumia,25:56.1
+Power King Best 4 Way Power Extension With Long Cable - White,299.0,,jumia,25:56.1
+"ROTATING 14""-55"" TILT ROTATING WALL MOUNT BRACKET",660.0,,jumia,25:56.1
+Extension Cables 6 Way With 3 USB Ports Multiplug Power Extension Socket Power Cables.,649.0,,jumia,25:56.1
+"14-43 inches, 17'', 19'', 24'', 32'', 43'' Fixed TV Wall Mount Bracket",249.0,,jumia,25:56.1
+"TCL 55"" Inch,FRAMELESS,BLUETOOTH,Smart UHD 4K With HDR Google TV+360 BRACKET+TV GUARD",43999.0,,jumia,25:56.1
+"Hisense 55"" Inch 4K UHD SMART BLUETOOTH TV-2024 MODEL+FREE 360 WALL BRACKET",43999.0,,jumia,25:56.1
+Nobel 5.1 CH Top Bass-Home Theatre System/USB/Radio -22000W,12790.0,,jumia,25:56.1
+Istanbul 2 Modern TV Stand With LED Light - White & Black,4539.0,,jumia,25:56.1
+Nobel 5.1CH Home Theatre Speaker System 80W R.M.S Sub Woofer P.M.P.O 22000W Bluetooth Radio F.M/Aux Ready Super Bass Surround Sound Remote Control & LED Light,13290.0,,jumia,25:56.1
 "Official Store
-Amtec AM-02 2.1CH Multimedia Speaker BT/USB/SD/FM - Black (1YR WRTY)",5100,,jumia,25:56.1
+Amtec AM-02 2.1CH Multimedia Speaker BT/USB/SD/FM - Black (1YR WRTY)",5100.0,,jumia,25:56.1
 "Official Store
-Amaze Fridge/Freezer Guard/13A - UnderVoltage & Surge Protection",485,,jumia,25:56.1
+Amaze Fridge/Freezer Guard/13A - UnderVoltage & Surge Protection",485.0,,jumia,25:56.1
 "Official Store
-Vitron V51SB- 2.1ch Soundbar System with Bluetooth, Black (1YR WRTY)",4840,,jumia,25:56.1
+Vitron V51SB- 2.1ch Soundbar System with Bluetooth, Black (1YR WRTY)",4840.0,,jumia,25:56.1
 "OUT OF STOCK
 Official Store
-Lyons LYS2403 2.1CH Multimedia Speaker System Home Theatrer SubWoofer with BT(1YR WRTY)",2299,,jumia,25:56.1
-"Home Design Rotating 14"" - 55"" Full Motion Swivel TV Bracket",649,,jumia,25:56.1
-Power King Iron Box And Electric Kettle Support 5 Way Power Extension-White// Blue,540,,jumia,25:56.1
+Lyons LYS2403 2.1CH Multimedia Speaker System Home Theatrer SubWoofer with BT(1YR WRTY)",2299.0,,jumia,25:56.1
+"Home Design Rotating 14"" - 55"" Full Motion Swivel TV Bracket",649.0,,jumia,25:56.1
+Power King Iron Box And Electric Kettle Support 5 Way Power Extension-White// Blue,540.0,,jumia,25:56.1
 "Official Store
-Amaze TV Guard Voltage Power Protector 13A - Surge Protector",499,,jumia,25:56.1
+Amaze TV Guard Voltage Power Protector 13A - Surge Protector",499.0,,jumia,25:56.1
 "Official Store
-Power King Extension Cable With 6 AC Power Outlets, 13A, And 2 M Long Cable",399,,jumia,25:56.1
-Digital LCD hair clipper - Long battery life-gold,3700,,jumia,25:56.1
-"Portable Bluetooth AM/FM Radio with MP3 Playback & Solar Panel,Outdoor Portable Design",2699,,jumia,25:56.1
-Ultrapods Max Wireless Bluetooth 5.3 In Ear Transparent Earphones Wireless Headphone Affordable Bluetooth EàrBuds Headset Aírpods,405,,jumia,25:56.1
-"Home Portable FM/AM 8-Band Radio, Bluetooth/USB/TF Music Player, Flashlight (Silver)",2552,,jumia,25:56.1
-MXQ Pro Android 12 TV Box 4GB RAM 32GB ROM 4K Ultra HD 2.4G/5G Dual WiFi Smart Media Player Set Top Box,2217,,jumia,25:56.1
-"JERTECH Bluetooth Speaker for Computer Desktop Subwoofer, Audio Combo Set",3136,,jumia,25:56.1
-"HD Night Vision Driving Glasses with Polarized Lenses, Anti-Glare Wrap-Around Fit Over Prescription Eyewear for Men and Women, Yellow Tint",1173,,jumia,25:56.1
-"Apple Original iPhone Wired Earphones with Lightning Connector, Built-in Mic & Volume Control – Compatible with iPhone 14/13/12/11 Pro Max, XS, XR, 8/7 Plus & All iOS Devices – Premium Sound & Durability (White)",1799,,jumia,25:56.1
-"4K DisplayPort To HDMI 4K@60Hz, 2K@165Hz For Computer Laptop",804,,jumia,25:56.1
-Hidden Spy Camera 1080P HD WiFi Clock Cameras Wireless Home Security Nanny Cam,9999,,jumia,25:56.1
-"Wired in-ear headphones with high-quality microphone, 9D sound effects, 1.5-meter cable, 3.5mm plug, black",1620,,jumia,25:56.1
-New LIGE Round Smart Watches Men/Women Full Touch Screen Sport Fitness Smart Watch IP67 Waterproof Bluetooth For Android ios Smartwatches Smart Wearable Fitness Electronic Clock,,1299,kilimall,25:56.1
-120W USB C Plug 4-Port Charger Plugs Fast Charging Travel Plug Adapter with 2 usb and 2 PD Port Wall Charging Head Universal Power Charging Compatible with Most Electronic Products,,359,kilimall,25:56.1
-RichRipple Men and women Sports LED Watch Silicone Colorful Watch Electronic Clock Digital Fashion Clock Smart Watch,,149,kilimall,25:56.1
-"KingNote 20000mAh X 2 Power Charging Bank Two pieces in combination portable SUPER Fast charde, charger cell phone, Bluetooth headset and other mobile electronic products",,1560,kilimall,25:56.1
-"【Clearance Sale】5-in-1 Electronics Cleaner Kit- Laptop Screen Cleaner kit,Multifunctional Bluetooth Earphones Cleaning Tool for iPhone Charging Port,Headphone,Earphone,Phone Speaker,Earpods",,199,kilimall,25:56.1
-"20000mAh Light Beam Power Bank with Fast Charging, Built-in Cables & LED Display portable charde, charger cell phone, Bluetooth headset and other mobile electronic products",,1000,kilimall,25:56.1
-Mini 25-in-1 Small Tri Circle Magnetic Precision Screwdriver Set Magnetic Mini Repair Electronics Phone PC Ratchet Drill Socket Repair Tool Bit Portable Professional Kit Set,,289,kilimall,25:56.1
-Tagwood 7500W 2.1CH Multimedia Bluetooth Woofer Speaker System Subwoofer Soundbar BT/USB/SD/FM Subwoofer Home Audilo System Soundbar with Remote Control S1 Speaker bass,,3899,kilimall,25:56.1
-"【Limited Offer】Euroken EK-26LC24T2 24"" Inch With CAST TV function Full Screen Display Television Ac/dc Digital Led Tv With Inbuilt Decoder For Local Channels Wide Color Enhancer, Usb Hdmi Ports",,4899,kilimall,25:56.1
-Y68 Waterproof Smart Watch Bluetooth Watch SmartWatch for Women Electronic Watch for Kids Men Fitness Tracker Men Women Sports Watches Wrist watch Smart Beacelet Kids Smartwatch Kids Watch,,703,kilimall,25:56.1
-Wireless Headset Over Ear earphone Noise Cancelling Bluetooth-Compatible 5.0 Sports Game Headset Built-in Mic Applicable to mobile phones computers and electronic products Local fast delivery,,540,kilimall,25:56.1
-"Smart LCD Writing Tablet, 8.5 Inch Graphics Tablet Electronic Writing Drawing Colorful Screen Doodle Board For kids",,338,kilimall,25:56.1
-Smart Watches Men's Sport Casual LED Watches Men Digital Clock Multi-Functional Rubber Man Fitness Army Military Electronic Watch,,449,kilimall,25:56.1
-30W Universal AC to DC Power Adapter - Multi Output Voltages 3V 4.5V 5V 6V 7.5V 9V 12V Switching Power Supply with 8 Selectable Adapter Plugs for Routers Speakers Household Electronic (MAX 2A/2000mA),,1300,kilimall,25:56.1
-Third Hand 5X Magnifying Glass Stand For Electronic Works Jeweler Watch Repair Welding Soldering Magnifier With Dual Clips,,1201,kilimall,25:56.1
-AILYONS/LYONS ECS2404/LYS2404 woofer speaker system Multimedia Speaker With Powerful Amplifier 18000 PMPO Output Power 25W+10W*2 Speaker System【HOT】,,2399,kilimall,25:56.1
-8.5inch LCD Writing Tablet Kids Erasable Colorful Drawing Board Graphic Electronic Writing Drawing Screen Doodle Board Children's Educational Toys,,338,kilimall,25:56.1
-Milky White Super Glue T5000 Repair Cell Phone Display Screen 50ML 110ML Adhesive For Glass Electronic Component Laptop Plastic Rubber,,699,kilimall,25:56.1
+Power King Extension Cable With 6 AC Power Outlets, 13A, And 2 M Long Cable",399.0,,jumia,25:56.1
+Digital LCD hair clipper - Long battery life-gold,3700.0,,jumia,25:56.1
+"Portable Bluetooth AM/FM Radio with MP3 Playback & Solar Panel,Outdoor Portable Design",2699.0,,jumia,25:56.1
+Ultrapods Max Wireless Bluetooth 5.3 In Ear Transparent Earphones Wireless Headphone Affordable Bluetooth EàrBuds Headset Aírpods,405.0,,jumia,25:56.1
+"Home Portable FM/AM 8-Band Radio, Bluetooth/USB/TF Music Player, Flashlight (Silver)",2552.0,,jumia,25:56.1
+MXQ Pro Android 12 TV Box 4GB RAM 32GB ROM 4K Ultra HD 2.4G/5G Dual WiFi Smart Media Player Set Top Box,2217.0,,jumia,25:56.1
+"JERTECH Bluetooth Speaker for Computer Desktop Subwoofer, Audio Combo Set",3136.0,,jumia,25:56.1
+"HD Night Vision Driving Glasses with Polarized Lenses, Anti-Glare Wrap-Around Fit Over Prescription Eyewear for Men and Women, Yellow Tint",1173.0,,jumia,25:56.1
+"Apple Original iPhone Wired Earphones with Lightning Connector, Built-in Mic & Volume Control – Compatible with iPhone 14/13/12/11 Pro Max, XS, XR, 8/7 Plus & All iOS Devices – Premium Sound & Durability (White)",1799.0,,jumia,25:56.1
+"4K DisplayPort To HDMI 4K@60Hz, 2K@165Hz For Computer Laptop",804.0,,jumia,25:56.1
+Hidden Spy Camera 1080P HD WiFi Clock Cameras Wireless Home Security Nanny Cam,9999.0,,jumia,25:56.1
+"Wired in-ear headphones with high-quality microphone, 9D sound effects, 1.5-meter cable, 3.5mm plug, black",1620.0,,jumia,25:56.1
+New LIGE Round Smart Watches Men/Women Full Touch Screen Sport Fitness Smart Watch IP67 Waterproof Bluetooth For Android ios Smartwatches Smart Wearable Fitness Electronic Clock,,1299.0,kilimall,25:56.1
+120W USB C Plug 4-Port Charger Plugs Fast Charging Travel Plug Adapter with 2 usb and 2 PD Port Wall Charging Head Universal Power Charging Compatible with Most Electronic Products,,359.0,kilimall,25:56.1
+RichRipple Men and women Sports LED Watch Silicone Colorful Watch Electronic Clock Digital Fashion Clock Smart Watch,,149.0,kilimall,25:56.1
+"KingNote 20000mAh X 2 Power Charging Bank Two pieces in combination portable SUPER Fast charde, charger cell phone, Bluetooth headset and other mobile electronic products",,1560.0,kilimall,25:56.1
+"【Clearance Sale】5-in-1 Electronics Cleaner Kit- Laptop Screen Cleaner kit,Multifunctional Bluetooth Earphones Cleaning Tool for iPhone Charging Port,Headphone,Earphone,Phone Speaker,Earpods",,199.0,kilimall,25:56.1
+"20000mAh Light Beam Power Bank with Fast Charging, Built-in Cables & LED Display portable charde, charger cell phone, Bluetooth headset and other mobile electronic products",,1000.0,kilimall,25:56.1
+Mini 25-in-1 Small Tri Circle Magnetic Precision Screwdriver Set Magnetic Mini Repair Electronics Phone PC Ratchet Drill Socket Repair Tool Bit Portable Professional Kit Set,,289.0,kilimall,25:56.1
+Tagwood 7500W 2.1CH Multimedia Bluetooth Woofer Speaker System Subwoofer Soundbar BT/USB/SD/FM Subwoofer Home Audilo System Soundbar with Remote Control S1 Speaker bass,,3899.0,kilimall,25:56.1
+"【Limited Offer】Euroken EK-26LC24T2 24"" Inch With CAST TV function Full Screen Display Television Ac/dc Digital Led Tv With Inbuilt Decoder For Local Channels Wide Color Enhancer, Usb Hdmi Ports",,4899.0,kilimall,25:56.1
+Y68 Waterproof Smart Watch Bluetooth Watch SmartWatch for Women Electronic Watch for Kids Men Fitness Tracker Men Women Sports Watches Wrist watch Smart Beacelet Kids Smartwatch Kids Watch,,703.0,kilimall,25:56.1
+Wireless Headset Over Ear earphone Noise Cancelling Bluetooth-Compatible 5.0 Sports Game Headset Built-in Mic Applicable to mobile phones computers and electronic products Local fast delivery,,540.0,kilimall,25:56.1
+"Smart LCD Writing Tablet, 8.5 Inch Graphics Tablet Electronic Writing Drawing Colorful Screen Doodle Board For kids",,338.0,kilimall,25:56.1
+Smart Watches Men's Sport Casual LED Watches Men Digital Clock Multi-Functional Rubber Man Fitness Army Military Electronic Watch,,449.0,kilimall,25:56.1
+30W Universal AC to DC Power Adapter - Multi Output Voltages 3V 4.5V 5V 6V 7.5V 9V 12V Switching Power Supply with 8 Selectable Adapter Plugs for Routers Speakers Household Electronic (MAX 2A/2000mA),,1300.0,kilimall,25:56.1
+Third Hand 5X Magnifying Glass Stand For Electronic Works Jeweler Watch Repair Welding Soldering Magnifier With Dual Clips,,1201.0,kilimall,25:56.1
+AILYONS/LYONS ECS2404/LYS2404 woofer speaker system Multimedia Speaker With Powerful Amplifier 18000 PMPO Output Power 25W+10W*2 Speaker System【HOT】,,2399.0,kilimall,25:56.1
+8.5inch LCD Writing Tablet Kids Erasable Colorful Drawing Board Graphic Electronic Writing Drawing Screen Doodle Board Children's Educational Toys,,338.0,kilimall,25:56.1
+Milky White Super Glue T5000 Repair Cell Phone Display Screen 50ML 110ML Adhesive For Glass Electronic Component Laptop Plastic Rubber,,699.0,kilimall,25:56.1
+"Vision Plus VP8850QV 50"" QLED 4K Smart TV – Netflix/YouTube/Prime Video, Inbuilt Decoder, Dolby Audio, Quantum Dot Display + Free Wall Mount (2YRS WRTY)",34070.0,,jumia,2026-05-04 22:06:47.602632
+"Amtec 43L12, 43"" FHD Smart Android Frameless TV, Netfix, Youtube, Bluetooth - Black (1YR WRTY)",16743.0,,jumia,2026-05-04 22:06:47.602632
+"Vitron HTC3288QS, 32 inch QLED Smart Android TV, QLED Smart TV, Android TV, Q LED - Black (1YR WRTY)",11320.0,,jumia,2026-05-04 22:06:47.602632
+"Itel TV 32 inches QLED Smart TV, Frameless, Bluetooth, Android14, Wifi, Digital, Netflix, YouTube, Prime, 32"" television (1 year warranty, New Launch price,wall mount free gift)",10798.0,,jumia,2026-05-04 22:06:47.602632
+"Hisense 43A4, 43"" INCH FRAMELESS SMART TELEVISION, FULL HD RESOLUTION, A4K SERIES ,NETFLIX ,YOUTUBE TV,DTS, INBUILT DECODER, BUILT-IN WIFI,VIDAA OS+FREE TV GUARD+BRACKET",24695.0,,jumia,2026-05-04 22:06:47.602632
+"Hisense 43'' Inch Smart FHD Frameless,SMART & DIGITAL LED TELEVISION+BRACKET+GUARD",24890.0,,jumia,2026-05-04 22:06:47.602632
+Vision Plus VP2111SB Immersive Sound 2.1 CH Sound Bar 240W - Black (2 YRs WRTY),8499.0,,jumia,2026-05-04 22:06:47.602632
+Amtec AM-308 3.1CH X-BASS Multimedia Home Theater System – 12000W PMPO - Black (1YR WRTY),3929.0,,jumia,2026-05-04 22:06:47.602632
+Lyons LYS2404 2.1CH Multimedia Speaker System Home Theatrer SubWoofer with BT(1YR WRTY),2599.0,,jumia,2026-05-04 22:06:47.602632
+"Euroken HS-22LS19T2 19"" Inch Digital LED TV - HD Clear Color, Inbuilt Decoder, HDMI & USB",3999.0,,jumia,2026-05-04 22:06:47.602632
+"Gld 32"" Smart Frameless HD LED Television - Black",13795.0,,jumia,2026-05-04 22:06:47.602632
+"Skyworth 65Q6500H, 65"" 4K QLED Smart Google TV, Black (1YR WRTY)",74999.0,,jumia,2026-05-04 22:06:47.602632
+"K-Elec 55"" 4K Google Smart LED TV | Dolby Atmos Soundbar | Netflix & YouTube | 36-Month Warranty | FREE TV Guard + FREE Wall Mount",41999.0,,jumia,2026-05-04 22:06:47.602632
+Lenovo Thinkplus K30 Portable Bluetooth Wireless Speaker Waterproof USB Outdoor Loudspeaker Music Surround Bass Box Speakers,797.0,,jumia,2026-05-04 22:06:47.602632
+"Bluetooth Speaker 4D Subwoofer Wired Speaker For Laptop,TV",1059.0,,jumia,2026-05-04 22:06:47.602632
+GUIXIA XG88Pro Smart Bluetooth 5.3 Sunglasses Earphones,900.0,,jumia,2026-05-04 22:06:47.602632
+"Indoor Amplified HD Digital TV Antenna, VHF Or UHF Amplifier",896.0,,jumia,2026-05-04 22:06:47.602632
+"LASA LASA 3.5mm Microphone for Smartphones, PC, DSLR Cameras & Camcorders – Plug & Play, Clear Audio, Universal Compatibility",1219.0,,jumia,2026-05-04 22:06:47.602632
+"addigoes Extension Socket With USB, Power Extension Box with Surge Protection, 4 AC Sockets & 4 USB Ports (3 USB + 1 Type-C), USB Extension Socket with Overload Protection, LED Indicator, 2M Extension Cord for Home Office",799.0,,jumia,2026-05-04 22:06:47.602632
+Women Watch Men Smart Watches Sports Fintess Watches,1190.0,,jumia,2026-05-04 22:06:47.602632
+Mini Karaoke Machine With Wireless Microphones,3200.0,,jumia,2026-05-04 22:06:47.602632
+Rashnik TV Wall Mount TV Stand For 14” - 42” - Black,161.0,,jumia,2026-05-04 22:06:47.602632
+LUMINOUS ISTANBUL 2 TV CONSOLE 4FT WITH CABINET,4539.0,,jumia,2026-05-04 22:06:47.602632
+Gotv Decoder (1YR WRTY) - Black,719.0,,jumia,2026-05-04 22:06:47.602632
+"Skilltech 15"" To 43"" inches Tilting Wall Mount Bracket",445.0,,jumia,2026-05-04 22:06:47.602632
+MK Tv GUARD And 4 Way Extension Cable,850.0,,jumia,2026-05-04 22:06:47.602632
+Dstv Full kit (1YR WRTY),2250.0,,jumia,2026-05-04 22:06:47.602632
+"Mexico Modern Wooden TV Stand For Up To 55"" TV",3490.0,,jumia,2026-05-04 22:06:47.602632
+Power King Best 4 Way Power Extension With Long Cable - White,299.0,,jumia,2026-05-04 22:06:47.602632
+"ROTATING 14""-55"" TILT ROTATING WALL MOUNT BRACKET",660.0,,jumia,2026-05-04 22:06:47.602632
+Extension Cables 6 Way With 3 USB Ports Multiplug Power Extension Socket Power Cables.,649.0,,jumia,2026-05-04 22:06:47.602632
+"14-43 inches, 17'', 19'', 24'', 32'', 43'' Fixed TV Wall Mount Bracket",249.0,,jumia,2026-05-04 22:06:47.602632
+"TCL 55"" Inch,FRAMELESS,BLUETOOTH,Smart UHD 4K With HDR Google TV+360 BRACKET+TV GUARD",43999.0,,jumia,2026-05-04 22:06:47.602632
+"Hisense 55"" Inch 4K UHD SMART BLUETOOTH TV-2024 MODEL+FREE 360 WALL BRACKET",43999.0,,jumia,2026-05-04 22:06:47.602632
+Nobel 5.1 CH Top Bass-Home Theatre System/USB/Radio -22000W,12790.0,,jumia,2026-05-04 22:06:47.602632
+Istanbul 2 Modern TV Stand With LED Light - White & Black,4539.0,,jumia,2026-05-04 22:06:47.602632
+Nobel 5.1CH Home Theatre Speaker System 80W R.M.S Sub Woofer P.M.P.O 22000W Bluetooth Radio F.M/Aux Ready Super Bass Surround Sound Remote Control & LED Light,13290.0,,jumia,2026-05-04 22:06:47.602632
+"Official Store
+Amtec AM-02 2.1CH Multimedia Speaker BT/USB/SD/FM - Black (1YR WRTY)",5100.0,,jumia,2026-05-04 22:06:47.602632
+"Official Store
+Amaze Fridge/Freezer Guard/13A - UnderVoltage & Surge Protection",485.0,,jumia,2026-05-04 22:06:47.602632
+"Official Store
+Vitron V51SB- 2.1ch Soundbar System with Bluetooth, Black (1YR WRTY)",4840.0,,jumia,2026-05-04 22:06:47.602632
+"Home Design Rotating 14"" - 55"" Full Motion Swivel TV Bracket",649.0,,jumia,2026-05-04 22:06:47.602632
+Power King Iron Box And Electric Kettle Support 5 Way Power Extension-White// Blue,540.0,,jumia,2026-05-04 22:06:47.602632
+"Official Store
+Amaze TV Guard Voltage Power Protector 13A - Surge Protector",499.0,,jumia,2026-05-04 22:06:47.602632
+"Official Store
+Power King Extension Cable With 6 AC Power Outlets, 13A, And 2 M Long Cable",399.0,,jumia,2026-05-04 22:06:47.602632
+Digital LCD hair clipper - Long battery life-gold,3700.0,,jumia,2026-05-04 22:06:47.602632
+IP Camera Home Security System 5MP V380 Pro Motion Detection Night Vision WiFi Indoor Camera,3200.0,,jumia,2026-05-04 22:06:47.602632
+"SILVER CREST 2 IN 1, 2LITRES HEAVY DUTY 4500WATTS",2599.0,,jumia,2026-05-04 22:06:47.602632
+Panoramic Wireless WiFi 360 Degree Rotating Camera White,930.0,,jumia,2026-05-04 22:06:47.602632
+Rotation Foldable Aerial Camera RC Gift HD Camera,9800.0,,jumia,2026-05-04 22:06:47.602632
+"Bolizma Bluetooth Earbuds, Wireless in Ear Buds with Hi-Res Audio, Secure Fit, BT 5.4, One-Step Pairing, for iPhone Android & More",608.0,,jumia,2026-05-04 22:06:47.602632
+Astronaut Star Projector Night Light,1755.0,,jumia,2026-05-04 22:06:47.602632
+"XIAOMI Redmi Buds 6 Play Wireless Earbuds White, Bluetooth 5.4, Long Battery Life, Noise Reduction Calls, Comfortable Fit",1900.0,,jumia,2026-05-04 22:06:47.602632
+"Apple Original iPhone Wired Earphones with Lightning Connector, Built-in Mic & Volume Control – Compatible with iPhone 14/13/12/11 Pro Max, XS, XR, 8/7 Plus & All iOS Devices – Premium Sound & Durability (White)",1799.0,,jumia,2026-05-04 22:06:47.602632
+"4K DisplayPort To HDMI 4K@60Hz, 2K@165Hz For Computer Laptop",804.0,,jumia,2026-05-04 22:06:47.602632
+"Wired in-ear headphones with high-quality microphone, 9D sound effects, 1.5-meter cable, 3.5mm plug, black",1620.0,,jumia,2026-05-04 22:06:47.602632
+"Vision Plus VP8850QV 50"" QLED 4K Smart TV – Netflix/YouTube/Prime Video, Inbuilt Decoder, Dolby Audio, Quantum Dot Display + Free Wall Mount (2YRS WRTY)",34070.0,,jumia,2026-05-04 22:07:25.789854
+"Amtec 43L12, 43"" FHD Smart Android Frameless TV, Netfix, Youtube, Bluetooth - Black (1YR WRTY)",16743.0,17999.0,jumia,2026-05-04 22:07:25.789854
+"Vitron HTC3288QS, 32 inch QLED Smart Android TV, QLED Smart TV, Android TV, Q LED - Black (1YR WRTY)",11320.0,12830.0,jumia,2026-05-04 22:07:25.789854
+"Itel TV 32 inches QLED Smart TV, Frameless, Bluetooth, Android14, Wifi, Digital, Netflix, YouTube, Prime, 32"" television (1 year warranty, New Launch price,wall mount free gift)",10798.0,,jumia,2026-05-04 22:07:25.789854
+"Hisense 43A4, 43"" INCH FRAMELESS SMART TELEVISION, FULL HD RESOLUTION, A4K SERIES ,NETFLIX ,YOUTUBE TV,DTS, INBUILT DECODER, BUILT-IN WIFI,VIDAA OS+FREE TV GUARD+BRACKET",24695.0,,jumia,2026-05-04 22:07:25.789854
+"Hisense 43'' Inch Smart FHD Frameless,SMART & DIGITAL LED TELEVISION+BRACKET+GUARD",24890.0,,jumia,2026-05-04 22:07:25.789854
+Vision Plus VP2111SB Immersive Sound 2.1 CH Sound Bar 240W - Black (2 YRs WRTY),8499.0,,jumia,2026-05-04 22:07:25.789854
+Amtec AM-308 3.1CH X-BASS Multimedia Home Theater System – 12000W PMPO - Black (1YR WRTY),3929.0,,jumia,2026-05-04 22:07:25.789854
+Lyons LYS2404 2.1CH Multimedia Speaker System Home Theatrer SubWoofer with BT(1YR WRTY),2599.0,2399.0,kilimall,2026-05-04 22:07:25.789854
+"Euroken HS-22LS19T2 19"" Inch Digital LED TV - HD Clear Color, Inbuilt Decoder, HDMI & USB",3999.0,,jumia,2026-05-04 22:07:25.789854
+"Gld 32"" Smart Frameless HD LED Television - Black",13795.0,,jumia,2026-05-04 22:07:25.789854
+"Skyworth 65Q6500H, 65"" 4K QLED Smart Google TV, Black (1YR WRTY)",74999.0,,jumia,2026-05-04 22:07:25.789854
+"K-Elec 55"" 4K Google Smart LED TV | Dolby Atmos Soundbar | Netflix & YouTube | 36-Month Warranty | FREE TV Guard + FREE Wall Mount",41999.0,,jumia,2026-05-04 22:07:25.789854
+Lenovo Thinkplus K30 Portable Bluetooth Wireless Speaker Waterproof USB Outdoor Loudspeaker Music Surround Bass Box Speakers,797.0,,jumia,2026-05-04 22:07:25.789854
+"Bluetooth Speaker 4D Subwoofer Wired Speaker For Laptop,TV",1059.0,,jumia,2026-05-04 22:07:25.789854
+GUIXIA XG88Pro Smart Bluetooth 5.3 Sunglasses Earphones,900.0,,jumia,2026-05-04 22:07:25.789854
+"Indoor Amplified HD Digital TV Antenna, VHF Or UHF Amplifier",896.0,,jumia,2026-05-04 22:07:25.789854
+"LASA LASA 3.5mm Microphone for Smartphones, PC, DSLR Cameras & Camcorders – Plug & Play, Clear Audio, Universal Compatibility",1219.0,,jumia,2026-05-04 22:07:25.789854
+"addigoes Extension Socket With USB, Power Extension Box with Surge Protection, 4 AC Sockets & 4 USB Ports (3 USB + 1 Type-C), USB Extension Socket with Overload Protection, LED Indicator, 2M Extension Cord for Home Office",799.0,,jumia,2026-05-04 22:07:25.789854
+Women Watch Men Smart Watches Sports Fintess Watches,1190.0,,jumia,2026-05-04 22:07:25.789854
+Mini Karaoke Machine With Wireless Microphones,3200.0,,jumia,2026-05-04 22:07:25.789854
+Rashnik TV Wall Mount TV Stand For 14” - 42” - Black,161.0,,jumia,2026-05-04 22:07:25.789854
+LUMINOUS ISTANBUL 2 TV CONSOLE 4FT WITH CABINET,4539.0,,jumia,2026-05-04 22:07:25.789854
+Gotv Decoder (1YR WRTY) - Black,719.0,,jumia,2026-05-04 22:07:25.789854
+"Skilltech 15"" To 43"" inches Tilting Wall Mount Bracket",445.0,,jumia,2026-05-04 22:07:25.789854
+MK Tv GUARD And 4 Way Extension Cable,850.0,1120.0,jumia,2026-05-04 22:07:25.789854
+Dstv Full kit (1YR WRTY),2250.0,,jumia,2026-05-04 22:07:25.789854
+"Mexico Modern Wooden TV Stand For Up To 55"" TV",3490.0,,jumia,2026-05-04 22:07:25.789854
+Power King Best 4 Way Power Extension With Long Cable - White,299.0,,jumia,2026-05-04 22:07:25.789854
+"ROTATING 14""-55"" TILT ROTATING WALL MOUNT BRACKET",660.0,,jumia,2026-05-04 22:07:25.789854
+Extension Cables 6 Way With 3 USB Ports Multiplug Power Extension Socket Power Cables.,649.0,,jumia,2026-05-04 22:07:25.789854
+"14-43 inches, 17'', 19'', 24'', 32'', 43'' Fixed TV Wall Mount Bracket",249.0,,jumia,2026-05-04 22:07:25.789854
+"TCL 55"" Inch,FRAMELESS,BLUETOOTH,Smart UHD 4K With HDR Google TV+360 BRACKET+TV GUARD",43999.0,,jumia,2026-05-04 22:07:25.789854
+"Hisense 55"" Inch 4K UHD SMART BLUETOOTH TV-2024 MODEL+FREE 360 WALL BRACKET",43999.0,,jumia,2026-05-04 22:07:25.789854
+Nobel 5.1 CH Top Bass-Home Theatre System/USB/Radio -22000W,12790.0,,jumia,2026-05-04 22:07:25.789854
+Istanbul 2 Modern TV Stand With LED Light - White & Black,4539.0,,jumia,2026-05-04 22:07:25.789854
+Nobel 5.1CH Home Theatre Speaker System 80W R.M.S Sub Woofer P.M.P.O 22000W Bluetooth Radio F.M/Aux Ready Super Bass Surround Sound Remote Control & LED Light,13290.0,,jumia,2026-05-04 22:07:25.789854
+"Official Store
+Amtec AM-02 2.1CH Multimedia Speaker BT/USB/SD/FM - Black (1YR WRTY)",5100.0,,jumia,2026-05-04 22:07:25.789854
+"Official Store
+Amaze Fridge/Freezer Guard/13A - UnderVoltage & Surge Protection",485.0,,jumia,2026-05-04 22:07:25.789854
+"Official Store
+Vitron V51SB- 2.1ch Soundbar System with Bluetooth, Black (1YR WRTY)",4840.0,,jumia,2026-05-04 22:07:25.789854
+"Home Design Rotating 14"" - 55"" Full Motion Swivel TV Bracket",649.0,,jumia,2026-05-04 22:07:25.789854
+Power King Iron Box And Electric Kettle Support 5 Way Power Extension-White// Blue,540.0,,jumia,2026-05-04 22:07:25.789854
+"Official Store
+Amaze TV Guard Voltage Power Protector 13A - Surge Protector",499.0,,jumia,2026-05-04 22:07:25.789854
+"Official Store
+Power King Extension Cable With 6 AC Power Outlets, 13A, And 2 M Long Cable",399.0,,jumia,2026-05-04 22:07:25.789854
+Digital LCD hair clipper - Long battery life-gold,3700.0,,jumia,2026-05-04 22:07:25.789854
+MK Electric Fridge Guard Plus Free 4-Way Extension Cable,850.0,,jumia,2026-05-04 22:07:25.789854
+Syble 1D Handheld Laser Barcode Scanner USB For Pos Printer,3500.0,,jumia,2026-05-04 22:07:25.789854
+XPrinter Label Printer XP-330B Thermal Printer Professional Bar Code High Speed Label Printers,10000.0,,jumia,2026-05-04 22:07:25.789854
+Camera Nanny Security Surveillance with Remote Smartphone Viewing,1500.0,,jumia,2026-05-04 22:07:25.789854
+Super Powerful Electric Air Dust Blowers,1849.0,,jumia,2026-05-04 22:07:25.789854
+Nanny Cam SMART SECURITY WITH INDUCTIVE LIGHTING,2000.0,,jumia,2026-05-04 22:07:25.789854
+Camera New Safe Intelligence Dual Lens WIFI CCTV Monitor Wireless Solar Camera,8500.0,,jumia,2026-05-04 22:07:25.789854
+Astronaut Star Projector Night Light,1755.0,,jumia,2026-05-04 22:07:25.789854
+Solar power Light Intelligence Dual Lens WIFI CCTV Monitor Wireless,8500.0,,jumia,2026-05-04 22:07:25.789854
+3.5mm Aux Cable Audio Cable Male To Male 3.5mm Jack For Headphone Speaker MP3,288.0,,jumia,2026-05-04 22:07:25.789854
+"Apple Original iPhone Wired Earphones with Lightning Connector, Built-in Mic & Volume Control – Compatible with iPhone 14/13/12/11 Pro Max, XS, XR, 8/7 Plus & All iOS Devices – Premium Sound & Durability (White)",1799.0,,jumia,2026-05-04 22:07:25.789854
+"4K DisplayPort To HDMI 4K@60Hz, 2K@165Hz For Computer Laptop",804.0,,jumia,2026-05-04 22:07:25.789854
+New LIGE Round Smart Watches Men/Women Full Touch Screen Sport Fitness Smart Watch IP67 Waterproof Bluetooth For Android ios Smartwatches Smart Wearable Fitness Electronic Clock,,1299.0,kilimall,2026-05-04 22:07:25.789854
+120W USB C Plug 4-Port Charger Plugs Fast Charging Travel Plug Adapter with 2 usb and 2 PD Port Wall Charging Head Universal Power Charging Compatible with Most Electronic Products,,359.0,kilimall,2026-05-04 22:07:25.789854
+RichRipple Men and women Sports LED Watch Silicone Colorful Watch Electronic Clock Digital Fashion Clock Smart Watch,,149.0,kilimall,2026-05-04 22:07:25.789854
+"KingNote 20000mAh X 2 Power Charging Bank Two pieces in combination portable SUPER Fast charde, charger cell phone, Bluetooth headset and other mobile electronic products",,1560.0,kilimall,2026-05-04 22:07:25.789854
+"【Clearance Sale】5-in-1 Electronics Cleaner Kit- Laptop Screen Cleaner kit,Multifunctional Bluetooth Earphones Cleaning Tool for iPhone Charging Port,Headphone,Earphone,Phone Speaker,Earpods",,199.0,kilimall,2026-05-04 22:07:25.789854
+"20000mAh Light Beam Power Bank with Fast Charging, Built-in Cables & LED Display portable charde, charger cell phone, Bluetooth headset and other mobile electronic products",,1000.0,kilimall,2026-05-04 22:07:25.789854
+Mini 25-in-1 Small Tri Circle Magnetic Precision Screwdriver Set Magnetic Mini Repair Electronics Phone PC Ratchet Drill Socket Repair Tool Bit Portable Professional Kit Set,,289.0,kilimall,2026-05-04 22:07:25.789854
+Tagwood 7500W 2.1CH Multimedia Bluetooth Woofer Speaker System Subwoofer Soundbar BT/USB/SD/FM Subwoofer Home Audilo System Soundbar with Remote Control S1 Speaker bass,,3899.0,kilimall,2026-05-04 22:07:25.789854
+"【Limited Offer】Euroken EK-26LC24T2 24"" Inch With CAST TV function Full Screen Display Television Ac/dc Digital Led Tv With Inbuilt Decoder For Local Channels Wide Color Enhancer, Usb Hdmi Ports",,4899.0,kilimall,2026-05-04 22:07:25.789854
+Y68 Waterproof Smart Watch Bluetooth Watch SmartWatch for Women Electronic Watch for Kids Men Fitness Tracker Men Women Sports Watches Wrist watch Smart Beacelet Kids Smartwatch Kids Watch,,703.0,kilimall,2026-05-04 22:07:25.789854
+Wireless Headset Over Ear earphone Noise Cancelling Bluetooth-Compatible 5.0 Sports Game Headset Built-in Mic Applicable to mobile phones computers and electronic products Local fast delivery,,540.0,kilimall,2026-05-04 22:07:25.789854
+"Smart LCD Writing Tablet, 8.5 Inch Graphics Tablet Electronic Writing Drawing Colorful Screen Doodle Board For kids",,338.0,kilimall,2026-05-04 22:07:25.789854
+Smart Watches Men's Sport Casual LED Watches Men Digital Clock Multi-Functional Rubber Man Fitness Army Military Electronic Watch,,449.0,kilimall,2026-05-04 22:07:25.789854
+30W Universal AC to DC Power Adapter - Multi Output Voltages 3V 4.5V 5V 6V 7.5V 9V 12V Switching Power Supply with 8 Selectable Adapter Plugs for Routers Speakers Household Electronic (MAX 2A/2000mA),,1300.0,kilimall,2026-05-04 22:07:25.789854
+Third Hand 5X Magnifying Glass Stand For Electronic Works Jeweler Watch Repair Welding Soldering Magnifier With Dual Clips,,1201.0,kilimall,2026-05-04 22:07:25.789854
+8.5inch LCD Writing Tablet Kids Erasable Colorful Drawing Board Graphic Electronic Writing Drawing Screen Doodle Board Children's Educational Toys,,338.0,kilimall,2026-05-04 22:07:25.789854
+Milky White Super Glue T5000 Repair Cell Phone Display Screen 50ML 110ML Adhesive For Glass Electronic Component Laptop Plastic Rubber,,699.0,kilimall,2026-05-04 22:07:25.789854
+"Vision Plus VP8850QV 50"" QLED 4K Smart TV – Netflix/YouTube/Prime Video, Inbuilt Decoder, Dolby Audio, Quantum Dot Display + Free Wall Mount (2YRS WRTY)",34070.0,,jumia,2026-05-04 22:12:05.379265
+"Amtec 43L12, 43"" FHD Smart Android Frameless TV, Netfix, Youtube, Bluetooth - Black (1YR WRTY)",16743.0,17999.0,jumia,2026-05-04 22:12:05.379265
+"Vitron HTC3288QS, 32 inch QLED Smart Android TV, QLED Smart TV, Android TV, Q LED - Black (1YR WRTY)",11320.0,12830.0,jumia,2026-05-04 22:12:05.379265
+"Itel TV 32 inches QLED Smart TV, Frameless, Bluetooth, Android14, Wifi, Digital, Netflix, YouTube, Prime, 32"" television (1 year warranty, New Launch price,wall mount free gift)",10798.0,,jumia,2026-05-04 22:12:05.379265
+"Hisense 43A4, 43"" INCH FRAMELESS SMART TELEVISION, FULL HD RESOLUTION, A4K SERIES ,NETFLIX ,YOUTUBE TV,DTS, INBUILT DECODER, BUILT-IN WIFI,VIDAA OS+FREE TV GUARD+BRACKET",24695.0,,jumia,2026-05-04 22:12:05.379265
+"Hisense 43'' Inch Smart FHD Frameless,SMART & DIGITAL LED TELEVISION+BRACKET+GUARD",24890.0,,jumia,2026-05-04 22:12:05.379265
+Vision Plus VP2111SB Immersive Sound 2.1 CH Sound Bar 240W - Black (2 YRs WRTY),8499.0,,jumia,2026-05-04 22:12:05.379265
+Amtec AM-308 3.1CH X-BASS Multimedia Home Theater System – 12000W PMPO - Black (1YR WRTY),3929.0,,jumia,2026-05-04 22:12:05.379265
+Lyons LYS2404 2.1CH Multimedia Speaker System Home Theatrer SubWoofer with BT(1YR WRTY),2599.0,2399.0,kilimall,2026-05-04 22:12:05.379265
+"Euroken HS-22LS19T2 19"" Inch Digital LED TV - HD Clear Color, Inbuilt Decoder, HDMI & USB",3999.0,,jumia,2026-05-04 22:12:05.379265
+"Gld 32"" Smart Frameless HD LED Television - Black",13795.0,,jumia,2026-05-04 22:12:05.379265
+"Skyworth 65Q6500H, 65"" 4K QLED Smart Google TV, Black (1YR WRTY)",74999.0,,jumia,2026-05-04 22:12:05.379265
+"K-Elec 55"" 4K Google Smart LED TV | Dolby Atmos Soundbar | Netflix & YouTube | 36-Month Warranty | FREE TV Guard + FREE Wall Mount",41999.0,,jumia,2026-05-04 22:12:05.379265
+Lenovo Thinkplus K30 Portable Bluetooth Wireless Speaker Waterproof USB Outdoor Loudspeaker Music Surround Bass Box Speakers,797.0,,jumia,2026-05-04 22:12:05.379265
+"Bluetooth Speaker 4D Subwoofer Wired Speaker For Laptop,TV",1059.0,,jumia,2026-05-04 22:12:05.379265
+GUIXIA XG88Pro Smart Bluetooth 5.3 Sunglasses Earphones,900.0,,jumia,2026-05-04 22:12:05.379265
+"Indoor Amplified HD Digital TV Antenna, VHF Or UHF Amplifier",896.0,,jumia,2026-05-04 22:12:05.379265
+"LASA LASA 3.5mm Microphone for Smartphones, PC, DSLR Cameras & Camcorders – Plug & Play, Clear Audio, Universal Compatibility",1219.0,,jumia,2026-05-04 22:12:05.379265
+"addigoes Extension Socket With USB, Power Extension Box with Surge Protection, 4 AC Sockets & 4 USB Ports (3 USB + 1 Type-C), USB Extension Socket with Overload Protection, LED Indicator, 2M Extension Cord for Home Office",799.0,,jumia,2026-05-04 22:12:05.379265
+Women Watch Men Smart Watches Sports Fintess Watches,1190.0,,jumia,2026-05-04 22:12:05.379265
+Mini Karaoke Machine With Wireless Microphones,3200.0,,jumia,2026-05-04 22:12:05.379265
+Rashnik TV Wall Mount TV Stand For 14” - 42” - Black,161.0,,jumia,2026-05-04 22:12:05.379265
+LUMINOUS ISTANBUL 2 TV CONSOLE 4FT WITH CABINET,4539.0,,jumia,2026-05-04 22:12:05.379265
+Gotv Decoder (1YR WRTY) - Black,719.0,,jumia,2026-05-04 22:12:05.379265
+"Skilltech 15"" To 43"" inches Tilting Wall Mount Bracket",445.0,,jumia,2026-05-04 22:12:05.379265
+MK Tv GUARD And 4 Way Extension Cable,850.0,1120.0,jumia,2026-05-04 22:12:05.379265
+Dstv Full kit (1YR WRTY),2250.0,,jumia,2026-05-04 22:12:05.379265
+"Mexico Modern Wooden TV Stand For Up To 55"" TV",3490.0,,jumia,2026-05-04 22:12:05.379265
+Power King Best 4 Way Power Extension With Long Cable - White,299.0,,jumia,2026-05-04 22:12:05.379265
+"ROTATING 14""-55"" TILT ROTATING WALL MOUNT BRACKET",660.0,,jumia,2026-05-04 22:12:05.379265
+Extension Cables 6 Way With 3 USB Ports Multiplug Power Extension Socket Power Cables.,649.0,,jumia,2026-05-04 22:12:05.379265
+"14-43 inches, 17'', 19'', 24'', 32'', 43'' Fixed TV Wall Mount Bracket",249.0,,jumia,2026-05-04 22:12:05.379265
+"TCL 55"" Inch,FRAMELESS,BLUETOOTH,Smart UHD 4K With HDR Google TV+360 BRACKET+TV GUARD",43999.0,,jumia,2026-05-04 22:12:05.379265
+"Hisense 55"" Inch 4K UHD SMART BLUETOOTH TV-2024 MODEL+FREE 360 WALL BRACKET",43999.0,,jumia,2026-05-04 22:12:05.379265
+Nobel 5.1 CH Top Bass-Home Theatre System/USB/Radio -22000W,12790.0,,jumia,2026-05-04 22:12:05.379265
+Istanbul 2 Modern TV Stand With LED Light - White & Black,4539.0,,jumia,2026-05-04 22:12:05.379265
+Nobel 5.1CH Home Theatre Speaker System 80W R.M.S Sub Woofer P.M.P.O 22000W Bluetooth Radio F.M/Aux Ready Super Bass Surround Sound Remote Control & LED Light,13290.0,,jumia,2026-05-04 22:12:05.379265
+"Official Store
+Amtec AM-02 2.1CH Multimedia Speaker BT/USB/SD/FM - Black (1YR WRTY)",5100.0,,jumia,2026-05-04 22:12:05.379265
+"Official Store
+Amaze Fridge/Freezer Guard/13A - UnderVoltage & Surge Protection",485.0,,jumia,2026-05-04 22:12:05.379265
+"Official Store
+Vitron V51SB- 2.1ch Soundbar System with Bluetooth, Black (1YR WRTY)",4840.0,,jumia,2026-05-04 22:12:05.379265
+"Home Design Rotating 14"" - 55"" Full Motion Swivel TV Bracket",649.0,,jumia,2026-05-04 22:12:05.379265
+Power King Iron Box And Electric Kettle Support 5 Way Power Extension-White// Blue,540.0,,jumia,2026-05-04 22:12:05.379265
+"Official Store
+Amaze TV Guard Voltage Power Protector 13A - Surge Protector",499.0,,jumia,2026-05-04 22:12:05.379265
+"Official Store
+Power King Extension Cable With 6 AC Power Outlets, 13A, And 2 M Long Cable",399.0,,jumia,2026-05-04 22:12:05.379265
+Digital LCD hair clipper - Long battery life-gold,3700.0,,jumia,2026-05-04 22:12:05.379265
+MK Electric Fridge Guard Plus Free 4-Way Extension Cable,850.0,,jumia,2026-05-04 22:12:05.379265
+IP Camera Home Security System 5MP V380 Pro Motion Detection Night Vision WiFi Indoor Camera,3200.0,,jumia,2026-05-04 22:12:05.379265
+"SILVER CREST 2 IN 1, 2LITRES HEAVY DUTY 4500WATTS",2599.0,,jumia,2026-05-04 22:12:05.379265
+Panoramic Wireless WiFi 360 Degree Rotating Camera White,930.0,,jumia,2026-05-04 22:12:05.379265
+Rotation Foldable Aerial Camera RC Gift HD Camera,9800.0,,jumia,2026-05-04 22:12:05.379265
+"Bolizma Bluetooth Earbuds, Wireless in Ear Buds with Hi-Res Audio, Secure Fit, BT 5.4, One-Step Pairing, for iPhone Android & More",608.0,,jumia,2026-05-04 22:12:05.379265
+Astronaut Star Projector Night Light,1755.0,,jumia,2026-05-04 22:12:05.379265
+"XIAOMI Redmi Buds 6 Play Wireless Earbuds White, Bluetooth 5.4, Long Battery Life, Noise Reduction Calls, Comfortable Fit",1900.0,,jumia,2026-05-04 22:12:05.379265
+"Apple Original iPhone Wired Earphones with Lightning Connector, Built-in Mic & Volume Control – Compatible with iPhone 14/13/12/11 Pro Max, XS, XR, 8/7 Plus & All iOS Devices – Premium Sound & Durability (White)",1799.0,,jumia,2026-05-04 22:12:05.379265
+"4K DisplayPort To HDMI 4K@60Hz, 2K@165Hz For Computer Laptop",804.0,,jumia,2026-05-04 22:12:05.379265
+"Wired in-ear headphones with high-quality microphone, 9D sound effects, 1.5-meter cable, 3.5mm plug, black",1620.0,,jumia,2026-05-04 22:12:05.379265
+New LIGE Round Smart Watches Men/Women Full Touch Screen Sport Fitness Smart Watch IP67 Waterproof Bluetooth For Android ios Smartwatches Smart Wearable Fitness Electronic Clock,,1299.0,kilimall,2026-05-04 22:12:05.379265
+120W USB C Plug 4-Port Charger Plugs Fast Charging Travel Plug Adapter with 2 usb and 2 PD Port Wall Charging Head Universal Power Charging Compatible with Most Electronic Products,,359.0,kilimall,2026-05-04 22:12:05.379265
+RichRipple Men and women Sports LED Watch Silicone Colorful Watch Electronic Clock Digital Fashion Clock Smart Watch,,149.0,kilimall,2026-05-04 22:12:05.379265
+"KingNote 20000mAh X 2 Power Charging Bank Two pieces in combination portable SUPER Fast charde, charger cell phone, Bluetooth headset and other mobile electronic products",,1560.0,kilimall,2026-05-04 22:12:05.379265
+"【Clearance Sale】5-in-1 Electronics Cleaner Kit- Laptop Screen Cleaner kit,Multifunctional Bluetooth Earphones Cleaning Tool for iPhone Charging Port,Headphone,Earphone,Phone Speaker,Earpods",,199.0,kilimall,2026-05-04 22:12:05.379265
+"20000mAh Light Beam Power Bank with Fast Charging, Built-in Cables & LED Display portable charde, charger cell phone, Bluetooth headset and other mobile electronic products",,1000.0,kilimall,2026-05-04 22:12:05.379265
+Mini 25-in-1 Small Tri Circle Magnetic Precision Screwdriver Set Magnetic Mini Repair Electronics Phone PC Ratchet Drill Socket Repair Tool Bit Portable Professional Kit Set,,289.0,kilimall,2026-05-04 22:12:05.379265
+Tagwood 7500W 2.1CH Multimedia Bluetooth Woofer Speaker System Subwoofer Soundbar BT/USB/SD/FM Subwoofer Home Audilo System Soundbar with Remote Control S1 Speaker bass,,3899.0,kilimall,2026-05-04 22:12:05.379265
+"【Limited Offer】Euroken EK-26LC24T2 24"" Inch With CAST TV function Full Screen Display Television Ac/dc Digital Led Tv With Inbuilt Decoder For Local Channels Wide Color Enhancer, Usb Hdmi Ports",,4899.0,kilimall,2026-05-04 22:12:05.379265
+Y68 Waterproof Smart Watch Bluetooth Watch SmartWatch for Women Electronic Watch for Kids Men Fitness Tracker Men Women Sports Watches Wrist watch Smart Beacelet Kids Smartwatch Kids Watch,,703.0,kilimall,2026-05-04 22:12:05.379265
+Wireless Headset Over Ear earphone Noise Cancelling Bluetooth-Compatible 5.0 Sports Game Headset Built-in Mic Applicable to mobile phones computers and electronic products Local fast delivery,,540.0,kilimall,2026-05-04 22:12:05.379265
+"Smart LCD Writing Tablet, 8.5 Inch Graphics Tablet Electronic Writing Drawing Colorful Screen Doodle Board For kids",,338.0,kilimall,2026-05-04 22:12:05.379265
+Smart Watches Men's Sport Casual LED Watches Men Digital Clock Multi-Functional Rubber Man Fitness Army Military Electronic Watch,,449.0,kilimall,2026-05-04 22:12:05.379265
+30W Universal AC to DC Power Adapter - Multi Output Voltages 3V 4.5V 5V 6V 7.5V 9V 12V Switching Power Supply with 8 Selectable Adapter Plugs for Routers Speakers Household Electronic (MAX 2A/2000mA),,1300.0,kilimall,2026-05-04 22:12:05.379265
+Third Hand 5X Magnifying Glass Stand For Electronic Works Jeweler Watch Repair Welding Soldering Magnifier With Dual Clips,,1201.0,kilimall,2026-05-04 22:12:05.379265
+8.5inch LCD Writing Tablet Kids Erasable Colorful Drawing Board Graphic Electronic Writing Drawing Screen Doodle Board Children's Educational Toys,,338.0,kilimall,2026-05-04 22:12:05.379265
+Milky White Super Glue T5000 Repair Cell Phone Display Screen 50ML 110ML Adhesive For Glass Electronic Component Laptop Plastic Rubber,,699.0,kilimall,2026-05-04 22:12:05.379265
+"Vision Plus VP8850QV 50"" QLED 4K Smart TV – Netflix/YouTube/Prime Video, Inbuilt Decoder, Dolby Audio, Quantum Dot Display + Free Wall Mount (2YRS WRTY)",34070.0,,jumia,2026-05-04 22:20:03.781578
+"Amtec 43L12, 43"" FHD Smart Android Frameless TV, Netfix, Youtube, Bluetooth - Black (1YR WRTY)",16743.0,17999.0,jumia,2026-05-04 22:20:03.781578
+"Vitron HTC3288QS, 32 inch QLED Smart Android TV, QLED Smart TV, Android TV, Q LED - Black (1YR WRTY)",11320.0,12830.0,jumia,2026-05-04 22:20:03.781578
+"Itel TV 32 inches QLED Smart TV, Frameless, Bluetooth, Android14, Wifi, Digital, Netflix, YouTube, Prime, 32"" television (1 year warranty, New Launch price,wall mount free gift)",10798.0,,jumia,2026-05-04 22:20:03.781578
+"Hisense 43A4, 43"" INCH FRAMELESS SMART TELEVISION, FULL HD RESOLUTION, A4K SERIES ,NETFLIX ,YOUTUBE TV,DTS, INBUILT DECODER, BUILT-IN WIFI,VIDAA OS+FREE TV GUARD+BRACKET",24695.0,,jumia,2026-05-04 22:20:03.781578
+"Hisense 43'' Inch Smart FHD Frameless,SMART & DIGITAL LED TELEVISION+BRACKET+GUARD",24890.0,,jumia,2026-05-04 22:20:03.781578
+Vision Plus VP2111SB Immersive Sound 2.1 CH Sound Bar 240W - Black (2 YRs WRTY),8499.0,,jumia,2026-05-04 22:20:03.781578
+Amtec AM-308 3.1CH X-BASS Multimedia Home Theater System – 12000W PMPO - Black (1YR WRTY),3929.0,,jumia,2026-05-04 22:20:03.781578
+Lyons LYS2404 2.1CH Multimedia Speaker System Home Theatrer SubWoofer with BT(1YR WRTY),2599.0,2399.0,kilimall,2026-05-04 22:20:03.781578
+"Euroken HS-22LS19T2 19"" Inch Digital LED TV - HD Clear Color, Inbuilt Decoder, HDMI & USB",3999.0,,jumia,2026-05-04 22:20:03.781578
+"Gld 32"" Smart Frameless HD LED Television - Black",13795.0,,jumia,2026-05-04 22:20:03.781578
+"Skyworth 65Q6500H, 65"" 4K QLED Smart Google TV, Black (1YR WRTY)",74999.0,,jumia,2026-05-04 22:20:03.781578
+"K-Elec 55"" 4K Google Smart LED TV | Dolby Atmos Soundbar | Netflix & YouTube | 36-Month Warranty | FREE TV Guard + FREE Wall Mount",41999.0,,jumia,2026-05-04 22:20:03.781578
+Lenovo Thinkplus K30 Portable Bluetooth Wireless Speaker Waterproof USB Outdoor Loudspeaker Music Surround Bass Box Speakers,797.0,,jumia,2026-05-04 22:20:03.781578
+"Bluetooth Speaker 4D Subwoofer Wired Speaker For Laptop,TV",1059.0,,jumia,2026-05-04 22:20:03.781578
+GUIXIA XG88Pro Smart Bluetooth 5.3 Sunglasses Earphones,900.0,,jumia,2026-05-04 22:20:03.781578
+"Indoor Amplified HD Digital TV Antenna, VHF Or UHF Amplifier",896.0,,jumia,2026-05-04 22:20:03.781578
+"LASA LASA 3.5mm Microphone for Smartphones, PC, DSLR Cameras & Camcorders – Plug & Play, Clear Audio, Universal Compatibility",1219.0,,jumia,2026-05-04 22:20:03.781578
+"addigoes Extension Socket With USB, Power Extension Box with Surge Protection, 4 AC Sockets & 4 USB Ports (3 USB + 1 Type-C), USB Extension Socket with Overload Protection, LED Indicator, 2M Extension Cord for Home Office",799.0,,jumia,2026-05-04 22:20:03.781578
+Women Watch Men Smart Watches Sports Fintess Watches,1190.0,,jumia,2026-05-04 22:20:03.781578
+Mini Karaoke Machine With Wireless Microphones,3200.0,,jumia,2026-05-04 22:20:03.781578
+Rashnik TV Wall Mount TV Stand For 14” - 42” - Black,161.0,,jumia,2026-05-04 22:20:03.781578
+LUMINOUS ISTANBUL 2 TV CONSOLE 4FT WITH CABINET,4539.0,,jumia,2026-05-04 22:20:03.781578
+Gotv Decoder (1YR WRTY) - Black,719.0,,jumia,2026-05-04 22:20:03.781578
+"Skilltech 15"" To 43"" inches Tilting Wall Mount Bracket",445.0,,jumia,2026-05-04 22:20:03.781578
+MK Tv GUARD And 4 Way Extension Cable,850.0,1120.0,jumia,2026-05-04 22:20:03.781578
+"Mexico Modern Wooden TV Stand For Up To 55"" TV",3490.0,,jumia,2026-05-04 22:20:03.781578
+Power King Best 4 Way Power Extension With Long Cable - White,299.0,,jumia,2026-05-04 22:20:03.781578
+"ROTATING 14""-55"" TILT ROTATING WALL MOUNT BRACKET",660.0,,jumia,2026-05-04 22:20:03.781578
+Extension Cables 6 Way With 3 USB Ports Multiplug Power Extension Socket Power Cables.,649.0,,jumia,2026-05-04 22:20:03.781578
+"14-43 inches, 17'', 19'', 24'', 32'', 43'' Fixed TV Wall Mount Bracket",249.0,,jumia,2026-05-04 22:20:03.781578
+"TCL 55"" Inch,FRAMELESS,BLUETOOTH,Smart UHD 4K With HDR Google TV+360 BRACKET+TV GUARD",43999.0,,jumia,2026-05-04 22:20:03.781578
+"Hisense 55"" Inch 4K UHD SMART BLUETOOTH TV-2024 MODEL+FREE 360 WALL BRACKET",43999.0,,jumia,2026-05-04 22:20:03.781578
+Nobel 5.1 CH Top Bass-Home Theatre System/USB/Radio -22000W,12790.0,,jumia,2026-05-04 22:20:03.781578
+Istanbul 2 Modern TV Stand With LED Light - White & Black,4539.0,,jumia,2026-05-04 22:20:03.781578
+Nobel 5.1CH Home Theatre Speaker System 80W R.M.S Sub Woofer P.M.P.O 22000W Bluetooth Radio F.M/Aux Ready Super Bass Surround Sound Remote Control & LED Light,13290.0,,jumia,2026-05-04 22:20:03.781578
+"Official Store
+Amtec AM-02 2.1CH Multimedia Speaker BT/USB/SD/FM - Black (1YR WRTY)",5100.0,,jumia,2026-05-04 22:20:03.781578
+"Official Store
+Amaze Fridge/Freezer Guard/13A - UnderVoltage & Surge Protection",485.0,,jumia,2026-05-04 22:20:03.781578
+"Official Store
+Vitron V51SB- 2.1ch Soundbar System with Bluetooth, Black (1YR WRTY)",4840.0,,jumia,2026-05-04 22:20:03.781578
+"Home Design Rotating 14"" - 55"" Full Motion Swivel TV Bracket",649.0,,jumia,2026-05-04 22:20:03.781578
+Power King Iron Box And Electric Kettle Support 5 Way Power Extension-White// Blue,540.0,,jumia,2026-05-04 22:20:03.781578
+"Official Store
+Amaze TV Guard Voltage Power Protector 13A - Surge Protector",499.0,,jumia,2026-05-04 22:20:03.781578
+"Official Store
+Power King Extension Cable With 6 AC Power Outlets, 13A, And 2 M Long Cable",399.0,,jumia,2026-05-04 22:20:03.781578
+Digital LCD hair clipper - Long battery life-gold,3700.0,,jumia,2026-05-04 22:20:03.781578
+MK Electric Fridge Guard Plus Free 4-Way Extension Cable,850.0,,jumia,2026-05-04 22:20:03.781578
+IP Camera Home Security System 5MP V380 Pro Motion Detection Night Vision WiFi Indoor Camera,3200.0,,jumia,2026-05-04 22:20:03.781578
+"SILVER CREST 2 IN 1, 2LITRES HEAVY DUTY 4500WATTS",2599.0,,jumia,2026-05-04 22:20:03.781578
+Rotation Foldable Aerial Camera RC Gift HD Camera,9800.0,,jumia,2026-05-04 22:20:03.781578
+Panoramic Wireless WiFi 360 Degree Rotating Camera White,930.0,,jumia,2026-05-04 22:20:03.781578
+"Bolizma Bluetooth Earbuds, Wireless in Ear Buds with Hi-Res Audio, Secure Fit, BT 5.4, One-Step Pairing, for iPhone Android & More",608.0,,jumia,2026-05-04 22:20:03.781578
+"XIAOMI Redmi Buds 6 Play Wireless Earbuds White, Bluetooth 5.4, Long Battery Life, Noise Reduction Calls, Comfortable Fit",1900.0,,jumia,2026-05-04 22:20:03.781578
+"4K DisplayPort To HDMI 4K@60Hz, 2K@165Hz For Computer Laptop",804.0,,jumia,2026-05-04 22:20:03.781578
+Eveready Heavy Duty Long Lasting AAA Batteries- Pack Of 20,899.0,,jumia,2026-05-04 22:20:03.781578
+"Wired in-ear headphones with high-quality microphone, 9D sound effects, 1.5-meter cable, 3.5mm plug, black",1620.0,,jumia,2026-05-04 22:20:03.781578
+"Original USB Type-C Earphone, Sound By AKG With Remote & Mic",850.0,,jumia,2026-05-04 22:20:03.781578
+New LIGE Round Smart Watches Men/Women Full Touch Screen Sport Fitness Smart Watch IP67 Waterproof Bluetooth For Android ios Smartwatches Smart Wearable Fitness Electronic Clock,,1299.0,kilimall,2026-05-04 22:20:03.781578
+120W USB C Plug 4-Port Charger Plugs Fast Charging Travel Plug Adapter with 2 usb and 2 PD Port Wall Charging Head Universal Power Charging Compatible with Most Electronic Products,,359.0,kilimall,2026-05-04 22:20:03.781578
+RichRipple Men and women Sports LED Watch Silicone Colorful Watch Electronic Clock Digital Fashion Clock Smart Watch,,149.0,kilimall,2026-05-04 22:20:03.781578
+"KingNote 20000mAh X 2 Power Charging Bank Two pieces in combination portable SUPER Fast charde, charger cell phone, Bluetooth headset and other mobile electronic products",,1560.0,kilimall,2026-05-04 22:20:03.781578
+"【Clearance Sale】5-in-1 Electronics Cleaner Kit- Laptop Screen Cleaner kit,Multifunctional Bluetooth Earphones Cleaning Tool for iPhone Charging Port,Headphone,Earphone,Phone Speaker,Earpods",,199.0,kilimall,2026-05-04 22:20:03.781578
+"20000mAh Light Beam Power Bank with Fast Charging, Built-in Cables & LED Display portable charde, charger cell phone, Bluetooth headset and other mobile electronic products",,1000.0,kilimall,2026-05-04 22:20:03.781578
+Mini 25-in-1 Small Tri Circle Magnetic Precision Screwdriver Set Magnetic Mini Repair Electronics Phone PC Ratchet Drill Socket Repair Tool Bit Portable Professional Kit Set,,289.0,kilimall,2026-05-04 22:20:03.781578
+Tagwood 7500W 2.1CH Multimedia Bluetooth Woofer Speaker System Subwoofer Soundbar BT/USB/SD/FM Subwoofer Home Audilo System Soundbar with Remote Control S1 Speaker bass,,3899.0,kilimall,2026-05-04 22:20:03.781578
+"【Limited Offer】Euroken EK-26LC24T2 24"" Inch With CAST TV function Full Screen Display Television Ac/dc Digital Led Tv With Inbuilt Decoder For Local Channels Wide Color Enhancer, Usb Hdmi Ports",,4899.0,kilimall,2026-05-04 22:20:03.781578
+Y68 Waterproof Smart Watch Bluetooth Watch SmartWatch for Women Electronic Watch for Kids Men Fitness Tracker Men Women Sports Watches Wrist watch Smart Beacelet Kids Smartwatch Kids Watch,,703.0,kilimall,2026-05-04 22:20:03.781578
+Wireless Headset Over Ear earphone Noise Cancelling Bluetooth-Compatible 5.0 Sports Game Headset Built-in Mic Applicable to mobile phones computers and electronic products Local fast delivery,,540.0,kilimall,2026-05-04 22:20:03.781578
+"Smart LCD Writing Tablet, 8.5 Inch Graphics Tablet Electronic Writing Drawing Colorful Screen Doodle Board For kids",,338.0,kilimall,2026-05-04 22:20:03.781578
+Smart Watches Men's Sport Casual LED Watches Men Digital Clock Multi-Functional Rubber Man Fitness Army Military Electronic Watch,,449.0,kilimall,2026-05-04 22:20:03.781578
+30W Universal AC to DC Power Adapter - Multi Output Voltages 3V 4.5V 5V 6V 7.5V 9V 12V Switching Power Supply with 8 Selectable Adapter Plugs for Routers Speakers Household Electronic (MAX 2A/2000mA),,1300.0,kilimall,2026-05-04 22:20:03.781578
+Third Hand 5X Magnifying Glass Stand For Electronic Works Jeweler Watch Repair Welding Soldering Magnifier With Dual Clips,,1201.0,kilimall,2026-05-04 22:20:03.781578
+8.5inch LCD Writing Tablet Kids Erasable Colorful Drawing Board Graphic Electronic Writing Drawing Screen Doodle Board Children's Educational Toys,,338.0,kilimall,2026-05-04 22:20:03.781578
+Milky White Super Glue T5000 Repair Cell Phone Display Screen 50ML 110ML Adhesive For Glass Electronic Component Laptop Plastic Rubber,,699.0,kilimall,2026-05-04 22:20:03.781578
+"Vision Plus VP8850QV 50"" QLED 4K Smart TV – Netflix/YouTube/Prime Video, Inbuilt Decoder, Dolby Audio, Quantum Dot Display + Free Wall Mount (2YRS WRTY)",34070.0,,jumia,2026-05-04 22:32:01.645909
+"Amtec 43L12, 43"" FHD Smart Android Frameless TV, Netfix, Youtube, Bluetooth - Black (1YR WRTY)",16743.0,17999.0,jumia,2026-05-04 22:32:01.645909
+"Vitron HTC3288QS, 32 inch QLED Smart Android TV, QLED Smart TV, Android TV, Q LED - Black (1YR WRTY)",11320.0,12830.0,jumia,2026-05-04 22:32:01.645909
+"Itel TV 32 inches QLED Smart TV, Frameless, Bluetooth, Android14, Wifi, Digital, Netflix, YouTube, Prime, 32"" television (1 year warranty, New Launch price,wall mount free gift)",10798.0,,jumia,2026-05-04 22:32:01.645909
+"Hisense 43A4, 43"" INCH FRAMELESS SMART TELEVISION, FULL HD RESOLUTION, A4K SERIES ,NETFLIX ,YOUTUBE TV,DTS, INBUILT DECODER, BUILT-IN WIFI,VIDAA OS+FREE TV GUARD+BRACKET",24695.0,,jumia,2026-05-04 22:32:01.645909
+"Hisense 43'' Inch Smart FHD Frameless,SMART & DIGITAL LED TELEVISION+BRACKET+GUARD",24890.0,,jumia,2026-05-04 22:32:01.645909
+Vision Plus VP2111SB Immersive Sound 2.1 CH Sound Bar 240W - Black (2 YRs WRTY),8499.0,,jumia,2026-05-04 22:32:01.645909
+Amtec AM-308 3.1CH X-BASS Multimedia Home Theater System – 12000W PMPO - Black (1YR WRTY),3929.0,,jumia,2026-05-04 22:32:01.645909
+Lyons LYS2404 2.1CH Multimedia Speaker System Home Theatrer SubWoofer with BT(1YR WRTY),2599.0,2399.0,kilimall,2026-05-04 22:32:01.645909
+"Euroken HS-22LS19T2 19"" Inch Digital LED TV - HD Clear Color, Inbuilt Decoder, HDMI & USB",3999.0,,jumia,2026-05-04 22:32:01.645909
+"Gld 32"" Smart Frameless HD LED Television - Black",13795.0,,jumia,2026-05-04 22:32:01.645909
+"Skyworth 65Q6500H, 65"" 4K QLED Smart Google TV, Black (1YR WRTY)",74999.0,,jumia,2026-05-04 22:32:01.645909
+"K-Elec 55"" 4K Google Smart LED TV | Dolby Atmos Soundbar | Netflix & YouTube | 36-Month Warranty | FREE TV Guard + FREE Wall Mount",41999.0,,jumia,2026-05-04 22:32:01.645909
+Lenovo Thinkplus K30 Portable Bluetooth Wireless Speaker Waterproof USB Outdoor Loudspeaker Music Surround Bass Box Speakers,797.0,,jumia,2026-05-04 22:32:01.645909
+"Bluetooth Speaker 4D Subwoofer Wired Speaker For Laptop,TV",1059.0,,jumia,2026-05-04 22:32:01.645909
+GUIXIA XG88Pro Smart Bluetooth 5.3 Sunglasses Earphones,900.0,,jumia,2026-05-04 22:32:01.645909
+"Indoor Amplified HD Digital TV Antenna, VHF Or UHF Amplifier",896.0,,jumia,2026-05-04 22:32:01.645909
+"LASA LASA 3.5mm Microphone for Smartphones, PC, DSLR Cameras & Camcorders – Plug & Play, Clear Audio, Universal Compatibility",1219.0,,jumia,2026-05-04 22:32:01.645909
+"addigoes Extension Socket With USB, Power Extension Box with Surge Protection, 4 AC Sockets & 4 USB Ports (3 USB + 1 Type-C), USB Extension Socket with Overload Protection, LED Indicator, 2M Extension Cord for Home Office",799.0,,jumia,2026-05-04 22:32:01.645909
+Women Watch Men Smart Watches Sports Fintess Watches,1190.0,,jumia,2026-05-04 22:32:01.645909
+Mini Karaoke Machine With Wireless Microphones,3200.0,,jumia,2026-05-04 22:32:01.645909
+Rashnik TV Wall Mount TV Stand For 14” - 42” - Black,161.0,,jumia,2026-05-04 22:32:01.645909
+LUMINOUS ISTANBUL 2 TV CONSOLE 4FT WITH CABINET,4539.0,,jumia,2026-05-04 22:32:01.645909
+Gotv Decoder (1YR WRTY) - Black,719.0,,jumia,2026-05-04 22:32:01.645909
+"Skilltech 15"" To 43"" inches Tilting Wall Mount Bracket",445.0,,jumia,2026-05-04 22:32:01.645909
+MK Tv GUARD And 4 Way Extension Cable,850.0,1120.0,jumia,2026-05-04 22:32:01.645909
+"Mexico Modern Wooden TV Stand For Up To 55"" TV",3490.0,,jumia,2026-05-04 22:32:01.645909
+Power King Best 4 Way Power Extension With Long Cable - White,299.0,,jumia,2026-05-04 22:32:01.645909
+"ROTATING 14""-55"" TILT ROTATING WALL MOUNT BRACKET",660.0,,jumia,2026-05-04 22:32:01.645909
+Extension Cables 6 Way With 3 USB Ports Multiplug Power Extension Socket Power Cables.,649.0,,jumia,2026-05-04 22:32:01.645909
+"14-43 inches, 17'', 19'', 24'', 32'', 43'' Fixed TV Wall Mount Bracket",249.0,,jumia,2026-05-04 22:32:01.645909
+"TCL 55"" Inch,FRAMELESS,BLUETOOTH,Smart UHD 4K With HDR Google TV+360 BRACKET+TV GUARD",43999.0,,jumia,2026-05-04 22:32:01.645909
+"Hisense 55"" Inch 4K UHD SMART BLUETOOTH TV-2024 MODEL+FREE 360 WALL BRACKET",43999.0,,jumia,2026-05-04 22:32:01.645909
+Nobel 5.1 CH Top Bass-Home Theatre System/USB/Radio -22000W,12790.0,,jumia,2026-05-04 22:32:01.645909
+Istanbul 2 Modern TV Stand With LED Light - White & Black,4539.0,,jumia,2026-05-04 22:32:01.645909
+Nobel 5.1CH Home Theatre Speaker System 80W R.M.S Sub Woofer P.M.P.O 22000W Bluetooth Radio F.M/Aux Ready Super Bass Surround Sound Remote Control & LED Light,13290.0,,jumia,2026-05-04 22:32:01.645909
+"Official Store
+Amtec AM-02 2.1CH Multimedia Speaker BT/USB/SD/FM - Black (1YR WRTY)",5100.0,,jumia,2026-05-04 22:32:01.645909
+"Official Store
+Amaze Fridge/Freezer Guard/13A - UnderVoltage & Surge Protection",485.0,,jumia,2026-05-04 22:32:01.645909
+"Official Store
+Vitron V51SB- 2.1ch Soundbar System with Bluetooth, Black (1YR WRTY)",4840.0,,jumia,2026-05-04 22:32:01.645909
+"Home Design Rotating 14"" - 55"" Full Motion Swivel TV Bracket",649.0,,jumia,2026-05-04 22:32:01.645909
+Power King Iron Box And Electric Kettle Support 5 Way Power Extension-White// Blue,540.0,,jumia,2026-05-04 22:32:01.645909
+"Official Store
+Amaze TV Guard Voltage Power Protector 13A - Surge Protector",499.0,,jumia,2026-05-04 22:32:01.645909
+"Official Store
+Power King Extension Cable With 6 AC Power Outlets, 13A, And 2 M Long Cable",399.0,,jumia,2026-05-04 22:32:01.645909
+Digital LCD hair clipper - Long battery life-gold,3700.0,,jumia,2026-05-04 22:32:01.645909
+MK Electric Fridge Guard Plus Free 4-Way Extension Cable,850.0,,jumia,2026-05-04 22:32:01.645909
+IP Camera Home Security System 5MP V380 Pro Motion Detection Night Vision WiFi Indoor Camera,3200.0,,jumia,2026-05-04 22:32:01.645909
+"SILVER CREST 2 IN 1, 2LITRES HEAVY DUTY 4500WATTS",2599.0,,jumia,2026-05-04 22:32:01.645909
+Rotation Foldable Aerial Camera RC Gift HD Camera,9800.0,,jumia,2026-05-04 22:32:01.645909
+Panoramic Wireless WiFi 360 Degree Rotating Camera White,930.0,,jumia,2026-05-04 22:32:01.645909
+"Bolizma Bluetooth Earbuds, Wireless in Ear Buds with Hi-Res Audio, Secure Fit, BT 5.4, One-Step Pairing, for iPhone Android & More",608.0,,jumia,2026-05-04 22:32:01.645909
+"XIAOMI Redmi Buds 6 Play Wireless Earbuds White, Bluetooth 5.4, Long Battery Life, Noise Reduction Calls, Comfortable Fit",1900.0,,jumia,2026-05-04 22:32:01.645909
+"4K DisplayPort To HDMI 4K@60Hz, 2K@165Hz For Computer Laptop",804.0,,jumia,2026-05-04 22:32:01.645909
+Eveready Heavy Duty Long Lasting AAA Batteries- Pack Of 20,899.0,,jumia,2026-05-04 22:32:01.645909
+"Wired in-ear headphones with high-quality microphone, 9D sound effects, 1.5-meter cable, 3.5mm plug, black",1620.0,,jumia,2026-05-04 22:32:01.645909
+"Original USB Type-C Earphone, Sound By AKG With Remote & Mic",850.0,,jumia,2026-05-04 22:32:01.645909
+New LIGE Round Smart Watches Men/Women Full Touch Screen Sport Fitness Smart Watch IP67 Waterproof Bluetooth For Android ios Smartwatches Smart Wearable Fitness Electronic Clock,,1299.0,kilimall,2026-05-04 22:32:01.645909
+120W USB C Plug 4-Port Charger Plugs Fast Charging Travel Plug Adapter with 2 usb and 2 PD Port Wall Charging Head Universal Power Charging Compatible with Most Electronic Products,,359.0,kilimall,2026-05-04 22:32:01.645909
+RichRipple Men and women Sports LED Watch Silicone Colorful Watch Electronic Clock Digital Fashion Clock Smart Watch,,149.0,kilimall,2026-05-04 22:32:01.645909
+"KingNote 20000mAh X 2 Power Charging Bank Two pieces in combination portable SUPER Fast charde, charger cell phone, Bluetooth headset and other mobile electronic products",,1560.0,kilimall,2026-05-04 22:32:01.645909
+"【Clearance Sale】5-in-1 Electronics Cleaner Kit- Laptop Screen Cleaner kit,Multifunctional Bluetooth Earphones Cleaning Tool for iPhone Charging Port,Headphone,Earphone,Phone Speaker,Earpods",,199.0,kilimall,2026-05-04 22:32:01.645909
+"20000mAh Light Beam Power Bank with Fast Charging, Built-in Cables & LED Display portable charde, charger cell phone, Bluetooth headset and other mobile electronic products",,1000.0,kilimall,2026-05-04 22:32:01.645909
+Mini 25-in-1 Small Tri Circle Magnetic Precision Screwdriver Set Magnetic Mini Repair Electronics Phone PC Ratchet Drill Socket Repair Tool Bit Portable Professional Kit Set,,289.0,kilimall,2026-05-04 22:32:01.645909
+Tagwood 7500W 2.1CH Multimedia Bluetooth Woofer Speaker System Subwoofer Soundbar BT/USB/SD/FM Subwoofer Home Audilo System Soundbar with Remote Control S1 Speaker bass,,3899.0,kilimall,2026-05-04 22:32:01.645909
+"【Limited Offer】Euroken EK-26LC24T2 24"" Inch With CAST TV function Full Screen Display Television Ac/dc Digital Led Tv With Inbuilt Decoder For Local Channels Wide Color Enhancer, Usb Hdmi Ports",,4899.0,kilimall,2026-05-04 22:32:01.645909
+Y68 Waterproof Smart Watch Bluetooth Watch SmartWatch for Women Electronic Watch for Kids Men Fitness Tracker Men Women Sports Watches Wrist watch Smart Beacelet Kids Smartwatch Kids Watch,,703.0,kilimall,2026-05-04 22:32:01.645909
+Wireless Headset Over Ear earphone Noise Cancelling Bluetooth-Compatible 5.0 Sports Game Headset Built-in Mic Applicable to mobile phones computers and electronic products Local fast delivery,,540.0,kilimall,2026-05-04 22:32:01.645909
+"Smart LCD Writing Tablet, 8.5 Inch Graphics Tablet Electronic Writing Drawing Colorful Screen Doodle Board For kids",,338.0,kilimall,2026-05-04 22:32:01.645909
+Smart Watches Men's Sport Casual LED Watches Men Digital Clock Multi-Functional Rubber Man Fitness Army Military Electronic Watch,,449.0,kilimall,2026-05-04 22:32:01.645909
+30W Universal AC to DC Power Adapter - Multi Output Voltages 3V 4.5V 5V 6V 7.5V 9V 12V Switching Power Supply with 8 Selectable Adapter Plugs for Routers Speakers Household Electronic (MAX 2A/2000mA),,1300.0,kilimall,2026-05-04 22:32:01.645909
+Third Hand 5X Magnifying Glass Stand For Electronic Works Jeweler Watch Repair Welding Soldering Magnifier With Dual Clips,,1201.0,kilimall,2026-05-04 22:32:01.645909
+8.5inch LCD Writing Tablet Kids Erasable Colorful Drawing Board Graphic Electronic Writing Drawing Screen Doodle Board Children's Educational Toys,,338.0,kilimall,2026-05-04 22:32:01.645909
+Milky White Super Glue T5000 Repair Cell Phone Display Screen 50ML 110ML Adhesive For Glass Electronic Component Laptop Plastic Rubber,,699.0,kilimall,2026-05-04 22:32:01.645909
+"Vision Plus VP8850QV 50"" QLED 4K Smart TV – Netflix/YouTube/Prime Video, Inbuilt Decoder, Dolby Audio, Quantum Dot Display + Free Wall Mount (2YRS WRTY)",34070.0,,jumia,2026-05-04 22:33:57.480875
+"Amtec 43L12, 43"" FHD Smart Android Frameless TV, Netfix, Youtube, Bluetooth - Black (1YR WRTY)",16743.0,17999.0,jumia,2026-05-04 22:33:57.480875
+"Vitron HTC3288QS, 32 inch QLED Smart Android TV, QLED Smart TV, Android TV, Q LED - Black (1YR WRTY)",11320.0,12830.0,jumia,2026-05-04 22:33:57.480875
+"Itel TV 32 inches QLED Smart TV, Frameless, Bluetooth, Android14, Wifi, Digital, Netflix, YouTube, Prime, 32"" television (1 year warranty, New Launch price,wall mount free gift)",10798.0,,jumia,2026-05-04 22:33:57.480875
+"Hisense 43A4, 43"" INCH FRAMELESS SMART TELEVISION, FULL HD RESOLUTION, A4K SERIES ,NETFLIX ,YOUTUBE TV,DTS, INBUILT DECODER, BUILT-IN WIFI,VIDAA OS+FREE TV GUARD+BRACKET",24695.0,,jumia,2026-05-04 22:33:57.480875
+"Hisense 43'' Inch Smart FHD Frameless,SMART & DIGITAL LED TELEVISION+BRACKET+GUARD",24890.0,,jumia,2026-05-04 22:33:57.480875
+Vision Plus VP2111SB Immersive Sound 2.1 CH Sound Bar 240W - Black (2 YRs WRTY),8499.0,,jumia,2026-05-04 22:33:57.480875
+Amtec AM-308 3.1CH X-BASS Multimedia Home Theater System – 12000W PMPO - Black (1YR WRTY),3929.0,,jumia,2026-05-04 22:33:57.480875
+Lyons LYS2404 2.1CH Multimedia Speaker System Home Theatrer SubWoofer with BT(1YR WRTY),2599.0,2399.0,kilimall,2026-05-04 22:33:57.480875
+"Euroken HS-22LS19T2 19"" Inch Digital LED TV - HD Clear Color, Inbuilt Decoder, HDMI & USB",3999.0,,jumia,2026-05-04 22:33:57.480875
+"Gld 32"" Smart Frameless HD LED Television - Black",13795.0,,jumia,2026-05-04 22:33:57.480875
+"Skyworth 65Q6500H, 65"" 4K QLED Smart Google TV, Black (1YR WRTY)",74999.0,,jumia,2026-05-04 22:33:57.480875
+"K-Elec 55"" 4K Google Smart LED TV | Dolby Atmos Soundbar | Netflix & YouTube | 36-Month Warranty | FREE TV Guard + FREE Wall Mount",41999.0,,jumia,2026-05-04 22:33:57.480875
+Lenovo Thinkplus K30 Portable Bluetooth Wireless Speaker Waterproof USB Outdoor Loudspeaker Music Surround Bass Box Speakers,797.0,,jumia,2026-05-04 22:33:57.480875
+"Bluetooth Speaker 4D Subwoofer Wired Speaker For Laptop,TV",1059.0,,jumia,2026-05-04 22:33:57.480875
+GUIXIA XG88Pro Smart Bluetooth 5.3 Sunglasses Earphones,900.0,,jumia,2026-05-04 22:33:57.480875
+"Indoor Amplified HD Digital TV Antenna, VHF Or UHF Amplifier",896.0,,jumia,2026-05-04 22:33:57.480875
+"LASA LASA 3.5mm Microphone for Smartphones, PC, DSLR Cameras & Camcorders – Plug & Play, Clear Audio, Universal Compatibility",1219.0,,jumia,2026-05-04 22:33:57.480875
+"addigoes Extension Socket With USB, Power Extension Box with Surge Protection, 4 AC Sockets & 4 USB Ports (3 USB + 1 Type-C), USB Extension Socket with Overload Protection, LED Indicator, 2M Extension Cord for Home Office",799.0,,jumia,2026-05-04 22:33:57.480875
+Women Watch Men Smart Watches Sports Fintess Watches,1190.0,,jumia,2026-05-04 22:33:57.480875
+Mini Karaoke Machine With Wireless Microphones,3200.0,,jumia,2026-05-04 22:33:57.480875
+Rashnik TV Wall Mount TV Stand For 14” - 42” - Black,161.0,,jumia,2026-05-04 22:33:57.480875
+LUMINOUS ISTANBUL 2 TV CONSOLE 4FT WITH CABINET,4539.0,,jumia,2026-05-04 22:33:57.480875
+Gotv Decoder (1YR WRTY) - Black,719.0,,jumia,2026-05-04 22:33:57.480875
+"Skilltech 15"" To 43"" inches Tilting Wall Mount Bracket",445.0,,jumia,2026-05-04 22:33:57.480875
+MK Tv GUARD And 4 Way Extension Cable,850.0,1120.0,jumia,2026-05-04 22:33:57.480875
+"Mexico Modern Wooden TV Stand For Up To 55"" TV",3490.0,,jumia,2026-05-04 22:33:57.480875
+Power King Best 4 Way Power Extension With Long Cable - White,299.0,,jumia,2026-05-04 22:33:57.480875
+"ROTATING 14""-55"" TILT ROTATING WALL MOUNT BRACKET",660.0,,jumia,2026-05-04 22:33:57.480875
+Extension Cables 6 Way With 3 USB Ports Multiplug Power Extension Socket Power Cables.,649.0,,jumia,2026-05-04 22:33:57.480875
+"14-43 inches, 17'', 19'', 24'', 32'', 43'' Fixed TV Wall Mount Bracket",249.0,,jumia,2026-05-04 22:33:57.480875
+"TCL 55"" Inch,FRAMELESS,BLUETOOTH,Smart UHD 4K With HDR Google TV+360 BRACKET+TV GUARD",43999.0,,jumia,2026-05-04 22:33:57.480875
+"Hisense 55"" Inch 4K UHD SMART BLUETOOTH TV-2024 MODEL+FREE 360 WALL BRACKET",43999.0,,jumia,2026-05-04 22:33:57.480875
+Nobel 5.1 CH Top Bass-Home Theatre System/USB/Radio -22000W,12790.0,,jumia,2026-05-04 22:33:57.480875
+Istanbul 2 Modern TV Stand With LED Light - White & Black,4539.0,,jumia,2026-05-04 22:33:57.480875
+Nobel 5.1CH Home Theatre Speaker System 80W R.M.S Sub Woofer P.M.P.O 22000W Bluetooth Radio F.M/Aux Ready Super Bass Surround Sound Remote Control & LED Light,13290.0,,jumia,2026-05-04 22:33:57.480875
+"Official Store
+Amtec AM-02 2.1CH Multimedia Speaker BT/USB/SD/FM - Black (1YR WRTY)",5100.0,,jumia,2026-05-04 22:33:57.480875
+"Official Store
+Amaze Fridge/Freezer Guard/13A - UnderVoltage & Surge Protection",485.0,,jumia,2026-05-04 22:33:57.480875
+"Official Store
+Vitron V51SB- 2.1ch Soundbar System with Bluetooth, Black (1YR WRTY)",4840.0,,jumia,2026-05-04 22:33:57.480875
+"Home Design Rotating 14"" - 55"" Full Motion Swivel TV Bracket",649.0,,jumia,2026-05-04 22:33:57.480875
+Power King Iron Box And Electric Kettle Support 5 Way Power Extension-White// Blue,540.0,,jumia,2026-05-04 22:33:57.480875
+"Official Store
+Amaze TV Guard Voltage Power Protector 13A - Surge Protector",499.0,,jumia,2026-05-04 22:33:57.480875
+Digital LCD hair clipper - Long battery life-gold,3700.0,,jumia,2026-05-04 22:33:57.480875
+MK Electric Fridge Guard Plus Free 4-Way Extension Cable,850.0,,jumia,2026-05-04 22:33:57.480875
+IP Camera Home Security System 5MP V380 Pro Motion Detection Night Vision WiFi Indoor Camera,3200.0,,jumia,2026-05-04 22:33:57.480875
+"SILVER CREST 2 IN 1, 2LITRES HEAVY DUTY 4500WATTS",2599.0,,jumia,2026-05-04 22:33:57.480875
+Rotation Foldable Aerial Camera RC Gift HD Camera,9800.0,,jumia,2026-05-04 22:33:57.480875
+Panoramic Wireless WiFi 360 Degree Rotating Camera White,930.0,,jumia,2026-05-04 22:33:57.480875
+"Bolizma Bluetooth Earbuds, Wireless in Ear Buds with Hi-Res Audio, Secure Fit, BT 5.4, One-Step Pairing, for iPhone Android & More",608.0,,jumia,2026-05-04 22:33:57.480875
+"XIAOMI Redmi Buds 6 Play Wireless Earbuds White, Bluetooth 5.4, Long Battery Life, Noise Reduction Calls, Comfortable Fit",1900.0,,jumia,2026-05-04 22:33:57.480875
+"4K DisplayPort To HDMI 4K@60Hz, 2K@165Hz For Computer Laptop",804.0,,jumia,2026-05-04 22:33:57.480875
+Eveready Heavy Duty Long Lasting AAA Batteries- Pack Of 20,899.0,,jumia,2026-05-04 22:33:57.480875
+"Wired in-ear headphones with high-quality microphone, 9D sound effects, 1.5-meter cable, 3.5mm plug, black",1620.0,,jumia,2026-05-04 22:33:57.480875
+"Original USB Type-C Earphone, Sound By AKG With Remote & Mic",850.0,,jumia,2026-05-04 22:33:57.480875
+New LIGE Round Smart Watches Men/Women Full Touch Screen Sport Fitness Smart Watch IP67 Waterproof Bluetooth For Android ios Smartwatches Smart Wearable Fitness Electronic Clock,,1299.0,kilimall,2026-05-04 22:33:57.480875
+120W USB C Plug 4-Port Charger Plugs Fast Charging Travel Plug Adapter with 2 usb and 2 PD Port Wall Charging Head Universal Power Charging Compatible with Most Electronic Products,,359.0,kilimall,2026-05-04 22:33:57.480875
+RichRipple Men and women Sports LED Watch Silicone Colorful Watch Electronic Clock Digital Fashion Clock Smart Watch,,149.0,kilimall,2026-05-04 22:33:57.480875
+"KingNote 20000mAh X 2 Power Charging Bank Two pieces in combination portable SUPER Fast charde, charger cell phone, Bluetooth headset and other mobile electronic products",,1560.0,kilimall,2026-05-04 22:33:57.480875
+"【Clearance Sale】5-in-1 Electronics Cleaner Kit- Laptop Screen Cleaner kit,Multifunctional Bluetooth Earphones Cleaning Tool for iPhone Charging Port,Headphone,Earphone,Phone Speaker,Earpods",,199.0,kilimall,2026-05-04 22:33:57.480875
+"20000mAh Light Beam Power Bank with Fast Charging, Built-in Cables & LED Display portable charde, charger cell phone, Bluetooth headset and other mobile electronic products",,1000.0,kilimall,2026-05-04 22:33:57.480875
+Mini 25-in-1 Small Tri Circle Magnetic Precision Screwdriver Set Magnetic Mini Repair Electronics Phone PC Ratchet Drill Socket Repair Tool Bit Portable Professional Kit Set,,289.0,kilimall,2026-05-04 22:33:57.480875
+Tagwood 7500W 2.1CH Multimedia Bluetooth Woofer Speaker System Subwoofer Soundbar BT/USB/SD/FM Subwoofer Home Audilo System Soundbar with Remote Control S1 Speaker bass,,3899.0,kilimall,2026-05-04 22:33:57.480875
+"【Limited Offer】Euroken EK-26LC24T2 24"" Inch With CAST TV function Full Screen Display Television Ac/dc Digital Led Tv With Inbuilt Decoder For Local Channels Wide Color Enhancer, Usb Hdmi Ports",,4899.0,kilimall,2026-05-04 22:33:57.480875
+Y68 Waterproof Smart Watch Bluetooth Watch SmartWatch for Women Electronic Watch for Kids Men Fitness Tracker Men Women Sports Watches Wrist watch Smart Beacelet Kids Smartwatch Kids Watch,,703.0,kilimall,2026-05-04 22:33:57.480875
+Wireless Headset Over Ear earphone Noise Cancelling Bluetooth-Compatible 5.0 Sports Game Headset Built-in Mic Applicable to mobile phones computers and electronic products Local fast delivery,,540.0,kilimall,2026-05-04 22:33:57.480875
+"Smart LCD Writing Tablet, 8.5 Inch Graphics Tablet Electronic Writing Drawing Colorful Screen Doodle Board For kids",,338.0,kilimall,2026-05-04 22:33:57.480875
+Smart Watches Men's Sport Casual LED Watches Men Digital Clock Multi-Functional Rubber Man Fitness Army Military Electronic Watch,,449.0,kilimall,2026-05-04 22:33:57.480875
+30W Universal AC to DC Power Adapter - Multi Output Voltages 3V 4.5V 5V 6V 7.5V 9V 12V Switching Power Supply with 8 Selectable Adapter Plugs for Routers Speakers Household Electronic (MAX 2A/2000mA),,1300.0,kilimall,2026-05-04 22:33:57.480875
+Third Hand 5X Magnifying Glass Stand For Electronic Works Jeweler Watch Repair Welding Soldering Magnifier With Dual Clips,,1201.0,kilimall,2026-05-04 22:33:57.480875
+8.5inch LCD Writing Tablet Kids Erasable Colorful Drawing Board Graphic Electronic Writing Drawing Screen Doodle Board Children's Educational Toys,,338.0,kilimall,2026-05-04 22:33:57.480875
+Milky White Super Glue T5000 Repair Cell Phone Display Screen 50ML 110ML Adhesive For Glass Electronic Component Laptop Plastic Rubber,,699.0,kilimall,2026-05-04 22:33:57.480875
+"Vision Plus VP8850QV 50"" QLED 4K Smart TV – Netflix/YouTube/Prime Video, Inbuilt Decoder, Dolby Audio, Quantum Dot Display + Free Wall Mount (2YRS WRTY)",34070.0,,jumia,2026-05-04 22:40:48.852251
+"Amtec 43L12, 43"" FHD Smart Android Frameless TV, Netfix, Youtube, Bluetooth - Black (1YR WRTY)",16743.0,17999.0,jumia,2026-05-04 22:40:48.852251
+"Vitron HTC3288QS, 32 inch QLED Smart Android TV, QLED Smart TV, Android TV, Q LED - Black (1YR WRTY)",11320.0,12830.0,jumia,2026-05-04 22:40:48.852251
+"Itel TV 32 inches QLED Smart TV, Frameless, Bluetooth, Android14, Wifi, Digital, Netflix, YouTube, Prime, 32"" television (1 year warranty, New Launch price,wall mount free gift)",10798.0,,jumia,2026-05-04 22:40:48.852251
+"Hisense 43A4, 43"" INCH FRAMELESS SMART TELEVISION, FULL HD RESOLUTION, A4K SERIES ,NETFLIX ,YOUTUBE TV,DTS, INBUILT DECODER, BUILT-IN WIFI,VIDAA OS+FREE TV GUARD+BRACKET",24695.0,,jumia,2026-05-04 22:40:48.852251
+"Hisense 43'' Inch Smart FHD Frameless,SMART & DIGITAL LED TELEVISION+BRACKET+GUARD",24890.0,,jumia,2026-05-04 22:40:48.852251
+Vision Plus VP2111SB Immersive Sound 2.1 CH Sound Bar 240W - Black (2 YRs WRTY),8499.0,,jumia,2026-05-04 22:40:48.852251
+Amtec AM-308 3.1CH X-BASS Multimedia Home Theater System – 12000W PMPO - Black (1YR WRTY),3929.0,,jumia,2026-05-04 22:40:48.852251
+Lyons LYS2404 2.1CH Multimedia Speaker System Home Theatrer SubWoofer with BT(1YR WRTY),2599.0,2399.0,kilimall,2026-05-04 22:40:48.852251
+"Euroken HS-22LS19T2 19"" Inch Digital LED TV - HD Clear Color, Inbuilt Decoder, HDMI & USB",3999.0,,jumia,2026-05-04 22:40:48.852251
+"Gld 32"" Smart Frameless HD LED Television - Black",13795.0,,jumia,2026-05-04 22:40:48.852251
+"Skyworth 65Q6500H, 65"" 4K QLED Smart Google TV, Black (1YR WRTY)",74999.0,,jumia,2026-05-04 22:40:48.852251
+"K-Elec 55"" 4K Google Smart LED TV | Dolby Atmos Soundbar | Netflix & YouTube | 36-Month Warranty | FREE TV Guard + FREE Wall Mount",41999.0,,jumia,2026-05-04 22:40:48.852251
+Lenovo Thinkplus K30 Portable Bluetooth Wireless Speaker Waterproof USB Outdoor Loudspeaker Music Surround Bass Box Speakers,797.0,,jumia,2026-05-04 22:40:48.852251
+"Bluetooth Speaker 4D Subwoofer Wired Speaker For Laptop,TV",1059.0,,jumia,2026-05-04 22:40:48.852251
+GUIXIA XG88Pro Smart Bluetooth 5.3 Sunglasses Earphones,900.0,,jumia,2026-05-04 22:40:48.852251
+"Indoor Amplified HD Digital TV Antenna, VHF Or UHF Amplifier",896.0,,jumia,2026-05-04 22:40:48.852251
+"LASA LASA 3.5mm Microphone for Smartphones, PC, DSLR Cameras & Camcorders – Plug & Play, Clear Audio, Universal Compatibility",1219.0,,jumia,2026-05-04 22:40:48.852251
+"addigoes Extension Socket With USB, Power Extension Box with Surge Protection, 4 AC Sockets & 4 USB Ports (3 USB + 1 Type-C), USB Extension Socket with Overload Protection, LED Indicator, 2M Extension Cord for Home Office",799.0,,jumia,2026-05-04 22:40:48.852251
+Women Watch Men Smart Watches Sports Fintess Watches,1190.0,,jumia,2026-05-04 22:40:48.852251
+Mini Karaoke Machine With Wireless Microphones,3200.0,,jumia,2026-05-04 22:40:48.852251
+Rashnik TV Wall Mount TV Stand For 14” - 42” - Black,161.0,,jumia,2026-05-04 22:40:48.852251
+LUMINOUS ISTANBUL 2 TV CONSOLE 4FT WITH CABINET,4539.0,,jumia,2026-05-04 22:40:48.852251
+Gotv Decoder (1YR WRTY) - Black,719.0,,jumia,2026-05-04 22:40:48.852251
+"Skilltech 15"" To 43"" inches Tilting Wall Mount Bracket",445.0,,jumia,2026-05-04 22:40:48.852251
+MK Tv GUARD And 4 Way Extension Cable,850.0,1120.0,jumia,2026-05-04 22:40:48.852251
+"Mexico Modern Wooden TV Stand For Up To 55"" TV",3490.0,,jumia,2026-05-04 22:40:48.852251
+Power King Best 4 Way Power Extension With Long Cable - White,299.0,,jumia,2026-05-04 22:40:48.852251
+"ROTATING 14""-55"" TILT ROTATING WALL MOUNT BRACKET",660.0,,jumia,2026-05-04 22:40:48.852251
+Extension Cables 6 Way With 3 USB Ports Multiplug Power Extension Socket Power Cables.,649.0,,jumia,2026-05-04 22:40:48.852251
+"14-43 inches, 17'', 19'', 24'', 32'', 43'' Fixed TV Wall Mount Bracket",249.0,,jumia,2026-05-04 22:40:48.852251
+"TCL 55"" Inch,FRAMELESS,BLUETOOTH,Smart UHD 4K With HDR Google TV+360 BRACKET+TV GUARD",43999.0,,jumia,2026-05-04 22:40:48.852251
+"Hisense 55"" Inch 4K UHD SMART BLUETOOTH TV-2024 MODEL+FREE 360 WALL BRACKET",43999.0,,jumia,2026-05-04 22:40:48.852251
+Nobel 5.1 CH Top Bass-Home Theatre System/USB/Radio -22000W,12790.0,,jumia,2026-05-04 22:40:48.852251
+Istanbul 2 Modern TV Stand With LED Light - White & Black,4539.0,,jumia,2026-05-04 22:40:48.852251
+Nobel 5.1CH Home Theatre Speaker System 80W R.M.S Sub Woofer P.M.P.O 22000W Bluetooth Radio F.M/Aux Ready Super Bass Surround Sound Remote Control & LED Light,13290.0,,jumia,2026-05-04 22:40:48.852251
+"Official Store
+Amtec AM-02 2.1CH Multimedia Speaker BT/USB/SD/FM - Black (1YR WRTY)",5100.0,,jumia,2026-05-04 22:40:48.852251
+"Official Store
+Amaze Fridge/Freezer Guard/13A - UnderVoltage & Surge Protection",485.0,,jumia,2026-05-04 22:40:48.852251
+"Official Store
+Vitron V51SB- 2.1ch Soundbar System with Bluetooth, Black (1YR WRTY)",4840.0,,jumia,2026-05-04 22:40:48.852251
+"Home Design Rotating 14"" - 55"" Full Motion Swivel TV Bracket",649.0,,jumia,2026-05-04 22:40:48.852251
+Power King Iron Box And Electric Kettle Support 5 Way Power Extension-White// Blue,540.0,,jumia,2026-05-04 22:40:48.852251
+"Official Store
+Amaze TV Guard Voltage Power Protector 13A - Surge Protector",499.0,,jumia,2026-05-04 22:40:48.852251
+Digital LCD hair clipper - Long battery life-gold,3700.0,,jumia,2026-05-04 22:40:48.852251
+MK Electric Fridge Guard Plus Free 4-Way Extension Cable,850.0,,jumia,2026-05-04 22:40:48.852251
+IP Camera Home Security System 5MP V380 Pro Motion Detection Night Vision WiFi Indoor Camera,3200.0,,jumia,2026-05-04 22:40:48.852251
+"SILVER CREST 2 IN 1, 2LITRES HEAVY DUTY 4500WATTS",2599.0,,jumia,2026-05-04 22:40:48.852251
+Rotation Foldable Aerial Camera RC Gift HD Camera,9800.0,,jumia,2026-05-04 22:40:48.852251
+Panoramic Wireless WiFi 360 Degree Rotating Camera White,930.0,,jumia,2026-05-04 22:40:48.852251
+"Bolizma Bluetooth Earbuds, Wireless in Ear Buds with Hi-Res Audio, Secure Fit, BT 5.4, One-Step Pairing, for iPhone Android & More",608.0,,jumia,2026-05-04 22:40:48.852251
+"XIAOMI Redmi Buds 6 Play Wireless Earbuds White, Bluetooth 5.4, Long Battery Life, Noise Reduction Calls, Comfortable Fit",1900.0,,jumia,2026-05-04 22:40:48.852251
+"4K DisplayPort To HDMI 4K@60Hz, 2K@165Hz For Computer Laptop",804.0,,jumia,2026-05-04 22:40:48.852251
+Eveready Heavy Duty Long Lasting AAA Batteries- Pack Of 20,899.0,,jumia,2026-05-04 22:40:48.852251
+"Wired in-ear headphones with high-quality microphone, 9D sound effects, 1.5-meter cable, 3.5mm plug, black",1620.0,,jumia,2026-05-04 22:40:48.852251
+"Original USB Type-C Earphone, Sound By AKG With Remote & Mic",850.0,,jumia,2026-05-04 22:40:48.852251
+New LIGE Round Smart Watches Men/Women Full Touch Screen Sport Fitness Smart Watch IP67 Waterproof Bluetooth For Android ios Smartwatches Smart Wearable Fitness Electronic Clock,,1299.0,kilimall,2026-05-04 22:40:48.852251
+120W USB C Plug 4-Port Charger Plugs Fast Charging Travel Plug Adapter with 2 usb and 2 PD Port Wall Charging Head Universal Power Charging Compatible with Most Electronic Products,,359.0,kilimall,2026-05-04 22:40:48.852251
+RichRipple Men and women Sports LED Watch Silicone Colorful Watch Electronic Clock Digital Fashion Clock Smart Watch,,149.0,kilimall,2026-05-04 22:40:48.852251
+"KingNote 20000mAh X 2 Power Charging Bank Two pieces in combination portable SUPER Fast charde, charger cell phone, Bluetooth headset and other mobile electronic products",,1560.0,kilimall,2026-05-04 22:40:48.852251
+"【Clearance Sale】5-in-1 Electronics Cleaner Kit- Laptop Screen Cleaner kit,Multifunctional Bluetooth Earphones Cleaning Tool for iPhone Charging Port,Headphone,Earphone,Phone Speaker,Earpods",,199.0,kilimall,2026-05-04 22:40:48.852251
+"20000mAh Light Beam Power Bank with Fast Charging, Built-in Cables & LED Display portable charde, charger cell phone, Bluetooth headset and other mobile electronic products",,1000.0,kilimall,2026-05-04 22:40:48.852251
+Mini 25-in-1 Small Tri Circle Magnetic Precision Screwdriver Set Magnetic Mini Repair Electronics Phone PC Ratchet Drill Socket Repair Tool Bit Portable Professional Kit Set,,289.0,kilimall,2026-05-04 22:40:48.852251
+Tagwood 7500W 2.1CH Multimedia Bluetooth Woofer Speaker System Subwoofer Soundbar BT/USB/SD/FM Subwoofer Home Audilo System Soundbar with Remote Control S1 Speaker bass,,3899.0,kilimall,2026-05-04 22:40:48.852251
+"【Limited Offer】Euroken EK-26LC24T2 24"" Inch With CAST TV function Full Screen Display Television Ac/dc Digital Led Tv With Inbuilt Decoder For Local Channels Wide Color Enhancer, Usb Hdmi Ports",,4899.0,kilimall,2026-05-04 22:40:48.852251
+Y68 Waterproof Smart Watch Bluetooth Watch SmartWatch for Women Electronic Watch for Kids Men Fitness Tracker Men Women Sports Watches Wrist watch Smart Beacelet Kids Smartwatch Kids Watch,,703.0,kilimall,2026-05-04 22:40:48.852251
+Wireless Headset Over Ear earphone Noise Cancelling Bluetooth-Compatible 5.0 Sports Game Headset Built-in Mic Applicable to mobile phones computers and electronic products Local fast delivery,,540.0,kilimall,2026-05-04 22:40:48.852251
+"Smart LCD Writing Tablet, 8.5 Inch Graphics Tablet Electronic Writing Drawing Colorful Screen Doodle Board For kids",,338.0,kilimall,2026-05-04 22:40:48.852251
+Smart Watches Men's Sport Casual LED Watches Men Digital Clock Multi-Functional Rubber Man Fitness Army Military Electronic Watch,,449.0,kilimall,2026-05-04 22:40:48.852251
+30W Universal AC to DC Power Adapter - Multi Output Voltages 3V 4.5V 5V 6V 7.5V 9V 12V Switching Power Supply with 8 Selectable Adapter Plugs for Routers Speakers Household Electronic (MAX 2A/2000mA),,1300.0,kilimall,2026-05-04 22:40:48.852251
+Third Hand 5X Magnifying Glass Stand For Electronic Works Jeweler Watch Repair Welding Soldering Magnifier With Dual Clips,,1201.0,kilimall,2026-05-04 22:40:48.852251
+8.5inch LCD Writing Tablet Kids Erasable Colorful Drawing Board Graphic Electronic Writing Drawing Screen Doodle Board Children's Educational Toys,,338.0,kilimall,2026-05-04 22:40:48.852251
+Milky White Super Glue T5000 Repair Cell Phone Display Screen 50ML 110ML Adhesive For Glass Electronic Component Laptop Plastic Rubber,,699.0,kilimall,2026-05-04 22:40:48.852251
+"Vision Plus VP8850QV 50"" QLED 4K Smart TV – Netflix/YouTube/Prime Video, Inbuilt Decoder, Dolby Audio, Quantum Dot Display + Free Wall Mount (2YRS WRTY)",34070.0,,jumia,2026-05-04 22:46:32.694888
+"Amtec 43L12, 43"" FHD Smart Android Frameless TV, Netfix, Youtube, Bluetooth - Black (1YR WRTY)",16743.0,17999.0,jumia,2026-05-04 22:46:32.694888
+"Vitron HTC3288QS, 32 inch QLED Smart Android TV, QLED Smart TV, Android TV, Q LED - Black (1YR WRTY)",11320.0,12830.0,jumia,2026-05-04 22:46:32.694888
+"Itel TV 32 inches QLED Smart TV, Frameless, Bluetooth, Android14, Wifi, Digital, Netflix, YouTube, Prime, 32"" television (1 year warranty, New Launch price,wall mount free gift)",10798.0,,jumia,2026-05-04 22:46:32.694888
+"Hisense 43A4, 43"" INCH FRAMELESS SMART TELEVISION, FULL HD RESOLUTION, A4K SERIES ,NETFLIX ,YOUTUBE TV,DTS, INBUILT DECODER, BUILT-IN WIFI,VIDAA OS+FREE TV GUARD+BRACKET",24695.0,,jumia,2026-05-04 22:46:32.694888
+"Hisense 43'' Inch Smart FHD Frameless,SMART & DIGITAL LED TELEVISION+BRACKET+GUARD",24890.0,,jumia,2026-05-04 22:46:32.694888
+Vision Plus VP2111SB Immersive Sound 2.1 CH Sound Bar 240W - Black (2 YRs WRTY),8499.0,,jumia,2026-05-04 22:46:32.694888
+Amtec AM-308 3.1CH X-BASS Multimedia Home Theater System – 12000W PMPO - Black (1YR WRTY),3929.0,,jumia,2026-05-04 22:46:32.694888
+Lyons LYS2404 2.1CH Multimedia Speaker System Home Theatrer SubWoofer with BT(1YR WRTY),2599.0,2399.0,kilimall,2026-05-04 22:46:32.694888
+"Euroken HS-22LS19T2 19"" Inch Digital LED TV - HD Clear Color, Inbuilt Decoder, HDMI & USB",3999.0,,jumia,2026-05-04 22:46:32.694888
+"Gld 32"" Smart Frameless HD LED Television - Black",13795.0,,jumia,2026-05-04 22:46:32.694888
+"Skyworth 65Q6500H, 65"" 4K QLED Smart Google TV, Black (1YR WRTY)",74999.0,,jumia,2026-05-04 22:46:32.694888
+"K-Elec 55"" 4K Google Smart LED TV | Dolby Atmos Soundbar | Netflix & YouTube | 36-Month Warranty | FREE TV Guard + FREE Wall Mount",41999.0,,jumia,2026-05-04 22:46:32.694888
+Lenovo Thinkplus K30 Portable Bluetooth Wireless Speaker Waterproof USB Outdoor Loudspeaker Music Surround Bass Box Speakers,797.0,,jumia,2026-05-04 22:46:32.694888
+"Bluetooth Speaker 4D Subwoofer Wired Speaker For Laptop,TV",1059.0,,jumia,2026-05-04 22:46:32.694888
+GUIXIA XG88Pro Smart Bluetooth 5.3 Sunglasses Earphones,900.0,,jumia,2026-05-04 22:46:32.694888
+"Indoor Amplified HD Digital TV Antenna, VHF Or UHF Amplifier",896.0,,jumia,2026-05-04 22:46:32.694888
+"LASA LASA 3.5mm Microphone for Smartphones, PC, DSLR Cameras & Camcorders – Plug & Play, Clear Audio, Universal Compatibility",1219.0,,jumia,2026-05-04 22:46:32.694888
+"addigoes Extension Socket With USB, Power Extension Box with Surge Protection, 4 AC Sockets & 4 USB Ports (3 USB + 1 Type-C), USB Extension Socket with Overload Protection, LED Indicator, 2M Extension Cord for Home Office",799.0,,jumia,2026-05-04 22:46:32.694888
+Women Watch Men Smart Watches Sports Fintess Watches,1190.0,,jumia,2026-05-04 22:46:32.694888
+Mini Karaoke Machine With Wireless Microphones,3200.0,,jumia,2026-05-04 22:46:32.694888
+Rashnik TV Wall Mount TV Stand For 14” - 42” - Black,161.0,,jumia,2026-05-04 22:46:32.694888
+LUMINOUS ISTANBUL 2 TV CONSOLE 4FT WITH CABINET,4539.0,,jumia,2026-05-04 22:46:32.694888
+Gotv Decoder (1YR WRTY) - Black,719.0,,jumia,2026-05-04 22:46:32.694888
+"Skilltech 15"" To 43"" inches Tilting Wall Mount Bracket",445.0,,jumia,2026-05-04 22:46:32.694888
+MK Tv GUARD And 4 Way Extension Cable,850.0,1120.0,jumia,2026-05-04 22:46:32.694888
+Dstv Full kit (1YR WRTY),2250.0,,jumia,2026-05-04 22:46:32.694888
+"Mexico Modern Wooden TV Stand For Up To 55"" TV",3490.0,,jumia,2026-05-04 22:46:32.694888
+Power King Best 4 Way Power Extension With Long Cable - White,299.0,,jumia,2026-05-04 22:46:32.694888
+"ROTATING 14""-55"" TILT ROTATING WALL MOUNT BRACKET",660.0,,jumia,2026-05-04 22:46:32.694888
+Extension Cables 6 Way With 3 USB Ports Multiplug Power Extension Socket Power Cables.,649.0,,jumia,2026-05-04 22:46:32.694888
+"14-43 inches, 17'', 19'', 24'', 32'', 43'' Fixed TV Wall Mount Bracket",249.0,,jumia,2026-05-04 22:46:32.694888
+"TCL 55"" Inch,FRAMELESS,BLUETOOTH,Smart UHD 4K With HDR Google TV+360 BRACKET+TV GUARD",43999.0,,jumia,2026-05-04 22:46:32.694888
+"Hisense 55"" Inch 4K UHD SMART BLUETOOTH TV-2024 MODEL+FREE 360 WALL BRACKET",43999.0,,jumia,2026-05-04 22:46:32.694888
+Nobel 5.1 CH Top Bass-Home Theatre System/USB/Radio -22000W,12790.0,,jumia,2026-05-04 22:46:32.694888
+Istanbul 2 Modern TV Stand With LED Light - White & Black,4539.0,,jumia,2026-05-04 22:46:32.694888
+Nobel 5.1CH Home Theatre Speaker System 80W R.M.S Sub Woofer P.M.P.O 22000W Bluetooth Radio F.M/Aux Ready Super Bass Surround Sound Remote Control & LED Light,13290.0,,jumia,2026-05-04 22:46:32.694888
+"Official Store
+Amtec AM-02 2.1CH Multimedia Speaker BT/USB/SD/FM - Black (1YR WRTY)",5100.0,,jumia,2026-05-04 22:46:32.694888
+"Official Store
+Amaze Fridge/Freezer Guard/13A - UnderVoltage & Surge Protection",485.0,,jumia,2026-05-04 22:46:32.694888
+"Official Store
+Vitron V51SB- 2.1ch Soundbar System with Bluetooth, Black (1YR WRTY)",4840.0,,jumia,2026-05-04 22:46:32.694888
+"Home Design Rotating 14"" - 55"" Full Motion Swivel TV Bracket",649.0,,jumia,2026-05-04 22:46:32.694888
+Power King Iron Box And Electric Kettle Support 5 Way Power Extension-White// Blue,540.0,,jumia,2026-05-04 22:46:32.694888
+"Official Store
+Amaze TV Guard Voltage Power Protector 13A - Surge Protector",499.0,,jumia,2026-05-04 22:46:32.694888
+Digital LCD hair clipper - Long battery life-gold,3700.0,,jumia,2026-05-04 22:46:32.694888
+MK Electric Fridge Guard Plus Free 4-Way Extension Cable,850.0,,jumia,2026-05-04 22:46:32.694888
+IP Camera Home Security System 5MP V380 Pro Motion Detection Night Vision WiFi Indoor Camera,3200.0,,jumia,2026-05-04 22:46:32.694888
+"SILVER CREST 2 IN 1, 2LITRES HEAVY DUTY 4500WATTS",2599.0,,jumia,2026-05-04 22:46:32.694888
+Rotation Foldable Aerial Camera RC Gift HD Camera,9800.0,,jumia,2026-05-04 22:46:32.694888
+Panoramic Wireless WiFi 360 Degree Rotating Camera White,930.0,,jumia,2026-05-04 22:46:32.694888
+"Bolizma Bluetooth Earbuds, Wireless in Ear Buds with Hi-Res Audio, Secure Fit, BT 5.4, One-Step Pairing, for iPhone Android & More",608.0,,jumia,2026-05-04 22:46:32.694888
+"XIAOMI Redmi Buds 6 Play Wireless Earbuds White, Bluetooth 5.4, Long Battery Life, Noise Reduction Calls, Comfortable Fit",1900.0,,jumia,2026-05-04 22:46:32.694888
+"4K DisplayPort To HDMI 4K@60Hz, 2K@165Hz For Computer Laptop",804.0,,jumia,2026-05-04 22:46:32.694888
+Eveready Heavy Duty Long Lasting AAA Batteries- Pack Of 20,899.0,,jumia,2026-05-04 22:46:32.694888
+"Wired in-ear headphones with high-quality microphone, 9D sound effects, 1.5-meter cable, 3.5mm plug, black",1620.0,,jumia,2026-05-04 22:46:32.694888
+"Original USB Type-C Earphone, Sound By AKG With Remote & Mic",850.0,,jumia,2026-05-04 22:46:32.694888
+New LIGE Round Smart Watches Men/Women Full Touch Screen Sport Fitness Smart Watch IP67 Waterproof Bluetooth For Android ios Smartwatches Smart Wearable Fitness Electronic Clock,,1299.0,kilimall,2026-05-04 22:46:32.694888
+120W USB C Plug 4-Port Charger Plugs Fast Charging Travel Plug Adapter with 2 usb and 2 PD Port Wall Charging Head Universal Power Charging Compatible with Most Electronic Products,,359.0,kilimall,2026-05-04 22:46:32.694888
+RichRipple Men and women Sports LED Watch Silicone Colorful Watch Electronic Clock Digital Fashion Clock Smart Watch,,149.0,kilimall,2026-05-04 22:46:32.694888
+"KingNote 20000mAh X 2 Power Charging Bank Two pieces in combination portable SUPER Fast charde, charger cell phone, Bluetooth headset and other mobile electronic products",,1560.0,kilimall,2026-05-04 22:46:32.694888
+"【Clearance Sale】5-in-1 Electronics Cleaner Kit- Laptop Screen Cleaner kit,Multifunctional Bluetooth Earphones Cleaning Tool for iPhone Charging Port,Headphone,Earphone,Phone Speaker,Earpods",,199.0,kilimall,2026-05-04 22:46:32.694888
+"20000mAh Light Beam Power Bank with Fast Charging, Built-in Cables & LED Display portable charde, charger cell phone, Bluetooth headset and other mobile electronic products",,1000.0,kilimall,2026-05-04 22:46:32.694888
+Mini 25-in-1 Small Tri Circle Magnetic Precision Screwdriver Set Magnetic Mini Repair Electronics Phone PC Ratchet Drill Socket Repair Tool Bit Portable Professional Kit Set,,289.0,kilimall,2026-05-04 22:46:32.694888
+Tagwood 7500W 2.1CH Multimedia Bluetooth Woofer Speaker System Subwoofer Soundbar BT/USB/SD/FM Subwoofer Home Audilo System Soundbar with Remote Control S1 Speaker bass,,3899.0,kilimall,2026-05-04 22:46:32.694888
+"【Limited Offer】Euroken EK-26LC24T2 24"" Inch With CAST TV function Full Screen Display Television Ac/dc Digital Led Tv With Inbuilt Decoder For Local Channels Wide Color Enhancer, Usb Hdmi Ports",,4899.0,kilimall,2026-05-04 22:46:32.694888
+Y68 Waterproof Smart Watch Bluetooth Watch SmartWatch for Women Electronic Watch for Kids Men Fitness Tracker Men Women Sports Watches Wrist watch Smart Beacelet Kids Smartwatch Kids Watch,,703.0,kilimall,2026-05-04 22:46:32.694888
+Wireless Headset Over Ear earphone Noise Cancelling Bluetooth-Compatible 5.0 Sports Game Headset Built-in Mic Applicable to mobile phones computers and electronic products Local fast delivery,,540.0,kilimall,2026-05-04 22:46:32.694888
+"Smart LCD Writing Tablet, 8.5 Inch Graphics Tablet Electronic Writing Drawing Colorful Screen Doodle Board For kids",,338.0,kilimall,2026-05-04 22:46:32.694888
+Smart Watches Men's Sport Casual LED Watches Men Digital Clock Multi-Functional Rubber Man Fitness Army Military Electronic Watch,,449.0,kilimall,2026-05-04 22:46:32.694888
+30W Universal AC to DC Power Adapter - Multi Output Voltages 3V 4.5V 5V 6V 7.5V 9V 12V Switching Power Supply with 8 Selectable Adapter Plugs for Routers Speakers Household Electronic (MAX 2A/2000mA),,1300.0,kilimall,2026-05-04 22:46:32.694888
+Third Hand 5X Magnifying Glass Stand For Electronic Works Jeweler Watch Repair Welding Soldering Magnifier With Dual Clips,,1201.0,kilimall,2026-05-04 22:46:32.694888
+8.5inch LCD Writing Tablet Kids Erasable Colorful Drawing Board Graphic Electronic Writing Drawing Screen Doodle Board Children's Educational Toys,,338.0,kilimall,2026-05-04 22:46:32.694888
+Milky White Super Glue T5000 Repair Cell Phone Display Screen 50ML 110ML Adhesive For Glass Electronic Component Laptop Plastic Rubber,,699.0,kilimall,2026-05-04 22:46:32.694888
+"Vision Plus VP8850QV 50"" QLED 4K Smart TV – Netflix/YouTube/Prime Video, Inbuilt Decoder, Dolby Audio, Quantum Dot Display + Free Wall Mount (2YRS WRTY)",34070.0,,jumia,2026-05-04 22:47:40.791948
+"Amtec 43L12, 43"" FHD Smart Android Frameless TV, Netfix, Youtube, Bluetooth - Black (1YR WRTY)",16743.0,17999.0,jumia,2026-05-04 22:47:40.791948
+"Vitron HTC3288QS, 32 inch QLED Smart Android TV, QLED Smart TV, Android TV, Q LED - Black (1YR WRTY)",11320.0,12830.0,jumia,2026-05-04 22:47:40.791948
+"Itel TV 32 inches QLED Smart TV, Frameless, Bluetooth, Android14, Wifi, Digital, Netflix, YouTube, Prime, 32"" television (1 year warranty, New Launch price,wall mount free gift)",10798.0,,jumia,2026-05-04 22:47:40.791948
+"Hisense 43A4, 43"" INCH FRAMELESS SMART TELEVISION, FULL HD RESOLUTION, A4K SERIES ,NETFLIX ,YOUTUBE TV,DTS, INBUILT DECODER, BUILT-IN WIFI,VIDAA OS+FREE TV GUARD+BRACKET",24695.0,,jumia,2026-05-04 22:47:40.791948
+"Hisense 43'' Inch Smart FHD Frameless,SMART & DIGITAL LED TELEVISION+BRACKET+GUARD",24890.0,,jumia,2026-05-04 22:47:40.791948
+Vision Plus VP2111SB Immersive Sound 2.1 CH Sound Bar 240W - Black (2 YRs WRTY),8499.0,,jumia,2026-05-04 22:47:40.791948
+Amtec AM-308 3.1CH X-BASS Multimedia Home Theater System – 12000W PMPO - Black (1YR WRTY),3929.0,,jumia,2026-05-04 22:47:40.791948
+Lyons LYS2404 2.1CH Multimedia Speaker System Home Theatrer SubWoofer with BT(1YR WRTY),2599.0,2399.0,kilimall,2026-05-04 22:47:40.791948
+"Euroken HS-22LS19T2 19"" Inch Digital LED TV - HD Clear Color, Inbuilt Decoder, HDMI & USB",3999.0,,jumia,2026-05-04 22:47:40.791948
+"Gld 32"" Smart Frameless HD LED Television - Black",13795.0,,jumia,2026-05-04 22:47:40.791948
+"Skyworth 65Q6500H, 65"" 4K QLED Smart Google TV, Black (1YR WRTY)",74999.0,,jumia,2026-05-04 22:47:40.791948
+"K-Elec 55"" 4K Google Smart LED TV | Dolby Atmos Soundbar | Netflix & YouTube | 36-Month Warranty | FREE TV Guard + FREE Wall Mount",41999.0,,jumia,2026-05-04 22:47:40.791948
+Lenovo Thinkplus K30 Portable Bluetooth Wireless Speaker Waterproof USB Outdoor Loudspeaker Music Surround Bass Box Speakers,797.0,,jumia,2026-05-04 22:47:40.791948
+"Bluetooth Speaker 4D Subwoofer Wired Speaker For Laptop,TV",1059.0,,jumia,2026-05-04 22:47:40.791948
+GUIXIA XG88Pro Smart Bluetooth 5.3 Sunglasses Earphones,900.0,,jumia,2026-05-04 22:47:40.791948
+"Indoor Amplified HD Digital TV Antenna, VHF Or UHF Amplifier",896.0,,jumia,2026-05-04 22:47:40.791948
+"LASA LASA 3.5mm Microphone for Smartphones, PC, DSLR Cameras & Camcorders – Plug & Play, Clear Audio, Universal Compatibility",1219.0,,jumia,2026-05-04 22:47:40.791948
+"addigoes Extension Socket With USB, Power Extension Box with Surge Protection, 4 AC Sockets & 4 USB Ports (3 USB + 1 Type-C), USB Extension Socket with Overload Protection, LED Indicator, 2M Extension Cord for Home Office",799.0,,jumia,2026-05-04 22:47:40.791948
+Women Watch Men Smart Watches Sports Fintess Watches,1190.0,,jumia,2026-05-04 22:47:40.791948
+Mini Karaoke Machine With Wireless Microphones,3200.0,,jumia,2026-05-04 22:47:40.791948
+Rashnik TV Wall Mount TV Stand For 14” - 42” - Black,161.0,,jumia,2026-05-04 22:47:40.791948
+LUMINOUS ISTANBUL 2 TV CONSOLE 4FT WITH CABINET,4539.0,,jumia,2026-05-04 22:47:40.791948
+Gotv Decoder (1YR WRTY) - Black,719.0,,jumia,2026-05-04 22:47:40.791948
+"Skilltech 15"" To 43"" inches Tilting Wall Mount Bracket",445.0,,jumia,2026-05-04 22:47:40.791948
+MK Tv GUARD And 4 Way Extension Cable,850.0,1120.0,jumia,2026-05-04 22:47:40.791948
+Dstv Full kit (1YR WRTY),2250.0,,jumia,2026-05-04 22:47:40.791948
+"Mexico Modern Wooden TV Stand For Up To 55"" TV",3490.0,,jumia,2026-05-04 22:47:40.791948
+Power King Best 4 Way Power Extension With Long Cable - White,299.0,,jumia,2026-05-04 22:47:40.791948
+"ROTATING 14""-55"" TILT ROTATING WALL MOUNT BRACKET",660.0,,jumia,2026-05-04 22:47:40.791948
+Extension Cables 6 Way With 3 USB Ports Multiplug Power Extension Socket Power Cables.,649.0,,jumia,2026-05-04 22:47:40.791948
+"14-43 inches, 17'', 19'', 24'', 32'', 43'' Fixed TV Wall Mount Bracket",249.0,,jumia,2026-05-04 22:47:40.791948
+"TCL 55"" Inch,FRAMELESS,BLUETOOTH,Smart UHD 4K With HDR Google TV+360 BRACKET+TV GUARD",43999.0,,jumia,2026-05-04 22:47:40.791948
+"Hisense 55"" Inch 4K UHD SMART BLUETOOTH TV-2024 MODEL+FREE 360 WALL BRACKET",43999.0,,jumia,2026-05-04 22:47:40.791948
+Nobel 5.1 CH Top Bass-Home Theatre System/USB/Radio -22000W,12790.0,,jumia,2026-05-04 22:47:40.791948
+Istanbul 2 Modern TV Stand With LED Light - White & Black,4539.0,,jumia,2026-05-04 22:47:40.791948
+Nobel 5.1CH Home Theatre Speaker System 80W R.M.S Sub Woofer P.M.P.O 22000W Bluetooth Radio F.M/Aux Ready Super Bass Surround Sound Remote Control & LED Light,13290.0,,jumia,2026-05-04 22:47:40.791948
+"Official Store
+Amtec AM-02 2.1CH Multimedia Speaker BT/USB/SD/FM - Black (1YR WRTY)",5100.0,,jumia,2026-05-04 22:47:40.791948
+"Official Store
+Amaze Fridge/Freezer Guard/13A - UnderVoltage & Surge Protection",485.0,,jumia,2026-05-04 22:47:40.791948
+"Official Store
+Vitron V51SB- 2.1ch Soundbar System with Bluetooth, Black (1YR WRTY)",4840.0,,jumia,2026-05-04 22:47:40.791948
+"Home Design Rotating 14"" - 55"" Full Motion Swivel TV Bracket",649.0,,jumia,2026-05-04 22:47:40.791948
+Power King Iron Box And Electric Kettle Support 5 Way Power Extension-White// Blue,540.0,,jumia,2026-05-04 22:47:40.791948
+"Official Store
+Amaze TV Guard Voltage Power Protector 13A - Surge Protector",499.0,,jumia,2026-05-04 22:47:40.791948
+"Official Store
+Power King Extension Cable With 6 AC Power Outlets, 13A, And 2 M Long Cable",399.0,,jumia,2026-05-04 22:47:40.791948
+Digital LCD hair clipper - Long battery life-gold,3700.0,,jumia,2026-05-04 22:47:40.791948
+MK Electric Fridge Guard Plus Free 4-Way Extension Cable,850.0,,jumia,2026-05-04 22:47:40.791948
+IP Camera Home Security System 5MP V380 Pro Motion Detection Night Vision WiFi Indoor Camera,3200.0,,jumia,2026-05-04 22:47:40.791948
+"SILVER CREST 2 IN 1, 2LITRES HEAVY DUTY 4500WATTS",2599.0,,jumia,2026-05-04 22:47:40.791948
+Rotation Foldable Aerial Camera RC Gift HD Camera,9800.0,,jumia,2026-05-04 22:47:40.791948
+Panoramic Wireless WiFi 360 Degree Rotating Camera White,930.0,,jumia,2026-05-04 22:47:40.791948
+"Bolizma Bluetooth Earbuds, Wireless in Ear Buds with Hi-Res Audio, Secure Fit, BT 5.4, One-Step Pairing, for iPhone Android & More",608.0,,jumia,2026-05-04 22:47:40.791948
+"XIAOMI Redmi Buds 6 Play Wireless Earbuds White, Bluetooth 5.4, Long Battery Life, Noise Reduction Calls, Comfortable Fit",1900.0,,jumia,2026-05-04 22:47:40.791948
+"4K DisplayPort To HDMI 4K@60Hz, 2K@165Hz For Computer Laptop",804.0,,jumia,2026-05-04 22:47:40.791948
+Eveready Heavy Duty Long Lasting AAA Batteries- Pack Of 20,899.0,,jumia,2026-05-04 22:47:40.791948
+"Wired in-ear headphones with high-quality microphone, 9D sound effects, 1.5-meter cable, 3.5mm plug, black",1620.0,,jumia,2026-05-04 22:47:40.791948
+"Original USB Type-C Earphone, Sound By AKG With Remote & Mic",850.0,,jumia,2026-05-04 22:47:40.791948
+New LIGE Round Smart Watches Men/Women Full Touch Screen Sport Fitness Smart Watch IP67 Waterproof Bluetooth For Android ios Smartwatches Smart Wearable Fitness Electronic Clock,,1299.0,kilimall,2026-05-04 22:47:40.791948
+120W USB C Plug 4-Port Charger Plugs Fast Charging Travel Plug Adapter with 2 usb and 2 PD Port Wall Charging Head Universal Power Charging Compatible with Most Electronic Products,,359.0,kilimall,2026-05-04 22:47:40.791948
+RichRipple Men and women Sports LED Watch Silicone Colorful Watch Electronic Clock Digital Fashion Clock Smart Watch,,149.0,kilimall,2026-05-04 22:47:40.791948
+"KingNote 20000mAh X 2 Power Charging Bank Two pieces in combination portable SUPER Fast charde, charger cell phone, Bluetooth headset and other mobile electronic products",,1560.0,kilimall,2026-05-04 22:47:40.791948
+"【Clearance Sale】5-in-1 Electronics Cleaner Kit- Laptop Screen Cleaner kit,Multifunctional Bluetooth Earphones Cleaning Tool for iPhone Charging Port,Headphone,Earphone,Phone Speaker,Earpods",,199.0,kilimall,2026-05-04 22:47:40.791948
+"20000mAh Light Beam Power Bank with Fast Charging, Built-in Cables & LED Display portable charde, charger cell phone, Bluetooth headset and other mobile electronic products",,1000.0,kilimall,2026-05-04 22:47:40.791948
+Mini 25-in-1 Small Tri Circle Magnetic Precision Screwdriver Set Magnetic Mini Repair Electronics Phone PC Ratchet Drill Socket Repair Tool Bit Portable Professional Kit Set,,289.0,kilimall,2026-05-04 22:47:40.791948
+Tagwood 7500W 2.1CH Multimedia Bluetooth Woofer Speaker System Subwoofer Soundbar BT/USB/SD/FM Subwoofer Home Audilo System Soundbar with Remote Control S1 Speaker bass,,3899.0,kilimall,2026-05-04 22:47:40.791948
+"【Limited Offer】Euroken EK-26LC24T2 24"" Inch With CAST TV function Full Screen Display Television Ac/dc Digital Led Tv With Inbuilt Decoder For Local Channels Wide Color Enhancer, Usb Hdmi Ports",,4899.0,kilimall,2026-05-04 22:47:40.791948
+Y68 Waterproof Smart Watch Bluetooth Watch SmartWatch for Women Electronic Watch for Kids Men Fitness Tracker Men Women Sports Watches Wrist watch Smart Beacelet Kids Smartwatch Kids Watch,,703.0,kilimall,2026-05-04 22:47:40.791948
+Wireless Headset Over Ear earphone Noise Cancelling Bluetooth-Compatible 5.0 Sports Game Headset Built-in Mic Applicable to mobile phones computers and electronic products Local fast delivery,,540.0,kilimall,2026-05-04 22:47:40.791948
+"Smart LCD Writing Tablet, 8.5 Inch Graphics Tablet Electronic Writing Drawing Colorful Screen Doodle Board For kids",,338.0,kilimall,2026-05-04 22:47:40.791948
+Smart Watches Men's Sport Casual LED Watches Men Digital Clock Multi-Functional Rubber Man Fitness Army Military Electronic Watch,,449.0,kilimall,2026-05-04 22:47:40.791948
+30W Universal AC to DC Power Adapter - Multi Output Voltages 3V 4.5V 5V 6V 7.5V 9V 12V Switching Power Supply with 8 Selectable Adapter Plugs for Routers Speakers Household Electronic (MAX 2A/2000mA),,1300.0,kilimall,2026-05-04 22:47:40.791948
+Third Hand 5X Magnifying Glass Stand For Electronic Works Jeweler Watch Repair Welding Soldering Magnifier With Dual Clips,,1201.0,kilimall,2026-05-04 22:47:40.791948
+8.5inch LCD Writing Tablet Kids Erasable Colorful Drawing Board Graphic Electronic Writing Drawing Screen Doodle Board Children's Educational Toys,,338.0,kilimall,2026-05-04 22:47:40.791948
+Milky White Super Glue T5000 Repair Cell Phone Display Screen 50ML 110ML Adhesive For Glass Electronic Component Laptop Plastic Rubber,,699.0,kilimall,2026-05-04 22:47:40.791948
+"Vision Plus VP8850QV 50"" QLED 4K Smart TV – Netflix/YouTube/Prime Video, Inbuilt Decoder, Dolby Audio, Quantum Dot Display + Free Wall Mount (2YRS WRTY)",34070.0,,jumia,2026-05-04 22:47:40.811062
+"Amtec 43L12, 43"" FHD Smart Android Frameless TV, Netfix, Youtube, Bluetooth - Black (1YR WRTY)",16743.0,17999.0,jumia,2026-05-04 22:47:40.811062
+"Vitron HTC3288QS, 32 inch QLED Smart Android TV, QLED Smart TV, Android TV, Q LED - Black (1YR WRTY)",11320.0,12830.0,jumia,2026-05-04 22:47:40.811062
+"Itel TV 32 inches QLED Smart TV, Frameless, Bluetooth, Android14, Wifi, Digital, Netflix, YouTube, Prime, 32"" television (1 year warranty, New Launch price,wall mount free gift)",10798.0,,jumia,2026-05-04 22:47:40.811062
+"Hisense 43A4, 43"" INCH FRAMELESS SMART TELEVISION, FULL HD RESOLUTION, A4K SERIES ,NETFLIX ,YOUTUBE TV,DTS, INBUILT DECODER, BUILT-IN WIFI,VIDAA OS+FREE TV GUARD+BRACKET",24695.0,,jumia,2026-05-04 22:47:40.811062
+"Hisense 43'' Inch Smart FHD Frameless,SMART & DIGITAL LED TELEVISION+BRACKET+GUARD",24890.0,,jumia,2026-05-04 22:47:40.811062
+Vision Plus VP2111SB Immersive Sound 2.1 CH Sound Bar 240W - Black (2 YRs WRTY),8499.0,,jumia,2026-05-04 22:47:40.811062
+Amtec AM-308 3.1CH X-BASS Multimedia Home Theater System – 12000W PMPO - Black (1YR WRTY),3929.0,,jumia,2026-05-04 22:47:40.811062
+Lyons LYS2404 2.1CH Multimedia Speaker System Home Theatrer SubWoofer with BT(1YR WRTY),2599.0,2399.0,kilimall,2026-05-04 22:47:40.811062
+"Euroken HS-22LS19T2 19"" Inch Digital LED TV - HD Clear Color, Inbuilt Decoder, HDMI & USB",3999.0,,jumia,2026-05-04 22:47:40.811062
+"Gld 32"" Smart Frameless HD LED Television - Black",13795.0,,jumia,2026-05-04 22:47:40.811062
+"Skyworth 65Q6500H, 65"" 4K QLED Smart Google TV, Black (1YR WRTY)",74999.0,,jumia,2026-05-04 22:47:40.811062
+"K-Elec 55"" 4K Google Smart LED TV | Dolby Atmos Soundbar | Netflix & YouTube | 36-Month Warranty | FREE TV Guard + FREE Wall Mount",41999.0,,jumia,2026-05-04 22:47:40.811062
+Lenovo Thinkplus K30 Portable Bluetooth Wireless Speaker Waterproof USB Outdoor Loudspeaker Music Surround Bass Box Speakers,797.0,,jumia,2026-05-04 22:47:40.811062
+"Bluetooth Speaker 4D Subwoofer Wired Speaker For Laptop,TV",1059.0,,jumia,2026-05-04 22:47:40.811062
+GUIXIA XG88Pro Smart Bluetooth 5.3 Sunglasses Earphones,900.0,,jumia,2026-05-04 22:47:40.811062
+"Indoor Amplified HD Digital TV Antenna, VHF Or UHF Amplifier",896.0,,jumia,2026-05-04 22:47:40.811062
+"LASA LASA 3.5mm Microphone for Smartphones, PC, DSLR Cameras & Camcorders – Plug & Play, Clear Audio, Universal Compatibility",1219.0,,jumia,2026-05-04 22:47:40.811062
+"addigoes Extension Socket With USB, Power Extension Box with Surge Protection, 4 AC Sockets & 4 USB Ports (3 USB + 1 Type-C), USB Extension Socket with Overload Protection, LED Indicator, 2M Extension Cord for Home Office",799.0,,jumia,2026-05-04 22:47:40.811062
+Women Watch Men Smart Watches Sports Fintess Watches,1190.0,,jumia,2026-05-04 22:47:40.811062
+Mini Karaoke Machine With Wireless Microphones,3200.0,,jumia,2026-05-04 22:47:40.811062
+Rashnik TV Wall Mount TV Stand For 14” - 42” - Black,161.0,,jumia,2026-05-04 22:47:40.811062
+LUMINOUS ISTANBUL 2 TV CONSOLE 4FT WITH CABINET,4539.0,,jumia,2026-05-04 22:47:40.811062
+Gotv Decoder (1YR WRTY) - Black,719.0,,jumia,2026-05-04 22:47:40.811062
+"Skilltech 15"" To 43"" inches Tilting Wall Mount Bracket",445.0,,jumia,2026-05-04 22:47:40.811062
+MK Tv GUARD And 4 Way Extension Cable,850.0,1120.0,jumia,2026-05-04 22:47:40.811062
+Dstv Full kit (1YR WRTY),2250.0,,jumia,2026-05-04 22:47:40.811062
+"Mexico Modern Wooden TV Stand For Up To 55"" TV",3490.0,,jumia,2026-05-04 22:47:40.811062
+Power King Best 4 Way Power Extension With Long Cable - White,299.0,,jumia,2026-05-04 22:47:40.811062
+"ROTATING 14""-55"" TILT ROTATING WALL MOUNT BRACKET",660.0,,jumia,2026-05-04 22:47:40.811062
+Extension Cables 6 Way With 3 USB Ports Multiplug Power Extension Socket Power Cables.,649.0,,jumia,2026-05-04 22:47:40.811062
+"14-43 inches, 17'', 19'', 24'', 32'', 43'' Fixed TV Wall Mount Bracket",249.0,,jumia,2026-05-04 22:47:40.811062
+"TCL 55"" Inch,FRAMELESS,BLUETOOTH,Smart UHD 4K With HDR Google TV+360 BRACKET+TV GUARD",43999.0,,jumia,2026-05-04 22:47:40.811062
+"Hisense 55"" Inch 4K UHD SMART BLUETOOTH TV-2024 MODEL+FREE 360 WALL BRACKET",43999.0,,jumia,2026-05-04 22:47:40.811062
+Nobel 5.1 CH Top Bass-Home Theatre System/USB/Radio -22000W,12790.0,,jumia,2026-05-04 22:47:40.811062
+Istanbul 2 Modern TV Stand With LED Light - White & Black,4539.0,,jumia,2026-05-04 22:47:40.811062
+Nobel 5.1CH Home Theatre Speaker System 80W R.M.S Sub Woofer P.M.P.O 22000W Bluetooth Radio F.M/Aux Ready Super Bass Surround Sound Remote Control & LED Light,13290.0,,jumia,2026-05-04 22:47:40.811062
+"Official Store
+Amtec AM-02 2.1CH Multimedia Speaker BT/USB/SD/FM - Black (1YR WRTY)",5100.0,,jumia,2026-05-04 22:47:40.811062
+"Official Store
+Amaze Fridge/Freezer Guard/13A - UnderVoltage & Surge Protection",485.0,,jumia,2026-05-04 22:47:40.811062
+"Official Store
+Vitron V51SB- 2.1ch Soundbar System with Bluetooth, Black (1YR WRTY)",4840.0,,jumia,2026-05-04 22:47:40.811062
+"Home Design Rotating 14"" - 55"" Full Motion Swivel TV Bracket",649.0,,jumia,2026-05-04 22:47:40.811062
+Power King Iron Box And Electric Kettle Support 5 Way Power Extension-White// Blue,540.0,,jumia,2026-05-04 22:47:40.811062
+"Official Store
+Amaze TV Guard Voltage Power Protector 13A - Surge Protector",499.0,,jumia,2026-05-04 22:47:40.811062
+"Official Store
+Power King Extension Cable With 6 AC Power Outlets, 13A, And 2 M Long Cable",399.0,,jumia,2026-05-04 22:47:40.811062
+Digital LCD hair clipper - Long battery life-gold,3700.0,,jumia,2026-05-04 22:47:40.811062
+MK Electric Fridge Guard Plus Free 4-Way Extension Cable,850.0,,jumia,2026-05-04 22:47:40.811062
+IP Camera Home Security System 5MP V380 Pro Motion Detection Night Vision WiFi Indoor Camera,3200.0,,jumia,2026-05-04 22:47:40.811062
+"SILVER CREST 2 IN 1, 2LITRES HEAVY DUTY 4500WATTS",2599.0,,jumia,2026-05-04 22:47:40.811062
+Rotation Foldable Aerial Camera RC Gift HD Camera,9800.0,,jumia,2026-05-04 22:47:40.811062
+Panoramic Wireless WiFi 360 Degree Rotating Camera White,930.0,,jumia,2026-05-04 22:47:40.811062
+"Bolizma Bluetooth Earbuds, Wireless in Ear Buds with Hi-Res Audio, Secure Fit, BT 5.4, One-Step Pairing, for iPhone Android & More",608.0,,jumia,2026-05-04 22:47:40.811062
+"XIAOMI Redmi Buds 6 Play Wireless Earbuds White, Bluetooth 5.4, Long Battery Life, Noise Reduction Calls, Comfortable Fit",1900.0,,jumia,2026-05-04 22:47:40.811062
+"4K DisplayPort To HDMI 4K@60Hz, 2K@165Hz For Computer Laptop",804.0,,jumia,2026-05-04 22:47:40.811062
+Eveready Heavy Duty Long Lasting AAA Batteries- Pack Of 20,899.0,,jumia,2026-05-04 22:47:40.811062
+"Wired in-ear headphones with high-quality microphone, 9D sound effects, 1.5-meter cable, 3.5mm plug, black",1620.0,,jumia,2026-05-04 22:47:40.811062
+"Original USB Type-C Earphone, Sound By AKG With Remote & Mic",850.0,,jumia,2026-05-04 22:47:40.811062
+New LIGE Round Smart Watches Men/Women Full Touch Screen Sport Fitness Smart Watch IP67 Waterproof Bluetooth For Android ios Smartwatches Smart Wearable Fitness Electronic Clock,,1299.0,kilimall,2026-05-04 22:47:40.811062
+120W USB C Plug 4-Port Charger Plugs Fast Charging Travel Plug Adapter with 2 usb and 2 PD Port Wall Charging Head Universal Power Charging Compatible with Most Electronic Products,,359.0,kilimall,2026-05-04 22:47:40.811062
+RichRipple Men and women Sports LED Watch Silicone Colorful Watch Electronic Clock Digital Fashion Clock Smart Watch,,149.0,kilimall,2026-05-04 22:47:40.811062
+"KingNote 20000mAh X 2 Power Charging Bank Two pieces in combination portable SUPER Fast charde, charger cell phone, Bluetooth headset and other mobile electronic products",,1560.0,kilimall,2026-05-04 22:47:40.811062
+"【Clearance Sale】5-in-1 Electronics Cleaner Kit- Laptop Screen Cleaner kit,Multifunctional Bluetooth Earphones Cleaning Tool for iPhone Charging Port,Headphone,Earphone,Phone Speaker,Earpods",,199.0,kilimall,2026-05-04 22:47:40.811062
+"20000mAh Light Beam Power Bank with Fast Charging, Built-in Cables & LED Display portable charde, charger cell phone, Bluetooth headset and other mobile electronic products",,1000.0,kilimall,2026-05-04 22:47:40.811062
+Mini 25-in-1 Small Tri Circle Magnetic Precision Screwdriver Set Magnetic Mini Repair Electronics Phone PC Ratchet Drill Socket Repair Tool Bit Portable Professional Kit Set,,289.0,kilimall,2026-05-04 22:47:40.811062
+Tagwood 7500W 2.1CH Multimedia Bluetooth Woofer Speaker System Subwoofer Soundbar BT/USB/SD/FM Subwoofer Home Audilo System Soundbar with Remote Control S1 Speaker bass,,3899.0,kilimall,2026-05-04 22:47:40.811062
+"【Limited Offer】Euroken EK-26LC24T2 24"" Inch With CAST TV function Full Screen Display Television Ac/dc Digital Led Tv With Inbuilt Decoder For Local Channels Wide Color Enhancer, Usb Hdmi Ports",,4899.0,kilimall,2026-05-04 22:47:40.811062
+Y68 Waterproof Smart Watch Bluetooth Watch SmartWatch for Women Electronic Watch for Kids Men Fitness Tracker Men Women Sports Watches Wrist watch Smart Beacelet Kids Smartwatch Kids Watch,,703.0,kilimall,2026-05-04 22:47:40.811062
+Wireless Headset Over Ear earphone Noise Cancelling Bluetooth-Compatible 5.0 Sports Game Headset Built-in Mic Applicable to mobile phones computers and electronic products Local fast delivery,,540.0,kilimall,2026-05-04 22:47:40.811062
+"Smart LCD Writing Tablet, 8.5 Inch Graphics Tablet Electronic Writing Drawing Colorful Screen Doodle Board For kids",,338.0,kilimall,2026-05-04 22:47:40.811062
+Smart Watches Men's Sport Casual LED Watches Men Digital Clock Multi-Functional Rubber Man Fitness Army Military Electronic Watch,,449.0,kilimall,2026-05-04 22:47:40.811062
+30W Universal AC to DC Power Adapter - Multi Output Voltages 3V 4.5V 5V 6V 7.5V 9V 12V Switching Power Supply with 8 Selectable Adapter Plugs for Routers Speakers Household Electronic (MAX 2A/2000mA),,1300.0,kilimall,2026-05-04 22:47:40.811062
+Third Hand 5X Magnifying Glass Stand For Electronic Works Jeweler Watch Repair Welding Soldering Magnifier With Dual Clips,,1201.0,kilimall,2026-05-04 22:47:40.811062
+8.5inch LCD Writing Tablet Kids Erasable Colorful Drawing Board Graphic Electronic Writing Drawing Screen Doodle Board Children's Educational Toys,,338.0,kilimall,2026-05-04 22:47:40.811062
+Milky White Super Glue T5000 Repair Cell Phone Display Screen 50ML 110ML Adhesive For Glass Electronic Component Laptop Plastic Rubber,,699.0,kilimall,2026-05-04 22:47:40.811062
