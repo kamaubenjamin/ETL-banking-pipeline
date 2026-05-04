@@ -1,4 +1,5 @@
 import pandas as pd
+import re
 from rapidfuzz import fuzz
 
 def combine_datasets(datasets: dict) -> pd.DataFrame:
@@ -37,13 +38,14 @@ def match_products(df: pd.DataFrame, threshold: int = 75) -> pd.DataFrame:
             continue
 
         df.loc[i, "match_id"] = match_id
-        base_name = df.loc[i, "product_name"]
+        base_name = normalize_name(df.loc[i, "product_name"])
+
 
         for j in range(i + 1, len(df)):
             if df.loc[j, "match_id"] != -1:
                 continue
 
-            compare_name = df.loc[j, "product_name"]
+            compare_name = normalize_name(df.loc[j, "product_name"])
 
             score = fuzz.token_set_ratio(base_name, compare_name)
 
@@ -92,3 +94,43 @@ def build_comparison_table(df: pd.DataFrame) -> pd.DataFrame:
     result["cheapest"] = result.apply(find_cheapest, axis=1)
 
     return result
+
+
+
+def normalize_name(text: str) -> str:
+    text = text.lower()
+
+    # remove quotes and symbols
+    text = re.sub(r'["\'(),]', '', text)
+
+    # normalize inch formats
+    text = text.replace('inch', '').replace('"', '')
+
+    # remove common noise words
+    stop_words = ['smart', 'android', 'tv', 'inch', 'led', 'qled']
+    words = text.split()
+
+    words = [w for w in words if w not in stop_words]
+
+    return " ".join(words)
+def extract_features(name: str) -> dict:
+    import re
+
+    text = name.lower()
+
+    # brand (first word usually)
+    brand = text.split()[0]
+
+    # size (e.g. 43", 50 inch)
+    size_match = re.search(r'(\d{2})\s?(?:\"|inch)', text)
+    size = size_match.group(1) if size_match else None
+
+    # model (alphanumeric codes)
+    model_match = re.search(r'\b[a-z0-9]{4,}\b', text)
+    model = model_match.group(0) if model_match else None
+
+    return {
+        "brand": brand,
+        "size": size,
+        "model": model
+    }
