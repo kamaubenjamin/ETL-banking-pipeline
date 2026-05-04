@@ -1,6 +1,6 @@
 import pandas as pd
 from src.transform.comparison_engine import combine_datasets, match_products
-
+from src.transform.comparison_engine import build_comparison_table
 # 🔥 Simulated datasets (like Jumia + another site)
 df_jumia = pd.DataFrame({
     "product_name": [
@@ -32,3 +32,8 @@ combined = combine_datasets({
 matched = match_products(combined)
 
 print(matched)
+
+comparison = build_comparison_table(matched)
+
+print("\n=== COMPARISON TABLE ===\n")
+print(comparison)
