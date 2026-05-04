@@ -21,7 +21,7 @@ class PlaywrightConnector(BaseConnector):
             page = browser.new_page()
 
             page.goto(self.url)
-            page.wait_for_timeout(3000)  # allow JS load
+            page.wait_for_timeout(8000)  # allow JS load
 
             # fallback to body if no selector
             target_selector = self.selector if self.selector else "body"
