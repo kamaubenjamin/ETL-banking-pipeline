@@ -4,7 +4,7 @@ import pandas as pd
 
 def extract_product_info(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Parser V3: Handles multiple currencies and formats
+    Parser V3: Handles multiple currencies and avoids quantity noise (e.g. 500ml, 2kg)
     """
 
     results = []
@@ -13,19 +13,20 @@ def extract_product_info(df: pd.DataFrame) -> pd.DataFrame:
         text = str(row)
 
         # -----------------------------
-        # 💰 PRICE + CURRENCY (IMPROVED)
+        # 💰 PRICE + CURRENCY (FIXED LOGIC)
         # -----------------------------
+        price = None
+        currency = None
+
+        # PRIORITY: Match currency-based price
         price_match = re.search(
-            r"(£|\$|KSh|KES)?\s?([\d,]+(?:\.\d+)?)",
+            r"(£|\$|KSh|KES)\s?([\d,]+(?:\.\d+)?)",
             text,
             re.IGNORECASE
         )
 
-        price = None
-        currency = None
-
         if price_match:
-            currency = price_match.group(1)
+            currency = price_match.group(1).upper()
 
             raw_price = price_match.group(2).replace(",", "")
 
@@ -33,6 +34,16 @@ def extract_product_info(df: pd.DataFrame) -> pd.DataFrame:
                 price = float(raw_price)
             except:
                 price = None
+
+        else:
+            # Fallback: only if no currency found
+            fallback_match = re.search(r"([\d,]+(?:\.\d+)?)", text)
+
+            if fallback_match:
+                try:
+                    price = float(fallback_match.group(1).replace(",", ""))
+                except:
+                    price = None
 
         # -----------------------------
         # 📦 AVAILABILITY
@@ -54,7 +65,7 @@ def extract_product_info(df: pd.DataFrame) -> pd.DataFrame:
         if price_match:
             name = text[:price_match.start()].strip()
 
-        # Clean junk words
+        # Remove common junk
         junk_words = [
             "add to basket",
             "buy now",
@@ -65,7 +76,7 @@ def extract_product_info(df: pd.DataFrame) -> pd.DataFrame:
         for word in junk_words:
             name = name.replace(word, "").strip()
 
-        # Skip bad rows
+        # Avoid weak rows
         if len(name) < 3:
             continue
 
