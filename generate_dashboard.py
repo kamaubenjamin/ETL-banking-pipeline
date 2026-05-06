@@ -1,4 +1,10 @@
-import os
+#!/usr/bin/env python3
+"""
+Enhanced Streamlit Dashboard - Write to file
+This script generates the enhanced dashboard code
+"""
+
+dashboard_code = '''import os
 import streamlit as st
 import pandas as pd
 import sqlite3
@@ -374,3 +380,10 @@ with tab4:
             st.rerun()
     else:
         st.info("No logs yet")
+'''
+
+# Write the dashboard code to file
+with open('dashboard.py', 'w', encoding='utf-8') as f:
+    f.write(dashboard_code)
+
+print("✅ Enhanced dashboard created successfully!")

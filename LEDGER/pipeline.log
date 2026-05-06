@@ -1,8 +1,0 @@
-[2026-03-28 12:07:01] [INFO] Starting extraction
-[2026-03-28 12:07:20] [INFO] Extraction complete
-[2026-03-28 12:07:20] [INFO] Starting transformation
-[2026-03-28 12:07:20] [INFO] Transformation complete
-[2026-03-28 12:07:20] [INFO] Loading to CSV
-[2026-03-28 12:07:20] [INFO] CSV load complete
-[2026-03-28 12:07:20] [INFO] Loading to DB
-[2026-03-28 12:07:20] [INFO] DB load complete
