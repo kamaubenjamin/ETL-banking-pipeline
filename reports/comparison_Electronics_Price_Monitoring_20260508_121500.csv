@@ -1,0 +1,4 @@
+canonical_id,product_name,match_confidence,match_type,kilimall_electronics,cheapest_source,cheapest_price,source_count
+vitron_32_3a780040,"vitron 32"" None QLED TV",97.45035603529068,exact_match,7999.0,kilimall_electronics,7999.0,1
+match_2,Mini 25-in-1 Small Tri Circle Magnetic Precision Screwdriver Set Magnetic Mini Repair Electronics Phone PC Ratchet Drill Socket Repair Tool Bit Portable Professional Kit Set,73.82464651075412,medium_confidence,500.0,kilimall_electronics,500.0,1
+match_1,"【Clearance Sale】5-in-1 Electronics Cleaner Kit- Laptop Screen Cleaner kit,Multifunctional Bluetooth Earphones Cleaning Tool for iPhone Charging Port,Headphone,Earphone,Phone Speaker,Earpods",0.0,no_match,199.0,kilimall_electronics,199.0,1

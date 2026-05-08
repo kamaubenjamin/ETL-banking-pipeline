@@ -5,9 +5,9 @@
     "time_of_day": "08:00",
     "day_of_week": null,
     "enabled": true,
-    "last_run": "2026-05-08T12:06:18.397532",
+    "last_run": "2026-05-08T12:15:00.444031",
     "next_run": "2026-05-09T08:00:00",
-    "run_count": 1
+    "run_count": 2
   },
   "smartphones_monitoring": {
     "workflow_id": "smartphones_monitoring",

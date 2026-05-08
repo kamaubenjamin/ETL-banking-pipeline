@@ -1,0 +1,89 @@
+{
+  "workflow_id": "supplier_vs_market",
+  "workflow_name": "Supplier vs Market Price Analysis",
+  "description": "Compare internal supplier prices with market prices from Jumia and Kilimall",
+  "enabled": true,
+
+  "internal_sources": [
+    {
+      "name": "supplier_price_list",
+      "source_type": "internal",
+      "file_path": "data/internal/supplier_prices.csv",
+      "data_type": "csv"
+    },
+    {
+      "name": "erp_inventory",
+      "source_type": "internal",
+      "file_path": "data/internal/erp_export.xlsx",
+      "data_type": "xlsx"
+    }
+  ],
+
+  "external_sources": [
+    {
+      "name": "jumia_electronics",
+      "source_type": "playwright",
+      "url": "https://www.jumia.co.ke/electronics/",
+      "selector": "article.prd",
+      "keyword": "electronics",
+      "match_threshold": 72
+    },
+    {
+      "name": "kilimall_electronics",
+      "source_type": "playwright",
+      "url": "https://www.kilimall.co.ke/search?q=electronics",
+      "selector": ".product-item",
+      "keyword": "electronics",
+      "match_threshold": 72
+    }
+  ],
+
+  "filters": {
+    "category": "electronics",
+    "keywords": ["tv", "smart tv", "monitor", "laptop", "phone", "smartphone"]
+  },
+
+  "transformation_rules": [
+    {
+      "type": "drop_nulls",
+      "subset": ["price"]
+    },
+    {
+      "type": "filter",
+      "condition": "price > 1000"
+    }
+  ],
+
+  "steps": [
+    "extract",
+    "normalize",
+    "fuzzy_match",
+    "compare_supplier_vs_market",
+    "detect_undercut",
+    "generate_alerts",
+    "generate_reports"
+  ],
+
+  "alert_rules": {
+    "price_drop_percentage": 5,
+    "price_drop_absolute": 1000,
+    "minimum_confidence": 0.75,
+    "undercut_threshold": 2000,
+    "supplier_vs_market_threshold": 10
+  },
+
+  "schedule": {
+    "frequency": "daily",
+    "time_of_day": "09:00",
+    "day_of_week": null,
+    "enabled": true
+  },
+
+  "reporting": {
+    "export_csv": true,
+    "export_pdf": true,
+    "report_dir": "reports"
+  },
+
+  "global_match_threshold": 70
+}

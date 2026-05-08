@@ -4,6 +4,7 @@ from src.extract.api_connector import APIConnector
 from src.extract.dataframe_connector import DataFrameConnector
 from src.extract.selenium_connector import SeleniumConnector
 from src.extract.playwright_connector import PlaywrightConnector
+from src.extract.internal_connector import InternalDataConnector
 # Factory function to get the appropriate connector based on the source type specified by the user.
 def get_connector(source_type, config=None, uploaded_df=None, mode=None, selector=None):
 
@@ -36,6 +37,12 @@ def get_connector(source_type, config=None, uploaded_df=None, mode=None, selecto
             url=config.url,
             selector=selector,
             keyword=getattr(config, "keyword", None)
+        )
+
+    elif source_type == "internal":
+        return InternalDataConnector(
+            file_path=config.url,  # Using url field for file path
+            source_type=getattr(config, "source_type", "csv")
         )
 
     else:

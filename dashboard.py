@@ -178,8 +178,16 @@ with st.sidebar:
         
         if workflow.alert_rules:
             st.markdown("**Alert Rules:**")
-            for rule in workflow.alert_rules:
-                st.caption(f"  • {rule.get('type', 'unknown')} | threshold: {rule.get('threshold', 'n/a')}")
+            if isinstance(workflow.alert_rules, list):
+                # New format: list of dictionaries
+                for rule in workflow.alert_rules:
+                    st.caption(f"  • {rule.get('type', 'unknown')} | threshold: {rule.get('threshold', 'n/a')}")
+            elif isinstance(workflow.alert_rules, dict):
+                # Old format: dictionary of key-value pairs
+                for rule_type, threshold in workflow.alert_rules.items():
+                    st.caption(f"  • {rule_type} | threshold: {threshold}")
+            else:
+                st.caption("  • Invalid alert rules format")
 
     with st.expander("➕ Create & Save Workflow"):
         st.markdown("### New workflow builder")

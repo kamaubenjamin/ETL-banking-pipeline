@@ -1,0 +1,11 @@
+Product Code,Product Name,Current Stock,Unit Cost,Last Purchase Date,Supplier
+TV001,Samsung 55" Smart TV,15,42000,2024-01-10,TechSupplies
+PH001,Apple iPhone 15 Pro,8,175000,2024-01-12,MobileHub
+LT001,Dell XPS 13 Laptop,12,115000,2024-01-08,ComputerWorld
+HP001,Sony WH-1000XM5 Headphones,25,32000,2024-01-14,AudioTech
+TV002,LG 65" OLED TV,5,82000,2024-01-09,DisplayMasters
+PH002,Google Pixel 8 Pro,10,155000,2024-01-11,MobileHub
+LT002,MacBook Air M3,6,185000,2024-01-13,ComputerWorld
+HP002,Bose QuietComfort 45,18,26000,2024-01-15,AudioTech
+PH003,Samsung Galaxy S24 Ultra,7,165000,2024-01-10,MobileHub
+LT003,HP Spectre x360,9,130000,2024-01-12,ComputerWorld

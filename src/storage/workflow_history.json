@@ -1,0 +1,590 @@
+[
+  {
+    "run_id": "6ad22188-6e3c-42b3-8beb-14bb48ec4646",
+    "workflow_id": "supplier_vs_market",
+    "workflow_name": "Supplier vs Market Price Analysis",
+    "start_time": "2026-05-08T12:25:44.162397",
+    "status": "success",
+    "error": null,
+    "steps": [
+      {
+        "name": "extract",
+        "status": "success",
+        "duration": 36.098134,
+        "message": "Extracted from 4 sources"
+      },
+      {
+        "name": "normalize",
+        "status": "success",
+        "duration": 4e-06,
+        "message": "Normalized product data"
+      },
+      {
+        "name": "fuzzy_match",
+        "status": "success",
+        "duration": 2e-06,
+        "message": "Applied fuzzy matching and confidence scoring"
+      },
+      {
+        "name": "compare_supplier_vs_market",
+        "status": "success",
+        "duration": 2e-06,
+        "message": "No matched data for supplier analysis"
+      },
+      {
+        "name": "detect_undercut",
+        "status": "success",
+        "duration": 0.302702,
+        "message": "Detected 13 price changes"
+      },
+      {
+        "name": "generate_alerts",
+        "status": "success",
+        "duration": 0.001211,
+        "message": "Generated 1 alerts"
+      },
+      {
+        "name": "generate_reports",
+        "status": "success",
+        "duration": 0.011687,
+        "message": "Generated report: comparison_Supplier_vs_Market_Price_Analysis_20260508_122620.csv"
+      }
+    ],
+    "alerts_generated": 1,
+    "report_paths": [
+      "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_122620.csv",
+      "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_122620.pdf"
+    ],
+    "comparison_shape": [
+      3,
+      8
+    ],
+    "triggered_by": "manual",
+    "comparison": "         canonical_id  ... source_count\n0  vitron_32_3a780040  ...            1\n2             match_9  ...            1\n1             match_8  ...            1\n\n[3 rows x 8 columns]",
+    "undercut_opportunities": "Empty DataFrame\nColumns: []\nIndex: []",
+    "changes": "                                              product  ...          new_price\n0   Vision Plus VP8850QV 50\" QLED 4K Smart TV \u2013 Ne...  ...            35666.0\n1                Astronaut Star Projector Night Light  ...  jumia_electronics\n2   \u3010Clearance Sale\u30115-in-1 Electronics Cleaner Kit...  ...            match_8\n3   AILYONS SB502K 2.1 CH Subwoofer / Sound Bar Mu...  ...  jumia_electronics\n4                             redmi 15\" 256GB Monitor  ...            15299.0\n5                             redmi 15\" 256GB Monitor  ...          96.082668\n6                             redmi 15\" 256GB Monitor  ...    kilimall_phones\n7                             redmi 15\" 256GB Monitor  ...            14999.0\n8                             redmi 15\" 256GB Monitor  ...                2.0\n9                             refurbished 64GB 64GBGB  ...          77.215101\n10                            refurbished 64GB 64GBGB  ...  medium_confidence\n11                            refurbished 64GB 64GBGB  ...             6499.0\n12                            refurbished 64GB 64GBGB  ...             6499.0\n\n[13 rows x 4 columns]",
+    "alerts": [
+      "No alerts triggered by workflow rules"
+    ],
+    "report_file": "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_122620.csv",
+    "pdf_file": "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_122620.pdf",
+    "end_time": "2026-05-08T12:26:20.576241",
+    "total_duration": 36.413852
+  },
+  {
+    "run_id": "4a72be37-70d3-4f50-99b1-3fe6c1f348b9",
+    "workflow_id": "supplier_vs_market",
+    "workflow_name": "Supplier vs Market Price Analysis",
+    "start_time": "2026-05-08T12:27:29.573886",
+    "status": "success",
+    "error": null,
+    "steps": [
+      {
+        "name": "extract",
+        "status": "success",
+        "duration": 25.020604,
+        "message": "Extracted from 4 sources"
+      },
+      {
+        "name": "normalize",
+        "status": "success",
+        "duration": 3e-06,
+        "message": "Normalized product data"
+      },
+      {
+        "name": "fuzzy_match",
+        "status": "success",
+        "duration": 1e-06,
+        "message": "Applied fuzzy matching and confidence scoring"
+      },
+      {
+        "name": "compare_supplier_vs_market",
+        "status": "success",
+        "duration": 0.028966,
+        "message": "Analyzed 0 supplier vs market comparisons"
+      },
+      {
+        "name": "detect_undercut",
+        "status": "success",
+        "duration": 0.185579,
+        "message": "Detected 12 price changes"
+      },
+      {
+        "name": "generate_alerts",
+        "status": "success",
+        "duration": 0.001206,
+        "message": "Generated 1 alerts"
+      },
+      {
+        "name": "generate_reports",
+        "status": "success",
+        "duration": 0.007717,
+        "message": "Generated report: comparison_Supplier_vs_Market_Price_Analysis_20260508_122754.csv"
+      }
+    ],
+    "alerts_generated": 1,
+    "report_paths": [
+      "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_122754.csv",
+      "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_122754.pdf"
+    ],
+    "comparison_shape": [
+      3,
+      8
+    ],
+    "triggered_by": "manual",
+    "matched": "                                         product_name  ...                                           features\n0                                Samsung 55\" Smart TV  ...  {'brand': 'samsung', 'size': '55', 'model': No...\n1                                 Apple iPhone 15 Pro  ...  {'brand': 'apple', 'size': '15', 'model': None...\n2                                  Dell XPS 13 Laptop  ...  {'brand': 'dell', 'size': '13', 'model': None,...\n3                          Sony WH-1000XM5 Headphones  ...  {'brand': 'sony', 'size': '100', 'model': 'WH-...\n4                                      LG 65\" OLED TV  ...  {'brand': 'lg', 'size': '65', 'model': None, '...\n5                                  Google Pixel 8 Pro  ...  {'brand': 'google', 'size': None, 'model': Non...\n6                                      MacBook Air M3  ...  {'brand': 'macbook', 'size': None, 'model': No...\n7                                Bose QuietComfort 45  ...  {'brand': 'bose', 'size': '45', 'model': None,...\n8                            Samsung Galaxy S24 Ultra  ...  {'brand': 'samsung', 'size': '24', 'model': No...\n9                                     HP Spectre x360  ...  {'brand': None, 'size': None, 'model': 'X360',...\n10  VITRON 32\" INCH QLED TV HTC3288QS ,BLUETOOTH E...  ...  {'brand': 'vitron', 'size': '32', 'model': 'HT...\n11  Vitron 32 Inch Qled BLUETOOTH Enabled TV, FRAM...  ...  {'brand': 'vitron', 'size': '32', 'model': Non...\n12  \u3010Clearance Sale\u30115-in-1 Electronics Cleaner Kit...  ...  {'brand': 'clearance', 'size': None, 'model': ...\n13  KOOCU 8032 PORTABLE HOT AIR GUN Hand Held Air ...  ...  {'brand': 'koocu', 'size': None, 'model': None...\n14  VITRON 32\" INCH QLED TV HTC3288QS ,BLUETOOTH E...  ...  {'brand': 'vitron', 'size': '32', 'model': 'HT...\n15  Mini 25-in-1 Small Tri Circle Magnetic Precisi...  ...  {'brand': 'mini', 'size': '25', 'model': None,...\n16  VITRON 32\" INCH QLED TV HTC3288QS ,BLUETOOTH E...  ...  {'brand': 'vitron', 'size': '32', 'model': 'HT...\n17  VITRON 24\" INCH HTC2446 HD AC/DC Digital TELEV...  ...  {'brand': 'vitron', 'size': '24', 'model': 'HT...\n\n[18 rows x 17 columns]",
+    "comparison": "         canonical_id  ... source_count\n0  vitron_32_3a780040  ...            1\n2             match_9  ...            1\n1             match_8  ...            1\n\n[3 rows x 8 columns]",
+    "supplier_analysis": "Empty DataFrame\nColumns: []\nIndex: []",
+    "undercut_opportunities": "Empty DataFrame\nColumns: []\nIndex: []",
+    "changes": "                                              product  ...          new_price\n0   Vision Plus VP8850QV 50\" QLED 4K Smart TV \u2013 Ne...  ...            35666.0\n1                Astronaut Star Projector Night Light  ...  jumia_electronics\n2   AILYONS SB502K 2.1 CH Subwoofer / Sound Bar Mu...  ...  jumia_electronics\n3                             redmi 15\" 256GB Monitor  ...            15299.0\n4                             redmi 15\" 256GB Monitor  ...          96.082668\n5                             redmi 15\" 256GB Monitor  ...    kilimall_phones\n6                             redmi 15\" 256GB Monitor  ...            14999.0\n7                             redmi 15\" 256GB Monitor  ...                2.0\n8                             refurbished 64GB 64GBGB  ...          77.215101\n9                             refurbished 64GB 64GBGB  ...  medium_confidence\n10                            refurbished 64GB 64GBGB  ...             6499.0\n11                            refurbished 64GB 64GBGB  ...             6499.0\n\n[12 rows x 4 columns]",
+    "alerts": [
+      "No alerts triggered by workflow rules"
+    ],
+    "report_file": "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_122754.csv",
+    "pdf_file": "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_122754.pdf",
+    "end_time": "2026-05-08T12:27:54.818072",
+    "total_duration": 25.244192
+  },
+  {
+    "run_id": "7b264fa4-ecdb-4502-97f0-c6879cc78c29",
+    "workflow_id": "supplier_vs_market",
+    "workflow_name": "Supplier vs Market Price Analysis",
+    "start_time": "2026-05-08T12:30:35.063173",
+    "status": "success",
+    "error": null,
+    "steps": [
+      {
+        "name": "extract",
+        "status": "success",
+        "duration": 24.824893,
+        "message": "Extracted from 4 sources"
+      },
+      {
+        "name": "normalize",
+        "status": "success",
+        "duration": 2e-06,
+        "message": "Normalized product data"
+      },
+      {
+        "name": "fuzzy_match",
+        "status": "success",
+        "duration": 1e-06,
+        "message": "Applied fuzzy matching and confidence scoring"
+      },
+      {
+        "name": "compare_supplier_vs_market",
+        "status": "success",
+        "duration": 0.023383,
+        "message": "Analyzed 0 supplier vs market comparisons"
+      },
+      {
+        "name": "detect_undercut",
+        "status": "success",
+        "duration": 0.191561,
+        "message": "Detected 12 price changes"
+      },
+      {
+        "name": "generate_alerts",
+        "status": "success",
+        "duration": 0.001112,
+        "message": "Generated 1 alerts"
+      },
+      {
+        "name": "generate_reports",
+        "status": "success",
+        "duration": 0.009238,
+        "message": "Generated report: comparison_Supplier_vs_Market_Price_Analysis_20260508_123100.csv"
+      }
+    ],
+    "alerts_generated": 1,
+    "report_paths": [
+      "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_123100.csv",
+      "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_123100.pdf"
+    ],
+    "comparison_shape": [
+      3,
+      8
+    ],
+    "triggered_by": "manual",
+    "matched": "                                         product_name  ...                                           features\n0                                Samsung 55\" Smart TV  ...  {'brand': 'samsung', 'size': '55', 'model': No...\n1                                 Apple iPhone 15 Pro  ...  {'brand': 'apple', 'size': '15', 'model': None...\n2                                  Dell XPS 13 Laptop  ...  {'brand': 'dell', 'size': '13', 'model': None,...\n3                          Sony WH-1000XM5 Headphones  ...  {'brand': 'sony', 'size': '100', 'model': 'WH-...\n4                                      LG 65\" OLED TV  ...  {'brand': 'lg', 'size': '65', 'model': None, '...\n5                                  Google Pixel 8 Pro  ...  {'brand': 'google', 'size': None, 'model': Non...\n6                                      MacBook Air M3  ...  {'brand': 'macbook', 'size': None, 'model': No...\n7                                Bose QuietComfort 45  ...  {'brand': 'bose', 'size': '45', 'model': None,...\n8                            Samsung Galaxy S24 Ultra  ...  {'brand': 'samsung', 'size': '24', 'model': No...\n9                                     HP Spectre x360  ...  {'brand': None, 'size': None, 'model': 'X360',...\n10  VITRON 32\" INCH QLED TV HTC3288QS ,BLUETOOTH E...  ...  {'brand': 'vitron', 'size': '32', 'model': 'HT...\n11  Vitron 32 Inch Qled BLUETOOTH Enabled TV, FRAM...  ...  {'brand': 'vitron', 'size': '32', 'model': Non...\n12  \u3010Clearance Sale\u30115-in-1 Electronics Cleaner Kit...  ...  {'brand': 'clearance', 'size': None, 'model': ...\n13  KOOCU 8032 PORTABLE HOT AIR GUN Hand Held Air ...  ...  {'brand': 'koocu', 'size': None, 'model': None...\n14  VITRON 32\" INCH QLED TV HTC3288QS ,BLUETOOTH E...  ...  {'brand': 'vitron', 'size': '32', 'model': 'HT...\n15  Mini 25-in-1 Small Tri Circle Magnetic Precisi...  ...  {'brand': 'mini', 'size': '25', 'model': None,...\n16  VITRON 32\" INCH QLED TV HTC3288QS ,BLUETOOTH E...  ...  {'brand': 'vitron', 'size': '32', 'model': 'HT...\n17  VITRON 24\" INCH HTC2446 HD AC/DC Digital TELEV...  ...  {'brand': 'vitron', 'size': '24', 'model': 'HT...\n\n[18 rows x 17 columns]",
+    "comparison": "         canonical_id  ... source_count\n0  vitron_32_3a780040  ...            1\n2             match_9  ...            1\n1             match_8  ...            1\n\n[3 rows x 8 columns]",
+    "supplier_analysis": "Empty DataFrame\nColumns: []\nIndex: []",
+    "undercut_opportunities": "Empty DataFrame\nColumns: []\nIndex: []",
+    "changes": "                                              product  ...          new_price\n0   Vision Plus VP8850QV 50\" QLED 4K Smart TV \u2013 Ne...  ...            35666.0\n1                Astronaut Star Projector Night Light  ...  jumia_electronics\n2   AILYONS SB502K 2.1 CH Subwoofer / Sound Bar Mu...  ...  jumia_electronics\n3                             redmi 15\" 256GB Monitor  ...            15299.0\n4                             redmi 15\" 256GB Monitor  ...          96.082668\n5                             redmi 15\" 256GB Monitor  ...    kilimall_phones\n6                             redmi 15\" 256GB Monitor  ...            14999.0\n7                             redmi 15\" 256GB Monitor  ...                2.0\n8                             refurbished 64GB 64GBGB  ...          77.215101\n9                             refurbished 64GB 64GBGB  ...  medium_confidence\n10                            refurbished 64GB 64GBGB  ...             6499.0\n11                            refurbished 64GB 64GBGB  ...             6499.0\n\n[12 rows x 4 columns]",
+    "alerts": [
+      "No alerts triggered by workflow rules"
+    ],
+    "report_file": "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_123100.csv",
+    "pdf_file": "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_123100.pdf",
+    "end_time": "2026-05-08T12:31:00.113452",
+    "total_duration": 25.050286
+  },
+  {
+    "run_id": "085f3d71-5974-45d6-8ff6-ca467725bb9d",
+    "workflow_id": "supplier_vs_market",
+    "workflow_name": "Supplier vs Market Price Analysis",
+    "start_time": "2026-05-08T12:31:51.179946",
+    "status": "success",
+    "error": null,
+    "steps": [
+      {
+        "name": "extract",
+        "status": "success",
+        "duration": 25.484355,
+        "message": "Extracted from 4 sources"
+      },
+      {
+        "name": "normalize",
+        "status": "success",
+        "duration": 3e-06,
+        "message": "Normalized product data"
+      },
+      {
+        "name": "fuzzy_match",
+        "status": "success",
+        "duration": 2e-06,
+        "message": "Applied fuzzy matching and confidence scoring"
+      },
+      {
+        "name": "compare_supplier_vs_market",
+        "status": "success",
+        "duration": 0.022246,
+        "message": "Analyzed 0 supplier vs market comparisons"
+      },
+      {
+        "name": "detect_undercut",
+        "status": "success",
+        "duration": 0.18533,
+        "message": "Detected 12 price changes"
+      },
+      {
+        "name": "generate_alerts",
+        "status": "success",
+        "duration": 0.001109,
+        "message": "Generated 1 alerts"
+      },
+      {
+        "name": "generate_reports",
+        "status": "success",
+        "duration": 0.009429,
+        "message": "Generated report: comparison_Supplier_vs_Market_Price_Analysis_20260508_123216.csv"
+      }
+    ],
+    "alerts_generated": 1,
+    "report_paths": [
+      "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_123216.csv",
+      "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_123216.pdf"
+    ],
+    "comparison_shape": [
+      3,
+      8
+    ],
+    "triggered_by": "manual",
+    "matched": "                                         product_name  ...                                           features\n0                                Samsung 55\" Smart TV  ...  {'brand': 'samsung', 'size': '55', 'model': No...\n1                                 Apple iPhone 15 Pro  ...  {'brand': 'apple', 'size': '15', 'model': None...\n2                                  Dell XPS 13 Laptop  ...  {'brand': 'dell', 'size': '13', 'model': None,...\n3                          Sony WH-1000XM5 Headphones  ...  {'brand': 'sony', 'size': '100', 'model': 'WH-...\n4                                      LG 65\" OLED TV  ...  {'brand': 'lg', 'size': '65', 'model': None, '...\n5                                  Google Pixel 8 Pro  ...  {'brand': 'google', 'size': None, 'model': Non...\n6                                      MacBook Air M3  ...  {'brand': 'macbook', 'size': None, 'model': No...\n7                                Bose QuietComfort 45  ...  {'brand': 'bose', 'size': '45', 'model': None,...\n8                            Samsung Galaxy S24 Ultra  ...  {'brand': 'samsung', 'size': '24', 'model': No...\n9                                     HP Spectre x360  ...  {'brand': None, 'size': None, 'model': 'X360',...\n10  VITRON 32\" INCH QLED TV HTC3288QS ,BLUETOOTH E...  ...  {'brand': 'vitron', 'size': '32', 'model': 'HT...\n11  Vitron 32 Inch Qled BLUETOOTH Enabled TV, FRAM...  ...  {'brand': 'vitron', 'size': '32', 'model': Non...\n12  \u3010Clearance Sale\u30115-in-1 Electronics Cleaner Kit...  ...  {'brand': 'clearance', 'size': None, 'model': ...\n13  KOOCU 8032 PORTABLE HOT AIR GUN Hand Held Air ...  ...  {'brand': 'koocu', 'size': None, 'model': None...\n14  VITRON 32\" INCH QLED TV HTC3288QS ,BLUETOOTH E...  ...  {'brand': 'vitron', 'size': '32', 'model': 'HT...\n15  Mini 25-in-1 Small Tri Circle Magnetic Precisi...  ...  {'brand': 'mini', 'size': '25', 'model': None,...\n16  VITRON 32\" INCH QLED TV HTC3288QS ,BLUETOOTH E...  ...  {'brand': 'vitron', 'size': '32', 'model': 'HT...\n17  VITRON 24\" INCH HTC2446 HD AC/DC Digital TELEV...  ...  {'brand': 'vitron', 'size': '24', 'model': 'HT...\n\n[18 rows x 17 columns]",
+    "comparison": "         canonical_id  ... source_count\n0  vitron_32_3a780040  ...            1\n2             match_9  ...            1\n1             match_8  ...            1\n\n[3 rows x 8 columns]",
+    "supplier_analysis": "Empty DataFrame\nColumns: []\nIndex: []",
+    "undercut_opportunities": "Empty DataFrame\nColumns: []\nIndex: []",
+    "changes": "                                              product  ...          new_price\n0   Vision Plus VP8850QV 50\" QLED 4K Smart TV \u2013 Ne...  ...            35666.0\n1                Astronaut Star Projector Night Light  ...  jumia_electronics\n2   AILYONS SB502K 2.1 CH Subwoofer / Sound Bar Mu...  ...  jumia_electronics\n3                             redmi 15\" 256GB Monitor  ...            15299.0\n4                             redmi 15\" 256GB Monitor  ...          96.082668\n5                             redmi 15\" 256GB Monitor  ...    kilimall_phones\n6                             redmi 15\" 256GB Monitor  ...            14999.0\n7                             redmi 15\" 256GB Monitor  ...                2.0\n8                             refurbished 64GB 64GBGB  ...          77.215101\n9                             refurbished 64GB 64GBGB  ...  medium_confidence\n10                            refurbished 64GB 64GBGB  ...             6499.0\n11                            refurbished 64GB 64GBGB  ...             6499.0\n\n[12 rows x 4 columns]",
+    "alerts": [
+      "No alerts triggered by workflow rules"
+    ],
+    "report_file": "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_123216.csv",
+    "pdf_file": "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_123216.pdf",
+    "end_time": "2026-05-08T12:32:16.882543",
+    "total_duration": 25.702603
+  },
+  {
+    "run_id": "b2cc8b99-ef3e-4865-ab29-cf2994dae5ad",
+    "workflow_id": "supplier_vs_market",
+    "workflow_name": "Supplier vs Market Price Analysis",
+    "start_time": "2026-05-08T12:33:06.469636",
+    "status": "success",
+    "error": null,
+    "steps": [
+      {
+        "name": "extract",
+        "status": "success",
+        "duration": 24.969603,
+        "message": "Extracted from 4 sources"
+      },
+      {
+        "name": "normalize",
+        "status": "success",
+        "duration": 2e-06,
+        "message": "Normalized product data"
+      },
+      {
+        "name": "fuzzy_match",
+        "status": "success",
+        "duration": 1e-06,
+        "message": "Applied fuzzy matching and confidence scoring"
+      },
+      {
+        "name": "compare_supplier_vs_market",
+        "status": "success",
+        "duration": 0.022951,
+        "message": "Analyzed 0 supplier vs market comparisons"
+      },
+      {
+        "name": "detect_undercut",
+        "status": "success",
+        "duration": 0.188435,
+        "message": "Detected 12 price changes"
+      },
+      {
+        "name": "generate_alerts",
+        "status": "success",
+        "duration": 0.001125,
+        "message": "Generated 1 alerts"
+      },
+      {
+        "name": "generate_reports",
+        "status": "success",
+        "duration": 0.007801,
+        "message": "Generated report: comparison_Supplier_vs_Market_Price_Analysis_20260508_123331.csv"
+      }
+    ],
+    "alerts_generated": 1,
+    "report_paths": [
+      "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_123331.csv",
+      "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_123331.pdf"
+    ],
+    "comparison_shape": [
+      3,
+      8
+    ],
+    "triggered_by": "manual",
+    "matched": "                                         product_name  ...                                           features\n0                                Samsung 55\" Smart TV  ...  {'brand': 'samsung', 'size': '55', 'model': No...\n1                                 Apple iPhone 15 Pro  ...  {'brand': 'apple', 'size': '15', 'model': None...\n2                                  Dell XPS 13 Laptop  ...  {'brand': 'dell', 'size': '13', 'model': None,...\n3                          Sony WH-1000XM5 Headphones  ...  {'brand': 'sony', 'size': '100', 'model': 'WH-...\n4                                      LG 65\" OLED TV  ...  {'brand': 'lg', 'size': '65', 'model': None, '...\n5                                  Google Pixel 8 Pro  ...  {'brand': 'google', 'size': None, 'model': Non...\n6                                      MacBook Air M3  ...  {'brand': 'macbook', 'size': None, 'model': No...\n7                                Bose QuietComfort 45  ...  {'brand': 'bose', 'size': '45', 'model': None,...\n8                            Samsung Galaxy S24 Ultra  ...  {'brand': 'samsung', 'size': '24', 'model': No...\n9                                     HP Spectre x360  ...  {'brand': None, 'size': None, 'model': 'X360',...\n10  VITRON 32\" INCH QLED TV HTC3288QS ,BLUETOOTH E...  ...  {'brand': 'vitron', 'size': '32', 'model': 'HT...\n11  Vitron 32 Inch Qled BLUETOOTH Enabled TV, FRAM...  ...  {'brand': 'vitron', 'size': '32', 'model': Non...\n12  \u3010Clearance Sale\u30115-in-1 Electronics Cleaner Kit...  ...  {'brand': 'clearance', 'size': None, 'model': ...\n13  KOOCU 8032 PORTABLE HOT AIR GUN Hand Held Air ...  ...  {'brand': 'koocu', 'size': None, 'model': None...\n14  VITRON 32\" INCH QLED TV HTC3288QS ,BLUETOOTH E...  ...  {'brand': 'vitron', 'size': '32', 'model': 'HT...\n15  Mini 25-in-1 Small Tri Circle Magnetic Precisi...  ...  {'brand': 'mini', 'size': '25', 'model': None,...\n16  VITRON 32\" INCH QLED TV HTC3288QS ,BLUETOOTH E...  ...  {'brand': 'vitron', 'size': '32', 'model': 'HT...\n17  VITRON 24\" INCH HTC2446 HD AC/DC Digital TELEV...  ...  {'brand': 'vitron', 'size': '24', 'model': 'HT...\n\n[18 rows x 17 columns]",
+    "comparison": "         canonical_id  ... source_count\n0  vitron_32_3a780040  ...            1\n2             match_9  ...            1\n1             match_8  ...            1\n\n[3 rows x 8 columns]",
+    "supplier_analysis": "Empty DataFrame\nColumns: []\nIndex: []",
+    "undercut_opportunities": "Empty DataFrame\nColumns: []\nIndex: []",
+    "changes": "                                              product  ...          new_price\n0   Vision Plus VP8850QV 50\" QLED 4K Smart TV \u2013 Ne...  ...            35666.0\n1                Astronaut Star Projector Night Light  ...  jumia_electronics\n2   AILYONS SB502K 2.1 CH Subwoofer / Sound Bar Mu...  ...  jumia_electronics\n3                             redmi 15\" 256GB Monitor  ...            15299.0\n4                             redmi 15\" 256GB Monitor  ...          96.082668\n5                             redmi 15\" 256GB Monitor  ...    kilimall_phones\n6                             redmi 15\" 256GB Monitor  ...            14999.0\n7                             redmi 15\" 256GB Monitor  ...                2.0\n8                             refurbished 64GB 64GBGB  ...          77.215101\n9                             refurbished 64GB 64GBGB  ...  medium_confidence\n10                            refurbished 64GB 64GBGB  ...             6499.0\n11                            refurbished 64GB 64GBGB  ...             6499.0\n\n[12 rows x 4 columns]",
+    "alerts": [
+      "No alerts triggered by workflow rules"
+    ],
+    "report_file": "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_123331.csv",
+    "pdf_file": "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_123331.pdf",
+    "end_time": "2026-05-08T12:33:31.659670",
+    "total_duration": 25.19004
+  },
+  {
+    "run_id": "474eb974-b650-4e27-8589-2087408852f2",
+    "workflow_id": "supplier_vs_market",
+    "workflow_name": "Supplier vs Market Price Analysis",
+    "start_time": "2026-05-08T12:34:30.167737",
+    "status": "success",
+    "error": null,
+    "steps": [
+      {
+        "name": "extract",
+        "status": "success",
+        "duration": 25.354948,
+        "message": "Extracted from 4 sources"
+      },
+      {
+        "name": "normalize",
+        "status": "success",
+        "duration": 2e-06,
+        "message": "Normalized product data"
+      },
+      {
+        "name": "fuzzy_match",
+        "status": "success",
+        "duration": 1e-06,
+        "message": "Applied fuzzy matching and confidence scoring"
+      },
+      {
+        "name": "compare_supplier_vs_market",
+        "status": "success",
+        "duration": 0.024549,
+        "message": "Analyzed 0 supplier vs market comparisons"
+      },
+      {
+        "name": "detect_undercut",
+        "status": "success",
+        "duration": 0.206561,
+        "message": "Detected 12 price changes"
+      },
+      {
+        "name": "generate_alerts",
+        "status": "success",
+        "duration": 0.001117,
+        "message": "Generated 1 alerts"
+      },
+      {
+        "name": "generate_reports",
+        "status": "success",
+        "duration": 0.008456,
+        "message": "Generated report: comparison_Supplier_vs_Market_Price_Analysis_20260508_123455.csv"
+      }
+    ],
+    "alerts_generated": 1,
+    "report_paths": [
+      "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_123455.csv",
+      "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_123455.pdf"
+    ],
+    "comparison_shape": [
+      3,
+      8
+    ],
+    "triggered_by": "manual",
+    "matched": "                                         product_name  ...                                           features\n0                                Samsung 55\" Smart TV  ...  {'brand': 'samsung', 'size': '55', 'model': No...\n1                                 Apple iPhone 15 Pro  ...  {'brand': 'apple', 'size': '15', 'model': None...\n2                                  Dell XPS 13 Laptop  ...  {'brand': 'dell', 'size': '13', 'model': None,...\n3                          Sony WH-1000XM5 Headphones  ...  {'brand': 'sony', 'size': '100', 'model': 'WH-...\n4                                      LG 65\" OLED TV  ...  {'brand': 'lg', 'size': '65', 'model': None, '...\n5                                  Google Pixel 8 Pro  ...  {'brand': 'google', 'size': None, 'model': Non...\n6                                      MacBook Air M3  ...  {'brand': 'macbook', 'size': None, 'model': No...\n7                                Bose QuietComfort 45  ...  {'brand': 'bose', 'size': '45', 'model': None,...\n8                            Samsung Galaxy S24 Ultra  ...  {'brand': 'samsung', 'size': '24', 'model': No...\n9                                     HP Spectre x360  ...  {'brand': None, 'size': None, 'model': 'X360',...\n10  VITRON 32\" INCH QLED TV HTC3288QS ,BLUETOOTH E...  ...  {'brand': 'vitron', 'size': '32', 'model': 'HT...\n11  Vitron 32 Inch Qled BLUETOOTH Enabled TV, FRAM...  ...  {'brand': 'vitron', 'size': '32', 'model': Non...\n12  \u3010Clearance Sale\u30115-in-1 Electronics Cleaner Kit...  ...  {'brand': 'clearance', 'size': None, 'model': ...\n13  KOOCU 8032 PORTABLE HOT AIR GUN Hand Held Air ...  ...  {'brand': 'koocu', 'size': None, 'model': None...\n14  VITRON 32\" INCH QLED TV HTC3288QS ,BLUETOOTH E...  ...  {'brand': 'vitron', 'size': '32', 'model': 'HT...\n15  Mini 25-in-1 Small Tri Circle Magnetic Precisi...  ...  {'brand': 'mini', 'size': '25', 'model': None,...\n16  VITRON 32\" INCH QLED TV HTC3288QS ,BLUETOOTH E...  ...  {'brand': 'vitron', 'size': '32', 'model': 'HT...\n17  VITRON 24\" INCH HTC2446 HD AC/DC Digital TELEV...  ...  {'brand': 'vitron', 'size': '24', 'model': 'HT...\n\n[18 rows x 17 columns]",
+    "comparison": "         canonical_id  ... source_count\n0  vitron_32_3a780040  ...            1\n2             match_9  ...            1\n1             match_8  ...            1\n\n[3 rows x 8 columns]",
+    "supplier_analysis": "Empty DataFrame\nColumns: []\nIndex: []",
+    "undercut_opportunities": "Empty DataFrame\nColumns: []\nIndex: []",
+    "changes": "                                              product  ...          new_price\n0   Vision Plus VP8850QV 50\" QLED 4K Smart TV \u2013 Ne...  ...            35666.0\n1                Astronaut Star Projector Night Light  ...  jumia_electronics\n2   AILYONS SB502K 2.1 CH Subwoofer / Sound Bar Mu...  ...  jumia_electronics\n3                             redmi 15\" 256GB Monitor  ...            15299.0\n4                             redmi 15\" 256GB Monitor  ...          96.082668\n5                             redmi 15\" 256GB Monitor  ...    kilimall_phones\n6                             redmi 15\" 256GB Monitor  ...            14999.0\n7                             redmi 15\" 256GB Monitor  ...                2.0\n8                             refurbished 64GB 64GBGB  ...          77.215101\n9                             refurbished 64GB 64GBGB  ...  medium_confidence\n10                            refurbished 64GB 64GBGB  ...             6499.0\n11                            refurbished 64GB 64GBGB  ...             6499.0\n\n[12 rows x 4 columns]",
+    "alerts": [
+      "No alerts triggered by workflow rules"
+    ],
+    "report_file": "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_123455.csv",
+    "pdf_file": "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_123455.pdf",
+    "end_time": "2026-05-08T12:34:55.763488",
+    "total_duration": 25.595757
+  },
+  {
+    "run_id": "8bbab8db-93ba-4689-bfc3-7e4d99cbcc68",
+    "workflow_id": "supplier_vs_market",
+    "workflow_name": "Supplier vs Market Price Analysis",
+    "start_time": "2026-05-08T12:36:04.529452",
+    "status": "success",
+    "error": null,
+    "steps": [
+      {
+        "name": "extract",
+        "status": "success",
+        "duration": 25.109032,
+        "message": "Extracted from 4 sources"
+      },
+      {
+        "name": "normalize",
+        "status": "success",
+        "duration": 3e-06,
+        "message": "Normalized product data"
+      },
+      {
+        "name": "fuzzy_match",
+        "status": "success",
+        "duration": 2e-06,
+        "message": "Applied fuzzy matching and confidence scoring"
+      },
+      {
+        "name": "compare_supplier_vs_market",
+        "status": "success",
+        "duration": 0.022882,
+        "message": "Analyzed 0 supplier vs market comparisons"
+      },
+      {
+        "name": "detect_undercut",
+        "status": "success",
+        "duration": 0.183679,
+        "message": "Detected 12 price changes"
+      },
+      {
+        "name": "generate_alerts",
+        "status": "success",
+        "duration": 0.001158,
+        "message": "Generated 1 alerts"
+      },
+      {
+        "name": "generate_reports",
+        "status": "success",
+        "duration": 0.007225,
+        "message": "Generated report: comparison_Supplier_vs_Market_Price_Analysis_20260508_123629.csv"
+      }
+    ],
+    "alerts_generated": 1,
+    "report_paths": [
+      "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_123629.csv",
+      "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_123629.pdf"
+    ],
+    "comparison_shape": [
+      3,
+      8
+    ],
+    "triggered_by": "manual",
+    "matched": "                                         product_name  ...                                           features\n0                                Samsung 55\" Smart TV  ...  {'brand': 'samsung', 'size': '55', 'model': No...\n1                                 Apple iPhone 15 Pro  ...  {'brand': 'apple', 'size': '15', 'model': None...\n2                                  Dell XPS 13 Laptop  ...  {'brand': 'dell', 'size': '13', 'model': None,...\n3                          Sony WH-1000XM5 Headphones  ...  {'brand': 'sony', 'size': '100', 'model': 'WH-...\n4                                      LG 65\" OLED TV  ...  {'brand': 'lg', 'size': '65', 'model': None, '...\n5                                  Google Pixel 8 Pro  ...  {'brand': 'google', 'size': None, 'model': Non...\n6                                      MacBook Air M3  ...  {'brand': 'macbook', 'size': None, 'model': No...\n7                                Bose QuietComfort 45  ...  {'brand': 'bose', 'size': '45', 'model': None,...\n8                            Samsung Galaxy S24 Ultra  ...  {'brand': 'samsung', 'size': '24', 'model': No...\n9                                     HP Spectre x360  ...  {'brand': None, 'size': None, 'model': 'X360',...\n10  VITRON 32\" INCH QLED TV HTC3288QS ,BLUETOOTH E...  ...  {'brand': 'vitron', 'size': '32', 'model': 'HT...\n11  Vitron 32 Inch Qled BLUETOOTH Enabled TV, FRAM...  ...  {'brand': 'vitron', 'size': '32', 'model': Non...\n12  \u3010Clearance Sale\u30115-in-1 Electronics Cleaner Kit...  ...  {'brand': 'clearance', 'size': None, 'model': ...\n13  KOOCU 8032 PORTABLE HOT AIR GUN Hand Held Air ...  ...  {'brand': 'koocu', 'size': None, 'model': None...\n14  VITRON 32\" INCH QLED TV HTC3288QS ,BLUETOOTH E...  ...  {'brand': 'vitron', 'size': '32', 'model': 'HT...\n15  Mini 25-in-1 Small Tri Circle Magnetic Precisi...  ...  {'brand': 'mini', 'size': '25', 'model': None,...\n16  VITRON 32\" INCH QLED TV HTC3288QS ,BLUETOOTH E...  ...  {'brand': 'vitron', 'size': '32', 'model': 'HT...\n17  VITRON 24\" INCH HTC2446 HD AC/DC Digital TELEV...  ...  {'brand': 'vitron', 'size': '24', 'model': 'HT...\n\n[18 rows x 17 columns]",
+    "comparison": "         canonical_id  ... source_count\n0  vitron_32_3a780040  ...            1\n2             match_9  ...            1\n1             match_8  ...            1\n\n[3 rows x 8 columns]",
+    "supplier_analysis": "Empty DataFrame\nColumns: []\nIndex: []",
+    "undercut_opportunities": "Empty DataFrame\nColumns: []\nIndex: []",
+    "changes": "                                              product  ...          new_price\n0   Vision Plus VP8850QV 50\" QLED 4K Smart TV \u2013 Ne...  ...            35666.0\n1                Astronaut Star Projector Night Light  ...  jumia_electronics\n2   AILYONS SB502K 2.1 CH Subwoofer / Sound Bar Mu...  ...  jumia_electronics\n3                             redmi 15\" 256GB Monitor  ...            15299.0\n4                             redmi 15\" 256GB Monitor  ...          96.082668\n5                             redmi 15\" 256GB Monitor  ...    kilimall_phones\n6                             redmi 15\" 256GB Monitor  ...            14999.0\n7                             redmi 15\" 256GB Monitor  ...                2.0\n8                             refurbished 64GB 64GBGB  ...          77.215101\n9                             refurbished 64GB 64GBGB  ...  medium_confidence\n10                            refurbished 64GB 64GBGB  ...             6499.0\n11                            refurbished 64GB 64GBGB  ...             6499.0\n\n[12 rows x 4 columns]",
+    "alerts": [
+      "No alerts triggered by workflow rules"
+    ],
+    "report_file": "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_123629.csv",
+    "pdf_file": "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_123629.pdf",
+    "end_time": "2026-05-08T12:36:29.853564",
+    "total_duration": 25.324118
+  },
+  {
+    "run_id": "8f4d8083-7bb1-4a4a-9562-e7c30e561be2",
+    "workflow_id": "supplier_vs_market",
+    "workflow_name": "Supplier vs Market Price Analysis",
+    "start_time": "2026-05-08T12:48:28.548650",
+    "status": "success",
+    "error": null,
+    "steps": [
+      {
+        "name": "extract",
+        "status": "success",
+        "duration": 25.86541,
+        "message": "Extracted from 4 sources"
+      },
+      {
+        "name": "normalize",
+        "status": "success",
+        "duration": 0.0,
+        "message": "Normalized product data"
+      },
+      {
+        "name": "fuzzy_match",
+        "status": "success",
+        "duration": 0.0,
+        "message": "Applied fuzzy matching and confidence scoring"
+      },
+      {
+        "name": "compare_supplier_vs_market",
+        "status": "success",
+        "duration": 0.023132,
+        "message": "Analyzed 1 supplier vs market comparisons"
+      },
+      {
+        "name": "detect_undercut",
+        "status": "success",
+        "duration": 0.179181,
+        "message": "Detected 12 price changes"
+      },
+      {
+        "name": "generate_alerts",
+        "status": "success",
+        "duration": 0.001186,
+        "message": "Generated 1 alerts"
+      },
+      {
+        "name": "generate_reports",
+        "status": "success",
+        "duration": 0.00102,
+        "message": "Generated report: comparison_Supplier_vs_Market_Price_Analysis_20260508_124854.csv"
+      }
+    ],
+    "alerts_generated": 1,
+    "report_paths": [
+      "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_124854.csv"
+    ],
+    "comparison_shape": [
+      3,
+      8
+    ],
+    "triggered_by": "manual",
+    "matched": "                                         product_name  ...                                           features\n0                                Samsung 55\" Smart TV  ...  {'brand': 'samsung', 'size': '55', 'model': No...\n1                                 Apple iPhone 15 Pro  ...  {'brand': 'apple', 'size': '15', 'model': None...\n2                                  Dell XPS 13 Laptop  ...  {'brand': 'dell', 'size': '13', 'model': None,...\n3                          Sony WH-1000XM5 Headphones  ...  {'brand': 'sony', 'size': '100', 'model': 'WH-...\n4                                      LG 65\" OLED TV  ...  {'brand': 'lg', 'size': '65', 'model': None, '...\n5                                  Google Pixel 8 Pro  ...  {'brand': 'google', 'size': None, 'model': Non...\n6                                      MacBook Air M3  ...  {'brand': 'macbook', 'size': None, 'model': No...\n7                                Bose QuietComfort 45  ...  {'brand': 'bose', 'size': '45', 'model': None,...\n8                            Samsung Galaxy S24 Ultra  ...  {'brand': 'samsung', 'size': '24', 'model': No...\n9                              Vitron 32 Inch QLED TV  ...  {'brand': 'vitron', 'size': '32', 'model': Non...\n10                                    HP Spectre x360  ...  {'brand': None, 'size': None, 'model': 'X360',...\n11  VITRON 32\" INCH QLED TV HTC3288QS ,BLUETOOTH E...  ...  {'brand': 'vitron', 'size': '32', 'model': 'HT...\n12  Vitron 32 Inch Qled BLUETOOTH Enabled TV, FRAM...  ...  {'brand': 'vitron', 'size': '32', 'model': Non...\n13  \u3010Clearance Sale\u30115-in-1 Electronics Cleaner Kit...  ...  {'brand': 'clearance', 'size': None, 'model': ...\n14  KOOCU 8032 PORTABLE HOT AIR GUN Hand Held Air ...  ...  {'brand': 'koocu', 'size': None, 'model': None...\n15  VITRON 32\" INCH QLED TV HTC3288QS ,BLUETOOTH E...  ...  {'brand': 'vitron', 'size': '32', 'model': 'HT...\n16  Mini 25-in-1 Small Tri Circle Magnetic Precisi...  ...  {'brand': 'mini', 'size': '25', 'model': None,...\n17  VITRON 32\" INCH QLED TV HTC3288QS ,BLUETOOTH E...  ...  {'brand': 'vitron', 'size': '32', 'model': 'HT...\n18  VITRON 24\" INCH HTC2446 HD AC/DC Digital TELEV...  ...  {'brand': 'vitron', 'size': '24', 'model': 'HT...\n\n[19 rows x 17 columns]",
+    "comparison": "         canonical_id  ... source_count\n0  vitron_32_3a780040  ...            1\n2             match_9  ...            1\n1             match_8  ...            1\n\n[3 rows x 8 columns]",
+    "supplier_analysis": "         canonical_id  ... match_confidence\n0  vitron_32_3a780040  ...        97.165884\n\n[1 rows x 13 columns]",
+    "undercut_opportunities": "Empty DataFrame\nColumns: []\nIndex: []",
+    "changes": "                                              product  ...          new_price\n0   Vision Plus VP8850QV 50\" QLED 4K Smart TV \u2013 Ne...  ...            35666.0\n1                Astronaut Star Projector Night Light  ...  jumia_electronics\n2   AILYONS SB502K 2.1 CH Subwoofer / Sound Bar Mu...  ...  jumia_electronics\n3                             redmi 15\" 256GB Monitor  ...            15299.0\n4                             redmi 15\" 256GB Monitor  ...          96.082668\n5                             redmi 15\" 256GB Monitor  ...    kilimall_phones\n6                             redmi 15\" 256GB Monitor  ...            14999.0\n7                             redmi 15\" 256GB Monitor  ...                2.0\n8                             refurbished 64GB 64GBGB  ...          77.215101\n9                             refurbished 64GB 64GBGB  ...  medium_confidence\n10                            refurbished 64GB 64GBGB  ...             6499.0\n11                            refurbished 64GB 64GBGB  ...             6499.0\n\n[12 rows x 4 columns]",
+    "alerts": [
+      "No alerts triggered by workflow rules"
+    ],
+    "report_file": "reports\\comparison_Supplier_vs_Market_Price_Analysis_20260508_124854.csv",
+    "end_time": "2026-05-08T12:48:54.618579",
+    "total_duration": 26.069929
+  }
+]

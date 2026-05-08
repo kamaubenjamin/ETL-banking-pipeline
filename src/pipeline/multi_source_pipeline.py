@@ -84,7 +84,13 @@ def run_multi_source_pipeline(sources: dict | WorkflowConfig, config) -> pd.Data
     # -------------------------
     # COMBINE
     # -------------------------
-    combined = combine_datasets(datasets)
+    # Create source type map from workflow config if available
+    source_type_map = None
+    if isinstance(sources, WorkflowConfig):
+        source_type_map = {src.name: src.source_type for src in sources.sources}
+        sources = {source.name: {"type": source.source_type, "url": source.url, "selector": source.selector, "keyword": source.keyword, "mode": source.mode, "match_threshold": source.match_threshold} for source in sources.sources}
+
+    combined = combine_datasets(datasets, source_type_map)
 
     # -------------------------
     # MATCH
@@ -102,4 +108,4 @@ def run_multi_source_pipeline(sources: dict | WorkflowConfig, config) -> pd.Data
      
     #save final comparison to history for future reference
     save_snapshot(comparison)
-    return comparison
+    return matched, comparison

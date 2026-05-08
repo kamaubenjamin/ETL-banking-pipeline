@@ -16,6 +16,13 @@ from src.pipeline.multi_source_pipeline import run_multi_source_pipeline
 from src.storage.history_store import save_snapshot, detect_price_changes
 from src.storage.workflow_history import workflow_history_store
 from src.alerts.alert_engine import generate_alerts
+from src.transform.comparison_engine import (
+    combine_datasets,
+    match_products,
+    build_comparison_table,
+    compare_supplier_vs_market,
+    detect_supplier_undercut,
+)
 import src.config as config
 
 
@@ -55,8 +62,23 @@ class WorkflowRunner:
 
     def workflow_to_config(self, workflow_def: Dict[str, Any]) -> WorkflowConfig:
         """Convert a workflow definition to a WorkflowConfig object."""
-        sources = [
-            SourceConfig(
+        sources = []
+
+        # Handle internal sources
+        for src in workflow_def.get("internal_sources", []):
+            sources.append(SourceConfig(
+                name=src["name"],
+                source_type="internal",
+                url=src.get("file_path"),  # Use url field for file path
+                selector=None,
+                keyword=None,
+                match_threshold=src.get("match_threshold", 70),
+                mode="internal",
+            ))
+
+        # Handle external sources
+        for src in workflow_def.get("external_sources", []):
+            sources.append(SourceConfig(
                 name=src["name"],
                 source_type=src["source_type"],
                 url=src.get("url"),
@@ -64,9 +86,19 @@ class WorkflowRunner:
                 keyword=src.get("keyword"),
                 match_threshold=src.get("match_threshold", 70),
                 mode="Auto Detect",
-            )
-            for src in workflow_def.get("sources", [])
-        ]
+            ))
+
+        # Legacy support for "sources" field
+        for src in workflow_def.get("sources", []):
+            sources.append(SourceConfig(
+                name=src["name"],
+                source_type=src["source_type"],
+                url=src.get("url"),
+                selector=src.get("selector"),
+                keyword=src.get("keyword"),
+                match_threshold=src.get("match_threshold", 70),
+                mode="Auto Detect",
+            ))
 
         return WorkflowConfig(
             workflow_id=workflow_def.get("workflow_id"),
@@ -120,9 +152,15 @@ class WorkflowRunner:
 
                 try:
                     if step == "extract":
-                        comparison = run_multi_source_pipeline(workflow_config, config)
+                        pipeline_result = run_multi_source_pipeline(workflow_config, config)
+                        if isinstance(pipeline_result, tuple):
+                            matched, comparison = pipeline_result
+                            execution_log["matched"] = matched
+                            execution_log["comparison"] = comparison
+                        else:
+                            # Fallback for older pipeline versions
+                            execution_log["comparison"] = pipeline_result
                         step_log["message"] = f"Extracted from {len(workflow_config.sources)} sources"
-                        execution_log["comparison"] = comparison
                         if hasattr(comparison, "shape"):
                             execution_log["comparison_shape"] = list(comparison.shape)
 
@@ -135,7 +173,26 @@ class WorkflowRunner:
                     elif step == "compare":
                         step_log["message"] = "Compared products across sources"
 
-                    elif step == "detect_changes":
+                    elif step == "compare_supplier_vs_market":
+                        if "matched" in execution_log:
+                            supplier_analysis = compare_supplier_vs_market(execution_log["matched"])
+                            execution_log["supplier_analysis"] = supplier_analysis
+                            step_log["message"] = f"Analyzed {len(supplier_analysis)} supplier vs market comparisons"
+                        else:
+                            step_log["message"] = "No matched data for supplier analysis"
+
+                    elif step == "detect_undercut":
+                        if "supplier_analysis" in execution_log:
+                            undercut_threshold = workflow_def.get("alert_rules", {}).get("undercut_threshold", 2000)
+                            undercut_opportunities = detect_supplier_undercut(
+                                execution_log["supplier_analysis"],
+                                threshold=undercut_threshold
+                            )
+                            execution_log["undercut_opportunities"] = undercut_opportunities
+                            step_log["message"] = f"Found {len(undercut_opportunities)} undercut opportunities"
+                        else:
+                            execution_log["undercut_opportunities"] = pd.DataFrame()
+                            step_log["message"] = "No supplier analysis for undercut detection"
                         history_file = "price_history.csv"
                         if os.path.exists(history_file):
                             df_history = pd.read_csv(history_file)

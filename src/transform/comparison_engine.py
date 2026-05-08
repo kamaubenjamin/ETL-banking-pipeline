@@ -15,12 +15,18 @@ from src.transform.intelligence_engine import (
 # -----------------------------
 # 🔗 COMBINE DATASETS
 # -----------------------------
-def combine_datasets(datasets: dict) -> pd.DataFrame:
+def combine_datasets(datasets: dict, source_type_map: Dict[str, str] = None) -> pd.DataFrame:
     combined = []
 
     for source, df in datasets.items():
         temp = df.copy()
         temp["source"] = source
+        # Set source type if provided, otherwise infer from existing data or default to external
+        if source_type_map and source in source_type_map:
+            temp["_source_type"] = source_type_map[source]
+        elif "_source_type" not in temp.columns:
+            # If not already set (e.g., by internal connector), default to external
+            temp["_source_type"] = "external"
         combined.append(temp)
 
     return pd.concat(combined, ignore_index=True)
@@ -285,3 +291,124 @@ def calculate_matching_quality(df: pd.DataFrame) -> Dict:
         "confidence_std": confidence_stats.get("std", 0),
         "match_types": match_types,
     }
+
+
+# -----------------------------
+# 🏢 SUPPLIER VS MARKET ANALYSIS
+# -----------------------------
+def compare_supplier_vs_market(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Specialized analysis for comparing internal supplier prices vs external market prices.
+    """
+    if df.empty:
+        return pd.DataFrame()
+
+    # Identify internal vs external sources
+    internal_sources = []
+    external_sources = []
+
+    for source in df["source"].unique():
+        if "_source_type" in df.columns and (df[df["source"] == source]["_source_type"] == "internal").any():
+            internal_sources.append(source)
+        else:
+            external_sources.append(source)
+
+    if not internal_sources or not external_sources:
+        # Fallback to regular comparison if no clear internal/external distinction
+        return build_comparison_table(df)
+
+    analysis_data = []
+
+    for match_id in df["match_id"].unique():
+        if match_id == -1:
+            continue
+
+        group = df[df["match_id"] == match_id]
+
+        # Get canonical information
+        canonical_name = group["canonical_name"].dropna().iloc[0] if not group["canonical_name"].dropna().empty else group["product_name"].iloc[0]
+        canonical_id = group["canonical_id"].dropna().iloc[0] if not group["canonical_id"].dropna().empty else f"match_{match_id}"
+
+        # Separate internal and external prices
+        internal_prices = {}
+        external_prices = {}
+
+        for _, row in group.iterrows():
+            source = row["source"]
+            price = None
+            for price_col in ["price", "supplier_price", "unit_cost", "current_price", "sale_price"]:
+                if price_col in row and pd.notna(row[price_col]):
+                    price = row[price_col]
+                    break
+
+            if price is not None:
+                if source in internal_sources:
+                    internal_prices[source] = price
+                elif source in external_sources:
+                    external_prices[source] = price
+
+        if internal_prices and external_prices:
+            # Calculate supplier vs market metrics
+            internal_avg = sum(internal_prices.values()) / len(internal_prices)
+            external_min = min(external_prices.values())
+            external_avg = sum(external_prices.values()) / len(external_prices)
+            external_max = max(external_prices.values())
+
+            # Calculate competitiveness metrics
+            price_difference = internal_avg - external_min
+            price_difference_pct = (price_difference / external_min) * 100 if external_min > 0 else 0
+
+            # Determine if supplier is competitive
+            is_competitive = internal_avg <= external_avg * 1.05  # Within 5% of market average
+            undercut_opportunity = external_max - internal_avg > 0
+
+            analysis_data.append({
+                "canonical_id": canonical_id,
+                "product_name": canonical_name,
+                "supplier_avg_price": internal_avg,
+                "market_min_price": external_min,
+                "market_avg_price": external_avg,
+                "market_max_price": external_max,
+                "price_difference": price_difference,
+                "price_difference_pct": price_difference_pct,
+                "is_competitive": is_competitive,
+                "undercut_opportunity": undercut_opportunity,
+                "supplier_sources": list(internal_prices.keys()),
+                "market_sources": list(external_prices.keys()),
+                "match_confidence": group["confidence_score"].mean(),
+            })
+
+    return pd.DataFrame(analysis_data)
+
+
+# -----------------------------
+# 🎯 DETECT SUPPLIER UNDERCUT OPPORTUNITIES
+# -----------------------------
+def detect_supplier_undercut(df: pd.DataFrame, threshold: float = 2000) -> pd.DataFrame:
+    """
+    Detect opportunities where supplier prices could undercut market prices.
+    """
+    if df.empty:
+        return pd.DataFrame()
+
+    opportunities = []
+
+    for _, row in df.iterrows():
+        if row.get("undercut_opportunity", False):
+            market_max = row["market_max_price"]
+            supplier_price = row["supplier_avg_price"]
+            potential_profit = market_max - supplier_price
+
+            if potential_profit >= threshold:
+                opportunities.append({
+                    "product_name": row["product_name"],
+                    "supplier_price": supplier_price,
+                    "market_max_price": market_max,
+                    "potential_profit": potential_profit,
+                    "profit_margin_pct": (potential_profit / supplier_price) * 100,
+                    "market_sources": row["market_sources"],
+                    "supplier_sources": row["supplier_sources"],
+                    "confidence": row["match_confidence"],
+                })
+
+    return pd.DataFrame(opportunities)
