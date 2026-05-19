@@ -1,0 +1,43 @@
+{
+  "workflow_id": "jiji_vs_jumia",
+  "name": "Jiji vs Jumia",
+  "description": "",
+  "sources": [
+    {
+      "name": "jiji",
+      "source_type": "playwright",
+      "url": "https://jiji.co.ke/electronics",
+      "selector": null,
+      "mode": "Auto Detect",
+      "keyword": null,
+      "match_threshold": 70
+    },
+    {
+      "name": "source_2",
+      "source_type": "playwright",
+      "url": "https://www.quickmart.co.ke/electronics",
+      "selector": null,
+      "mode": "Auto Detect",
+      "keyword": null,
+      "match_threshold": 70
+    },
+    {
+      "name": "source_3",
+      "source_type": "playwright",
+      "url": null,
+      "selector": null,
+      "mode": "Auto Detect",
+      "keyword": null,
+      "match_threshold": 70
+    }
+  ],
+  "transformation_rules": [],
+  "alert_rules": [
+    {
+      "type": "price_increase",
+      "threshold": 5
+    }
+  ],
+  "global_match_threshold": 80,
+  "enabled": true
+}

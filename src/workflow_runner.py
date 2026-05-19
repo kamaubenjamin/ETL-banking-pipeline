@@ -5,6 +5,7 @@ Loads workflow definitions from JSON and executes them end-to-end.
 import json
 import os
 from datetime import datetime
+from types import SimpleNamespace
 from typing import Dict, Any, Optional, List
 from uuid import uuid4
 import pandas as pd
@@ -16,6 +17,8 @@ from src.pipeline.multi_source_pipeline import run_multi_source_pipeline
 from src.storage.history_store import save_snapshot, detect_price_changes
 from src.storage.workflow_history import workflow_history_store
 from src.alerts.alert_engine import generate_alerts
+from src.services.alert_manager import AlertManager
+from src.telemetry.pipeline_logger import PipelineLogger
 from src.transform.comparison_engine import (
     combine_datasets,
     match_products,
@@ -33,6 +36,7 @@ class WorkflowRunner:
         self.workflows_dir = workflows_dir
         self.workflows: Dict[str, Dict[str, Any]] = {}
         self.execution_history: List[Dict[str, Any]] = []
+        self.alert_manager = AlertManager()
         self.load_workflows()
 
     def load_workflows(self):
@@ -111,7 +115,13 @@ class WorkflowRunner:
             enabled=workflow_def.get("enabled", True),
         )
 
-    def execute_workflow(self, workflow_id: str) -> Dict[str, Any]:
+    def execute_workflow(
+        self,
+        workflow_id: str,
+        run_id: Optional[str] = None,
+        triggered_by: str = "manual",
+        metadata: Optional[Dict[str, Any]] = None,
+    ) -> Dict[str, Any]:
         """Execute a complete workflow from definition to reporting."""
         workflow_def = self.get_workflow(workflow_id)
         if not workflow_def:
@@ -122,7 +132,23 @@ class WorkflowRunner:
             }
 
         start_time = datetime.now()
-        run_id = str(uuid4())
+        run_id = run_id or str(uuid4())
+        metadata = metadata or {}
+        pipeline_logger = PipelineLogger(
+            workflow_def.get("workflow_name", workflow_id),
+            run_id=run_id,
+        )
+        pipeline_logger.start(
+            metadata={
+                "workflow_id": workflow_id,
+                "triggered_by": triggered_by,
+                # Future Airflow DAG integration can pass dag_run_id here and
+                # use this FlowSync run_id as the external task correlation key.
+                "orchestrator": "WorkflowRunner.execute_workflow",
+                **metadata,
+            },
+            triggered_by=triggered_by,
+        )
         execution_log = {
             "run_id": run_id,
             "workflow_id": workflow_id,
@@ -134,11 +160,13 @@ class WorkflowRunner:
             "alerts_generated": 0,
             "report_paths": [],
             "comparison_shape": None,
-            "triggered_by": "manual",
+            "triggered_by": triggered_by,
+            "metadata": metadata,
         }
 
         try:
             workflow_config = self.workflow_to_config(workflow_def)
+            execution_config = self._make_execution_config()
 
             # Execute each step
             for step in workflow_def.get("steps", []):
@@ -152,7 +180,7 @@ class WorkflowRunner:
 
                 try:
                     if step == "extract":
-                        pipeline_result = run_multi_source_pipeline(workflow_config, config)
+                        pipeline_result = run_multi_source_pipeline(workflow_config, execution_config)
                         if isinstance(pipeline_result, tuple):
                             matched, comparison = pipeline_result
                             execution_log["matched"] = matched
@@ -212,6 +240,16 @@ class WorkflowRunner:
                             execution_log["alerts"] = alerts
                             execution_log["alerts_generated"] = len(alerts) if isinstance(alerts, list) else 0
                             step_log["message"] = f"Generated {len(alerts)} alerts"
+                            for alert in alerts:
+                                if isinstance(alert, str) and not alert.lower().startswith("no "):
+                                    self.alert_manager.publish(
+                                        alert,
+                                        alert_type="price_monitoring",
+                                        severity="warning",
+                                        pipeline_name=workflow_def.get("workflow_name", workflow_id),
+                                        pipeline_run_id=run_id,
+                                        metadata={"workflow_id": workflow_id},
+                                    )
                         else:
                             execution_log["alerts"] = []
                             execution_log["alerts_generated"] = 0
@@ -253,6 +291,18 @@ class WorkflowRunner:
             execution_log["total_duration"] = (datetime.now() - start_time).total_seconds()
             workflow_history_store.record_execution(execution_log)
             self.execution_history.append(execution_log)
+            pipeline_logger.finalize(
+                execution_log["status"],
+                records_processed=execution_log["comparison_shape"][0]
+                if execution_log.get("comparison_shape")
+                else 0,
+                error_message=execution_log.get("error"),
+                metadata={
+                    "workflow_id": workflow_id,
+                    "alerts_generated": execution_log["alerts_generated"],
+                    "report_paths": execution_log["report_paths"],
+                },
+            )
 
             # Update scheduler
             schedule = scheduler.get_schedule(workflow_id)
@@ -268,6 +318,13 @@ class WorkflowRunner:
             execution_log["total_duration"] = (datetime.now() - start_time).total_seconds()
             workflow_history_store.record_execution(execution_log)
             self.execution_history.append(execution_log)
+            pipeline_logger.failure(
+                e,
+                metadata={
+                    "workflow_id": workflow_id,
+                    "total_duration": execution_log["total_duration"],
+                },
+            )
             return execution_log
 
     def execute_due_workflows(self) -> List[Dict[str, Any]]:
@@ -296,6 +353,22 @@ class WorkflowRunner:
         config = self.workflow_to_config(workflow_def)
         registry.register(config)
         return True
+
+    def _make_execution_config(self):
+        """
+        Create a run-scoped config snapshot.
+
+        Existing connectors mutate config.url/keyword while processing sources.
+        Keeping those mutations inside a per-run namespace preserves run_id
+        isolation today and prepares the engine for async workers later.
+        """
+        return SimpleNamespace(
+            **{
+                key: value
+                for key, value in vars(config).items()
+                if not key.startswith("__")
+            }
+        )
 
 
 # Global runner instance

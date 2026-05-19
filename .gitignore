@@ -1,16 +1,19 @@
+# Python cache
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
+# Environment
 .env
 .venv/
-venv/
 
+# Data outputs (optional — depends on your workflow)
+data/
+
+# Database files (optional)
 *.db
-*.sqlite3
 
-data/raw/
-logs/
+# Logs
+*.log
 
+# OS files
 .DS_Store

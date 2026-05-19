@@ -720,7 +720,24 @@ with tab3:
             df_history = pd.read_csv(history_file)
             if not df_history.empty:
                 changes = detect_price_changes(df_history)
-                alerts = generate_alerts(changes, workflow.alert_rules)
+                
+                # Convert alert_rules to expected format
+                if isinstance(workflow.alert_rules, dict):
+                    # Old format: convert dict to list of dicts
+                    alert_rules_list = []
+                    for rule_type, threshold in workflow.alert_rules.items():
+                        if "price_drop" in rule_type.lower():
+                            alert_rules_list.append({"type": "price_drop", "threshold": threshold})
+                        elif "undercut" in rule_type.lower():
+                            alert_rules_list.append({"type": "undercut", "threshold": threshold})
+                        elif "increase" in rule_type.lower():
+                            alert_rules_list.append({"type": "price_increase", "threshold": threshold})
+                        # Skip non-alert rule keys like "minimum_confidence"
+                else:
+                    # New format: already a list
+                    alert_rules_list = workflow.alert_rules
+                
+                alerts = generate_alerts(changes, alert_rules_list)
                 st.markdown("### 🚨 Alerts")
                 if alerts and alerts[0] not in ["No price changes detected", "No alerts triggered by workflow rules"]:
                     for alert in alerts:

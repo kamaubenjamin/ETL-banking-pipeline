@@ -86,6 +86,8 @@ def extract_product_info(df: pd.DataFrame) -> pd.DataFrame:
 
         for word in junk_words:
             name = name.replace(word, "").strip()
+        # 🔥 Trim long names (UI-friendly)
+        name = name[:80]   
 
         # Skip weak rows
         if len(name) < 3:

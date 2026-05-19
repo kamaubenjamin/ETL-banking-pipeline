@@ -55,6 +55,43 @@ The platform:
 - Undercut alerts
 - Real-time notifications
 
+### FlowSync Telemetry Layer
+- Supabase integration lives in `src/integrations/supabase_client.py`
+- Shared telemetry contracts live in `src/contracts/telemetry.py`
+- Pipeline and ingestion instrumentation lives in `src/telemetry/`
+- Operational alert publishing lives in `src/services/alert_manager.py`
+- ETL execution writes best-effort events to `pipeline_runs`, `ingestion_logs`, and `operational_alerts`
+- Telemetry is disabled automatically when Supabase credentials are missing, so local ETL remains functional
+
+### FlowSync Environment Variables
+Create a local `.env` from `.env.example` or inject these values through your production secret manager:
+
+```bash
+FLOWSYNC_SUPABASE_URL=https://your-project.supabase.co
+FLOWSYNC_SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
+FLOWSYNC_TELEMETRY_ENABLED=true
+```
+
+### FlowSync API Boundary
+FlowSync should call the ETL engine through HTTP contracts only. The API layer lives in `src/api/app.py` and delegates to `src/services/workflow_execution_service.py`.
+
+```bash
+uvicorn src.api.app:app --host 0.0.0.0 --port 8080
+```
+
+Core endpoints:
+
+- `POST /workflows/run` - queue or run a workflow by `workflow_id`
+- `POST /workflows/create` - create declarative workflow definitions
+- `GET /workflows/history` - return workflow history by `workflow_id` or `run_id`
+- `GET /workflows/status/{run_id}` - poll isolated execution status
+- `GET /telemetry/runs` - return API-visible run status records
+- `GET /alerts` - return alert records from workflow history
+- `POST /connectors/test` - validate a connector without exposing pipeline internals
+- `POST /sources/sync` - trigger source-level ingestion checks
+- `GET /sources/health` - inspect configured source health
+- `GET /reports/latest` - return latest generated reports
+
 ---
 
 ## 🚀 Quick Start
